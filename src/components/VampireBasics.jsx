@@ -1,5 +1,5 @@
 import React from 'react'
-// import { BloodCells } from '../assets'
+import { BloodCells } from '../assets'
 
 const VampireBasics = () => {
   return (
@@ -15,7 +15,7 @@ const VampireBasics = () => {
             </ul>
         </div>
         <div className={`w-1/2 flex items-center`}>
-            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px]`}></video> */}
+            <video src={BloodCells} autoPlay loop muted className={`rounded-[9px]`}></video>
         </div>
     </div>
   )
