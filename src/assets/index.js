@@ -21,8 +21,8 @@ import award4 from './award4.png';
 import award5 from './award5.png';
 import sherif from './sherif.jpeg';
 import boobs4 from './boobs4.jpeg';
-import face from './face.jpg';
-import boobs5 from './boobs5.jpeg';
+import face from './face1.jpg';
+// import boobs5 from './boobs5.jpeg';
 import oshot from './oshot.jpeg';
 import pshot from './pshot.jpeg';
 import blepharoplasty from './blepharoplasty.jpeg';
@@ -41,7 +41,7 @@ import boobs4After from './boobs4After.jpeg';
 import icon1 from './icon1.png';
 import icon2 from './icon2.png';
 import icon3 from './icon3.png';
-import BloodCells from './BloodCells.mp4';
+// import BloodCells from './BloodCells.mp4';
 import wow1 from './wow1.avif';
 import wow2 from './wow2.jpeg';
 import wow3 from './wow3.webp';
@@ -75,7 +75,7 @@ export {
     sherif,
     boobs4,
     face,
-    boobs5,
+    // boobs5,
     oshot,
     pshot,
     blepharoplasty,
@@ -94,7 +94,7 @@ export {
     icon1,
     icon2,
     icon3,
-    BloodCells,
+    // BloodCells,
     wow1,
     wow2,
     wow3,

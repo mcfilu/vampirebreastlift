@@ -1,5 +1,5 @@
 import React from 'react'
-import { boobs5 } from '../assets'
+// import { boobs5 } from '../assets'
 
 const BreastLift = () => {
   return (
@@ -23,7 +23,7 @@ const BreastLift = () => {
         </div>
 
         <div className={`flex items-center w-1/2`}>
-            <img className={`rounded-[9px] w-full h-full object-cover`} src={boobs5}></img>
+            {/* <img className={`rounded-[9px] w-full h-full object-cover`} src={boobs5}></img> */}
         </div>
     </div>
   )
