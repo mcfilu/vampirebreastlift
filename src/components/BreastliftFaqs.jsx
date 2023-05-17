@@ -16,9 +16,9 @@ const BreastliftFaqs = () => {
 
     return (
         <section className={`ml-[4%] mr-[4%]`}>
-            <div className={`bg-black bg-opacity-70 p-8 rounded-[9px]`}>
+            <div className={`bg-black bg-opacity-70 p-[3vh] rounded-[9px]`}>
                 <h1 className={`text-gold1 font-poppins text-center text-[35px]`}>Frequently Asked Questions</h1>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[22%]`} onClick={() => {setFirst(!openFirst)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openFirst ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[35px]`}></i>
@@ -30,7 +30,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[22%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[35px]`}></i>
@@ -42,7 +42,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[22%]`} onClick={() => {setThird(!openThird)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openThird ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[35px]`}></i>
@@ -54,7 +54,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[22%]`} onClick={() => {setFourth(!openFourth)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openFourth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[35px]`}></i>
@@ -66,7 +66,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[22%]`} onClick={() => {setFifth(!openFifth)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openFifth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[35px]`}></i>
@@ -78,7 +78,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[22%]`} onClick={() => {setSixth(!openSixth)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSixth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[35px]`}></i>
@@ -101,7 +101,7 @@ const BreastliftFaqs = () => {
                         <p className={`text-white text-[20px] font-poppins`}>Like other Vampire Procedures, the Vampire Breast Lift™ injections will last about 12-24 months, depending on individual patients.</p>
                     </div>
                 </div>
-                <hr className={`mt-4 mb-4 w-[70%] mx-auto`}></hr>
+                <hr className={`mt-[2vh] mb-4 w-[70%] mx-auto`}></hr>
             </div>
         </section>
         )

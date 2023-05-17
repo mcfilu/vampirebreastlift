@@ -35,7 +35,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor)
 
   return (
-    <nav className = {`w-full flex py-6 justify-between items-center fixed pl-8 pr-8 ${color ? 'bg-black bg-opacity-90 h-[110px]' : ''}`}>
+    <nav className = {`w-full flex py-6 justify-between items-center fixed pl-[3vh] pr-[3vh] ${color ? 'bg-black bg-opacity-90 h-[110px]' : ''}`}>
         <NavLink to={`/`}><img src={logo} alt="yours lawfully logo" className={`${color ? 'h-[90px]' : 'h-[130px]'}`}></img></NavLink>
 
             <ul className="list-none sm:flex hidden justify-center items-center flex-1">
@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
 
             {/* <img src={tel_logo}></img> */}
-            <button className={`text-white bg-gold1  p-4 hover:bg-white hover:text-gold1`}>+44 (0)20 7467 5340</button>
+            <button className={`text-white bg-gold1  p-[1vh] hover:bg-white hover:text-gold1`}>+44 (0)20 7467 5340</button>
 
     </nav>
   )

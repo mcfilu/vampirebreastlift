@@ -17,7 +17,7 @@ const BreastliftCompare = () => {
                     itemTwo={<ReactCompareSliderImage src={boobs2After} srcSet={boobs2After} alt="Image two" />}
                 />
             </div>
-            <div className={`flex flex-row justify-between mt-12`}>
+            <div className={`flex flex-row justify-between mt-[3vh]`}>
                 <ReactCompareSlider
                     itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={boobs3Before} alt="Image one"/>}
                     itemTwo={<ReactCompareSliderImage src={boobs1After} srcSet={boobs3After} alt="Image two" />}
@@ -28,7 +28,7 @@ const BreastliftCompare = () => {
                     itemTwo={<ReactCompareSliderImage src={boobs2After} srcSet={boobs4After} alt="Image two" />}
                 />
             </div>
-            <button className={`flex mx-auto p-5 bg-gold1 text-white text-[35px] rounded-full bg-opacity-60 mt-12`}>Load More</button>
+            <button className={`flex mx-auto p-5 bg-gold1 text-white text-[35px] rounded-full bg-opacity-60 mt-[3vh]`}>Load More</button>
         </div>
     </div>
     

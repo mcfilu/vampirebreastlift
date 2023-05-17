@@ -70,7 +70,7 @@ const Home = () => {
             <HomeSlider/>
         </div> 
         <div className="flex flex-col book2-gradient pt-24 pb-24" >
-            <div className={`flex flex-col justify-center mx-auto max-w-[1400px]`}>
+            <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
             {/* <div style={{ transform: `translateY(${offsetY * 0.3 }px)`}}> */}
                 <div className={`mt-20`}>
                     <BreastLift/>
