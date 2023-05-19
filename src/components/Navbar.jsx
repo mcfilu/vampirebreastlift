@@ -35,14 +35,14 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor)
 
   return (
-    <nav className = {`w-full flex py-6 justify-between items-center fixed pl-[3vh] pr-[3vh] ${color ? 'bg-black bg-opacity-90 h-[110px]' : ''}`}>
-        <NavLink to={`/`}><img src={logo} alt="yours lawfully logo" className={`${color ? 'h-[90px]' : 'h-[130px]'}`}></img></NavLink>
+    <nav className = {`w-full flex py-[2.4vh] justify-between items-center fixed pl-[3vh] pr-[3vh] ${color ? 'bg-black bg-opacity-95 h-[11.3vh]' : ''} ease-in-out duration-500`}>
+        <NavLink to={`/`}><img src={logo} alt="yours lawfully logo" className={`${color ? 'w-[19.3vh]' : 'w-[25.3vh]'} ease-in-out duration-500`}></img></NavLink>
 
-            <ul className="list-none sm:flex hidden justify-center items-center flex-1">
+            <ul className="list-none sm:flex items-center justify-center flex-1">
             {navLinks.map((nav,index) => (
                 <li
                 key = {nav.id}
-                className={`hover-underline-animation flex font-poppins font-normal cursor-pointer text-[16px] m-4 text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 h-[40px]`}   
+                className={`hover-underline-animation flex font-poppins font-normal cursor-pointer ${color ? 'text-[0.8vw]' : 'text-[0.9vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
                 >
                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
                 <NavLink className={`flex items-center`} to={`${nav.link}`}>{nav.title}</NavLink>
@@ -51,7 +51,10 @@ const Navbar = () => {
             </ul>
 
             {/* <img src={tel_logo}></img> */}
-            <button className={`text-white bg-gold1  p-[1vh] hover:bg-white hover:text-gold1`}>+44 (0)20 7467 5340</button>
+            <div className={`flex ${color ? 'w-[19.3vh]' : 'w-[25.3vh]'} items-center justify-end ease-in-out duration-500`}>
+            <button className={`text-white ${color ? 'text-[0.6vw]' : 'text-[0.8vw]'} bg-gold1  p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500`}>+44 (0)20 7467 5340</button>
+            </div>
+            
 
     </nav>
   )

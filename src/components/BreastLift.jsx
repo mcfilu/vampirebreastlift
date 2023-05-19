@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { boobs5 } from '../assets'
 
 const BreastLift = () => {
+  const [hov, setHove] = useState(false);
+
   return (
-    <div className={`w-11/12 h-[65vh] bg-black bg-opacity-70 rounded-[9px] mx-auto p-[1vh] flex flex-row justify-between`}>
+    <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={`w-11/12 h-[65vh] bg-black bg-opacity-70 rounded-[9px] mx-auto p-[1vh] flex flex-row justify-between hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
 
         <div className={`flex flex-col justify-center items-center w-1/2 p-[2vh]`}>
             <h1 className={`text-gold1 font-poppins text-[6vh]`}>Vampire Breastlift</h1>
@@ -22,8 +24,8 @@ const BreastLift = () => {
            
         </div>
 
-        <div className={`flex items-center w-1/2`}>
-            <img className={`rounded-[9px] w-full h-full object-cover`} src={boobs5}></img>
+        <div className={`flex items-center w-1/2 overflow-hidden rounded-[9px]`}>
+            <img className={`flex  w-full h-full object-cover ${hov ? 'scale-125' : ''} ease-in-out duration-500`} src={boobs5}></img>
         </div>
     </div>
   )

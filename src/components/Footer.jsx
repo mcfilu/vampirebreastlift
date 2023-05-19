@@ -9,16 +9,16 @@ const Footer = () => {
     <footer className="bg-black text-white py-8 pb-[1vh]">
       <div className="w-full flex flex-row justify-between">
         {/* Logo */}
-        <div className="flex flex-col ml-[3vh]">
-          <img src={logo} alt="Logo" className="h-40 m-8" />
+        <div className="flex flex-col ml-[3vh] items-center justify-center">
+          <img src={logo} alt="Logo" className={`h-[12vh] flex `} />
         </div>
         
         {/* Contact Information */}
-        <div className="text-sm flex flex-col">
-            <h1 className={`text-[25px] font-bold mb-[3vh] mt-5`}>Contact Us</h1>
-          <p className="mb-2"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[25px]"></i>Info@vampirebreastlift.co.uk</a></p>
-          <p className="mb-2"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[25px]"></i>+44 (0)20 7467 5340</a></p>
-          <p className="mb-2 h-[40px] w-[150px] bg-gold1 flex items-center justify-center hover:text-gold1 hover:bg-white"><PopupButton
+        <div className="text-[0.7vw] flex flex-col">
+            <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh]`}>Contact Us</h1>
+          <p className="mb-[0.9vh]"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[1.3vw]"></i>Info@vampirebreastlift.co.uk</a></p>
+          <p className="mb-[0.9vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-[0.9vw] text-gold1 text-[1.3vw]"></i>+44 (0)20 7467 5340</a></p>
+          <p className="mb-[0.9vh] h-[4vh] w-[7vw] bg-gold1 flex items-center justify-center hover:text-gold1 hover:bg-white"><PopupButton
         url="https://calendly.com/nikekarta2/30min"
 
 
@@ -30,16 +30,16 @@ const Footer = () => {
         </div>
 
         {/* Find us */}
-        <div className="text-sm flex flex-col">
-            <h1 className={`text-[25px] font-bold mb-[3vh] mt-5`}>Find Us</h1>
+        <div className="text-[0.7vw] flex flex-col">
+            <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh]`}>Find Us</h1>
             <div className={`flex flex-row`}>
                 <div className={`flex items-center`}>
-                    <i className="fas fa-map-marker-alt text-gold1 text-[30px] mr-2"></i>
+                    <i className="fas fa-map-marker-alt text-gold1 text-[1.8vw] mr-[0.6vw]"></i>
                 </div>
                 <div>
-                    <p className="mb-2">Dr SW Clinics  </p>
-                    <p className="mb-2">77 Harley Street</p>
-                    <p className="mb-2">London W1G 8QN</p>
+                    <p className="mb-[0.9vh]">Dr SW Clinics  </p>
+                    <p className="mb-[0.9vh]">77 Harley Street</p>
+                    <p className="mb-[0.9vh]">London W1G 8QN</p>
                 </div>
             </div>
             
@@ -47,27 +47,27 @@ const Footer = () => {
         </div>
 
         {/* Social Media Links */}
-        <div className="text-sm flex flex-col">
-            <h1 className={`text-[25px] font-bold mb-[3vh] mt-5`}>Follow Us</h1>
-          <p className="mb-2"><a href="#" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-4 text-gold1 text-[25px]`}></i>Facebook</a></p>
-          <p className="mb-2"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-4 text-gold1 text-[25px]"></i>Twitter</a></p>
-          <p className="mb-2"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-instagram mr-5 text-gold1 text-[25px]"></i>Instagram</a></p>
+        <div className="text-[0.7vw] flex flex-col">
+            <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh]`}>Follow Us</h1>
+          <p className="mb-[0.9vh]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>Facebook</a></p>
+          <p className="mb-[0.9vh]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[1.3vw]"></i>Twitter</a></p>
+          <p className="mb-[0.9vh]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-instagram mr-[1.1vw] text-gold1 text-[1.3vw]"></i>Instagram</a></p>
         </div>
         
         {/* Other Useful Information */}
-        <div className="text-sm flex flex-col mr-[3vh]">
-            <h1 className={`text-[25px] font-bold mb-[3vh] mt-5 text-center`}>Accredited</h1>
+        <div className="text-[0.7vw] flex flex-col mr-[3vh]">
+            <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh] text-center`}>Accredited</h1>
             <div className={`flex flex-row`}>
-                <img src={footer1} alt="Logo" className="h-20 m-2 ml-0" />
-                <img src={footer2 } alt="Logo" className="h-20 m-2" />
-                <img src={footer3} alt="Logo" className="h-20 m-2" />
-                <img src={footer4 } alt="Logo" className="h-20 m-2" />
+                <img src={footer1} alt="Logo" className="h-[8vh] m-[0.9vh] ml-0" />
+                <img src={footer2 } alt="Logo" className="h-[8vh] m-[0.9vh]" />
+                <img src={footer3} alt="Logo" className="h-[8vh] m-[0.9vh]" />
+                <img src={footer4 } alt="Logo" className="h-[8vh] m-[0.9vh]" />
             </div>
          
         </div>
       </div>
       <hr className={`mt-[2vh]`}></hr>
-      <h1 className={`text-center mt-[2vh]`}>Treatment Provided By Dr SW Clinics | All Right Reserved ®</h1>
+      <h1 className={`text-center text-[1.5vh] mt-[1.5vh]`}>Treatment Provided By Dr SW Clinics | All Right Reserved ®</h1>
 
     </footer>
     

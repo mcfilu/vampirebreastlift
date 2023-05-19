@@ -1,0 +1,12 @@
+/* Adjust the position of the slide indicators */
+.nav-indicators {
+    background-color: white;
+    bottom: 85% !important; /* Change this value to move indicators up or down */
+  }
+  
+  /* Change indicators to be circles */
+  .nav-indicators .each-nav {  
+    width: 100px !important; 
+    height: 100px !important;
+    border-radius: 50% !important; 
+  }

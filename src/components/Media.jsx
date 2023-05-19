@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { independent, thesun, media4, tatler, sky } from '../assets'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -14,8 +14,9 @@ const items = [
 ];
 
 const Media = () => {
+  const [hov, setHove] = useState(false);
   return (
-    <div className="flex flex-row bg-black bg-opacity-70 w-[84%] ml-[4%] h-[28vh] rounded-[9px] p-[2vh]">
+    <div className="flex flex-row bg-black bg-opacity-70 w-[84%] ml-[4%] h-[28vh] rounded-[9px] p-[2vh] hover:bg-opacity-75 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500">
       <div className="flex flex-col w-1/3 pr-[3vh] items-center justify-center">
         <h1 className="text-gold1 text-[3vh] font-poppins mt-[2vh]">You may have seen us in</h1>
         <p className="text-white text-justify text-[1.7vh] font-poppins mt-[3vh]">Dr Sherif Wakil is regularly interviewed by the mainstream press as an expert in the subject of sexual health and well-being.</p>

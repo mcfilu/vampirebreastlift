@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import { award1, award2, award3, award4, award5 } from '../assets';
@@ -14,8 +14,9 @@ const items = [
 ];
 
 const Awards = () => {
+    const [hov, setHove] = useState(false);
   return (
-    <div className={`flex flex-row bg-black w-[82%] mr-[4%] h-[28vh] mx-auto rounded-[9px] p-[2vh] bg-opacity-70`}>
+    <div className={`flex flex-row bg-black w-[82%] mr-[4%] h-[28vh] mx-auto rounded-[9px] p-[2vh] bg-opacity-70 hover:bg-opacity-75 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
         
         <div className={`w-2/3 flex items-center justify-center`}>
             <AliceCarousel mouseTracking 
