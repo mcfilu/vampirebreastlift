@@ -22,24 +22,24 @@ const VampireBreastLift = () => {
                 <BreastliftImage/>
 
         </div>
-        <div className="flex flex-col book2-gradient pt-24 pb-24" >
-            <div className={`flex flex-col justify-center mx-auto max-w-[1800px]`}>
-               <div className={`mt-20`}>
+        <div className="flex flex-col book2-gradient" >
+        <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
+               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                 <VampireBasics/>
               </div>
-              <div className={`mt-20`}>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
                   <TreatmentSummary/>
               </div>
-              <div className={`mt-20`}>
+              <div className={`flex  w-full h-auto min-h-[90vh] justify-center items-center py-[10vh] `}>
                   <BreastliftCompare/>
               </div>
-              <div className={`mt-20`}>
+              <div className={`flex  w-full h-auto min-h-[90vh] justify-center items-center  py-[10vh]`}>
                   <BreastliftFaqs/>
               </div>
-              <div className={`mt-20`}>
+              <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                 <YoutubeTestimonials/>
               </div>
-              <div className={`mt-20`}>
+              <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                   <BookNow/>
               </div>
           </div>
