@@ -49,6 +49,13 @@ import wow4 from './wow4.webp';
 import explosion from './explosion.mp4';
 import intro from './intro.mp4';
 import intro2 from './intro2.mp4';
+import breastliftvideo from './BreastLiftVideo.mp4';
+import faceliftvideo from './FaceLiftVideo.mp4';
+import face2 from './face2.jpeg';
+import facebefore1 from './facebefore1.jpeg';
+import faceafter1 from './faceafter1.jpeg';
+import facebefore2 from './facebefore2.jpeg';
+import faceafter2 from './faceafter2.jpeg';
 
 export {
     logo,
@@ -102,4 +109,11 @@ export {
     explosion,
     intro,
     intro2,
+    breastliftvideo,
+    faceliftvideo,
+    face2,
+    facebefore1,
+    faceafter1,
+    faceafter2,
+    facebefore2,
 };

@@ -8,6 +8,7 @@ import BookNow from '../components/BookNow'
 import BreastliftImage from '../components/BreastliftImage'
 import VampireBasics from '../components/VampireBasics'
 import YoutubeTestimonials from '../components/YoutubeTestimonials'
+import BreastLiftBenefits from '../components/BreastLiftBenefits'
 
 
 const VampireBreastLift = () => {
@@ -29,6 +30,9 @@ const VampireBreastLift = () => {
               </div>
               <div className={`flex  w-full h-[90vh] items-center   `}>
                   <TreatmentSummary/>
+              </div>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <BreastLiftBenefits/>
               </div>
               <div className={`flex  w-full h-auto min-h-[90vh] justify-center items-center py-[10vh] `}>
                   <BreastliftCompare/>

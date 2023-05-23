@@ -15,7 +15,7 @@ const BreastliftFaqs = () => {
     };
 
     return (
-        <section className={`ml-[4%] mr-[4%] w-[75%] `}>
+        <section className={`ml-[4%] mr-[4%] w-[75%]`}>
             <div className={`bg-black bg-opacity-70 p-[3vh] rounded-[9px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
                 <h1 className={`text-gold1 font-poppins text-center text-[4vh] mb-[3vh]`}>Frequently Asked Questions</h1>
                 <hr className={`mt-[1vh] mb-[1.2vh] w-[75%] mx-auto`}></hr>
