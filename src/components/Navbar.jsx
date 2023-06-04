@@ -25,7 +25,7 @@ const Navbar = () => {
         
       }
       else {
-        if(window.scrollY >= w_height*0.8){
+        if(window.scrollY >= w_height*0.3){
             setColor(true)
         }else{
             setColor(false)
@@ -42,7 +42,7 @@ const Navbar = () => {
             {navLinks.map((nav,index) => (
                 <li
                 key = {nav.id}
-                className={`hover-underline-animation flex font-poppins font-normal cursor-pointer ${color ? 'text-[0.8vw]' : 'text-[0.9vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
+                className={`hover-underline-animation flex font-poppins font-normal cursor-pointer ${color ? 'text-[1vw]' : 'text-[1.1vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
                 >
                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
                 <NavLink className={`flex items-center`} to={`${nav.link}`}>{nav.title}</NavLink>
@@ -51,8 +51,8 @@ const Navbar = () => {
             </ul>
 
             {/* <img src={tel_logo}></img> */}
-            <div className={`flex ${color ? 'w-[19.3vh]' : 'w-[25.3vh]'} items-center justify-end ease-in-out duration-500`}>
-            <button className={`text-white ${color ? 'text-[0.6vw]' : 'text-[0.8vw]'} bg-gold1  p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500`}>+44 (0)20 7467 5340</button>
+            <div className={`flex ${color ? 'w-[22.3vh]' : 'w-[25.3vh]'} items-center justify-end ease-in-out duration-500`}>
+            <button className={`text-white ${color ? 'text-[1vw]' : 'text-[1.1vw]'} bg-gold1  p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500`}>+44 (0)20 7467 5340</button>
             </div>
             
 

@@ -9,6 +9,7 @@ import BreastliftImage from '../components/BreastliftImage'
 import VampireBasics from '../components/VampireBasics'
 import YoutubeTestimonials from '../components/YoutubeTestimonials'
 import BreastLiftBenefits from '../components/BreastLiftBenefits'
+import BreastLiftOpening from '../components/BreastLiftOpening'
 
 
 const VampireBreastLift = () => {
@@ -25,11 +26,11 @@ const VampireBreastLift = () => {
         </div>
         <div className="flex flex-col book2-gradient" >
         <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
-               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
-                <VampireBasics/>
+              <div className={`flex  w-full h-[80vh] justify-center items-center mt-[20vh] `}>
+                <BreastLiftOpening/>
               </div>
-              <div className={`flex  w-full h-[90vh] items-center   `}>
-                  <TreatmentSummary/>
+              <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
+                <VampireBasics/>
               </div>
               <div className={`flex  w-full h-[90vh] items-center   `}>
                   <BreastLiftBenefits/>
@@ -42,6 +43,9 @@ const VampireBreastLift = () => {
               </div>
               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                 <YoutubeTestimonials/>
+              </div>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <TreatmentSummary/>
               </div>
               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                   <BookNow/>

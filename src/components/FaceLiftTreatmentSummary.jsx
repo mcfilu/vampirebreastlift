@@ -70,7 +70,7 @@ const FaceLiftTreatmentSummary = () => {
                     <hr className={`mt-[2vh] mb-4`}></hr>
                     <div className={`flex flex-row`}>
                         <span className="text-[1.7vh] font-medium w-[30%] text-gold1">Full Recovery:</span>
-                        <p className="text-[1.7vh] font-light text-white">
+                        <p className="text-[1.7vh] font-light text-white w-[70%]">
                         1-2 days for redness and bruising. Skin improves over time.
                         </p>
                     </div>

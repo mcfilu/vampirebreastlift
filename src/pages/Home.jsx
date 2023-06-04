@@ -10,7 +10,7 @@ import FaceLift from '../components/FaceLift'
 import Media from '../components/Media'
 import OtherServices from '../components/OtherServices'
 import WelcomeAnimation from '../components/WelcomeAnimation'
-import { intro2 } from '../assets'
+import { intro2, vampire_breastlift_new_intro } from '../assets'
 import styles from '../style'
 import { useEffect } from 'react'
 import { useState } from 'react'
@@ -105,7 +105,7 @@ const Home = () => {
   return (
     <div className={`bg-primary w-full`}>
         <div className={` fixed z-20 `}>
-            <video src={intro2} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
+            <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div>
         
         <div className={``}>
@@ -143,9 +143,9 @@ const Home = () => {
                 <div className={`flex  w-full h-[90vh] justify-center items-center`} >
                     <OtherServices/>
                 </div>
-                <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+                {/* <div className={`flex  w-full h-[90vh] justify-center items-center`} >
                     <OtherServices2/>
-                </div>
+                </div> */}
                 <div className={`flex  w-full h-[90vh] justify-center items-center`} >
                     <BookNow/>
                 </div>

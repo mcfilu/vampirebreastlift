@@ -42,7 +42,7 @@ const Awards = () => {
         </div>
         <div className={`w-1/3 flex flex-col justify-center items-center pl-[3vh]`}>
             <h1 className={`text-gold1 text-[3vh] font-poppins text-justify`}>An award winning clinic</h1>
-            <p className={`text-white text-[1.5vh] font-poppins mt-[3vh] text-justify`}>This renowned clinic has gained a reputation for excellence, with numerous prestigious awards acknowledging its outstanding medical care and patient satisfaction.</p>
+            <p className={`text-white text-[1.7vh] font-poppins mt-[3vh] text-justify`}>This renowned clinic has gained a reputation for excellence, with numerous prestigious awards acknowledging its outstanding medical care and patient satisfaction.</p>
         </div>
     </div>
   )

@@ -9,12 +9,12 @@ const FaceLiftBenefits = () => {
         </div>
         <div className={`flex flex-col w-1/2 p-[3vh] bg-black bg-opacity-70 rounded-[9px] ml-[0.8vw]`}>
             <h1 className={`text-gold1 text-[4vh] text-center font-poppins`}>Vampire FaceLift Benefits</h1>
-            <p className={`text-white font-poppins text-[1.5vh] text-justify mt-[3.5vh] mb-[1.5vh]`}>Patients report that their skin looks brighter, more hydrated and healthy, with an altogether more youthful glow. Offering natural looking, potentially outstanding results, the Vampire Face Lift will:</p>
-            <ul className={`text-white text-[1.5vh] font-poppins `}>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Make skin look firmer</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Visibly improve wrinkles and lines</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Improve skin texture and tone</li>
-                <li className={`flex items-center mt-[2vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Provide a lifting effect by restoring volume</li>
+            <p className={`text-white font-poppins text-[1.7vh] text-justify mt-[2.5vh] mb-[1vh]`}>Patients report that their skin looks brighter, more hydrated and healthy, with an altogether more youthful glow. Offering natural looking, potentially outstanding results, the Vampire Face Lift will:</p>
+            <ul className={`text-white text-[1.7vh] font-poppins `}>
+                <li className={`flex items-center mt-[1vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Make skin look firmer</li>
+                <li className={`flex items-center mt-[1vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Visibly improve wrinkles and lines</li>
+                <li className={`flex items-center mt-[1vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Improve skin texture and tone</li>
+                <li className={`flex items-center mt-[1vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.2vh]`}></i>Provide a lifting effect by restoring volume</li>
 
             </ul>
         </div>

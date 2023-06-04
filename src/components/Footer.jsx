@@ -14,11 +14,11 @@ const Footer = () => {
         </div>
         
         {/* Contact Information */}
-        <div className="text-[0.7vw] flex flex-col">
+        <div className="text-[0.9vw] flex flex-col">
             <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh]`}>Contact Us</h1>
           <p className="mb-[0.9vh]"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[1.3vw]"></i>Info@vampirebreastlift.co.uk</a></p>
           <p className="mb-[0.9vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-[0.9vw] text-gold1 text-[1.3vw]"></i>+44 (0)20 7467 5340</a></p>
-          <p className="mb-[0.9vh] h-[4vh] w-[7vw] bg-gold1 flex items-center justify-center hover:text-gold1 hover:bg-white"><PopupButton
+          <p className="mb-[0.9vh] h-[4vh] w-[10vw] bg-gold1 flex items-center justify-center hover:text-gold1 hover:bg-white"><PopupButton
         url="https://calendly.com/nikekarta2/30min"
 
 
@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
         {/* Find us */}
-        <div className="text-[0.7vw] flex flex-col">
+        <div className="text-[0.9vw] flex flex-col">
             <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh]`}>Find Us</h1>
             <div className={`flex flex-row`}>
                 <div className={`flex items-center`}>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         {/* Social Media Links */}
-        <div className="text-[0.7vw] flex flex-col">
+        <div className="text-[0.9vw] flex flex-col">
             <h1 className={`text-[2vh] font-bold mb-[3vh] mt-[1.5vh]`}>Follow Us</h1>
           <p className="mb-[0.9vh]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>Facebook</a></p>
           <p className="mb-[0.9vh]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[1.3vw]"></i>Twitter</a></p>

@@ -7,7 +7,7 @@ function TreatmentSummary() {
   return (
     
     
-        <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={`relative ml-[13vw] bg-black bg-opacity-70 p-[3vh] flex flex-col w-[55%] h-[68vh]  rounded-[9px] pr-[14vh] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+        <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={`relative ml-[13vw] bg-black bg-opacity-70 p-[3vh] flex flex-col w-[55%] h-auto min-h-[68vh]  rounded-[9px] pr-[14vh] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
             <div className={` w-[100%] mx-auto h-[100%]`}>
                 <h1 className={`text-gold1 text-[3.8vh] font-poppins text-center`}>Treatment Summary at a glance</h1>
                 <div className={`flex flex-row justify-between px-[3vh] my-[5vh]`}>
@@ -51,7 +51,7 @@ function TreatmentSummary() {
                     <hr className={`mt-[2vh] mb-4`}></hr>
                     <div className={`flex flex-row`}>
                         <span className="text-[1.7vh] font-medium w-[30%] text-gold1">Results:</span>
-                        <p className="text-[1.7vh] font-light text-white">
+                        <p className="text-[1.7vh] font-light text-white w-[70%]">
                         Non-surgical breast lift, fuller-looking cleavage, improved skin.
                         </p>
                     </div>

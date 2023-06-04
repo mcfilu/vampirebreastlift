@@ -25,7 +25,7 @@ const BreastliftCompare = () => {
                 <h1 className={`text-[3vh] text-gold1`}>Before</h1>
                 <h1 className={`text-[3vh] text-gold1`}>After</h1>
             </div>
-            <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-[45vw] h-[25vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-[50vw] h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full h-full justify-center`}>
                         <ReactCompareSlider
@@ -41,7 +41,7 @@ const BreastliftCompare = () => {
                     <img className={`ml-[3vh] rounded-[9px]`} src={boobs1After}></img>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-[45vw] h-[25vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-[50vw] h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full h-full justify-center`}>
                         <ReactCompareSlider
@@ -57,7 +57,7 @@ const BreastliftCompare = () => {
                     <img className={`ml-[3vh] rounded-[9px]`} src={boobs2After}></img>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-[45vw] h-[25vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-[50vw] h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full h-full justify-center`}>
                         <ReactCompareSlider
@@ -73,7 +73,7 @@ const BreastliftCompare = () => {
                     <img className={`ml-[3vh] rounded-[9px]`} src={boobs3After}></img>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-[45vw] h-[25vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-[50vw] h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full h-full justify-center`}>
                         <ReactCompareSlider

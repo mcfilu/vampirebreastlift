@@ -56,6 +56,12 @@ import facebefore1 from './facebefore1.jpeg';
 import faceafter1 from './faceafter1.jpeg';
 import facebefore2 from './facebefore2.jpeg';
 import faceafter2 from './faceafter2.jpeg';
+import wallpaper from './wallpaper.jpg';
+import vampire_breastlift_new_intro from './vampire_breastlift_new_intro.mp4';
+import breast_enlargement from './breast_enlargement.jpg';
+import breast_reduction from './breast_reduction.jpeg';
+import breast_augmentation from './breast_augmentation.jpeg';
+import logoblack from './logoblack.png';
 
 export {
     logo,
@@ -116,4 +122,10 @@ export {
     faceafter1,
     faceafter2,
     facebefore2,
+    wallpaper,
+    vampire_breastlift_new_intro,
+    breast_augmentation,
+    breast_enlargement,
+    breast_reduction,
+    logoblack
 };

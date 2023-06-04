@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { sky, independent, thesun, tatler, oshot, pshot, blepharoplasty, nonsFaceLift, lipolysis, sFaceLift } from '../assets';
+import { sky, independent, thesun, tatler, oshot, pshot, blepharoplasty, nonsFaceLift, lipolysis, sFaceLift, breast_augmentation, breast_enlargement, breast_reduction } from '../assets';
 
 
 
@@ -45,14 +45,14 @@ const OtherServices = () => {
             
             <div onMouseEnter={() => setHove1(true)} onMouseLeave={() => {setHove1(false)}} className={`relative flex flex-col h-full bg-black p-[1vh] bg-opacity-70 w-[31%] rounded-[9px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
                 <div className={`flex w-full h-[55%]  overflow-hidden rounded-[9px]`}>
-                    <img className={` w-full h-full ${hov1 ? 'scale-110' : ''} ease-in-out duration-500`} src={oshot}></img>
+                    <img className={` w-full h-full ${hov1 ? 'scale-110' : ''} ease-in-out duration-500`} src={breast_augmentation}></img>
                 </div>
                 <div className={`flex flex-col w-full `}>
-                    <h1 className={`text-gold1 text-[4vh] text-center`}>The O-Shot</h1>
-                    <h1 className={` text-gold1 text-[4vh] text-center`}>Vagina PRP</h1>
+                    <h1 className={`text-gold1 text-[4vh] text-center`}>Breast</h1>
+                    <h1 className={` text-gold1 text-[4vh] text-center`}>Augmentation</h1>
                 </div>
                 <div className={`flex flex-col w-full h-1/4 pt-2`}>
-                    <p className={`text-white text-[1.5vh] text-justify`}>The O-Shot ® (or Orgasm Shot ®) is a new procedure developed to solve your sexual problems, increase your pleasure, and rejuvenate your vagina. It is a nonsurgical technique that uses the growth factors each woman has in her own body to stimulate vaginal and clitoral rejuvenation to activate the Female Orgasm System.</p>
+                    <p className={`text-white text-[1.7vh] text-justify`}>Breast augmentation is a surgical procedure which is used to enhance or augment your natural breast size and shape. It can also be used to correct asymmetries or differences in breast sizes, or as a reconstructive option post trauma or other surgeries such as the removal of breast cancers.</p>
                 </div>
 
                 <button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-black text-gold1 text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2 rounded-[10px] hover:bg-gold1 hover:text-black`}>READ MORE</button>
@@ -60,14 +60,14 @@ const OtherServices = () => {
 
             <div onMouseEnter={() => setHove2(true)} onMouseLeave={() => {setHove2(false)}} className={`relative flex flex-col h-full bg-black p-[1vh] bg-opacity-70 w-[31%] rounded-[9px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
                 <div className={`flex w-full h-[55%]  overflow-hidden rounded-[9px]`}>
-                    <img className={` w-full h-full ${hov2 ? 'scale-110' : ''} ease-in-out duration-500`} src={pshot}></img>
+                    <img className={` w-full h-full ${hov2 ? 'scale-110' : ''} ease-in-out duration-500`} src={breast_enlargement}></img>
                 </div>
                 <div className={`flex flex-col w-full `}>
-                    <h1 className={`text-gold1 text-[4vh] text-center`}>The P-Shot</h1>
-                    <h1 className={` text-gold1 text-[4vh] text-center`}>Penis PRP</h1>
+                    <h1 className={`text-gold1 text-[4vh] text-center`}>Breast Fat</h1>
+                    <h1 className={` text-gold1 text-[4vh] text-center`}>Enlargement</h1>
                 </div>
                 <div className={`flex flex-col w-full h-1/4 pt-2`}>
-                    <p className={`text-white text-[1.5vh] text-justify`}>The P-Shot® procedure works by using the body’s natural ability to heal and rejuvenate itself by injecting growth factor rich Platelet Rich Plasma (PRP) into the penis to stimulate a regenerative process.</p>
+                    <p className={`text-white text-[1.7vh] text-justify`}>Breast enlargement with fat is a cosmetic procedure that harvests fat from other parts of your body, typically the abdomen, hips, thighs, or buttocks and transfers it into the breast area where it can be used to increase the size and shape of the natural breast.</p>
                 </div>
 
                 <button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-black text-gold1 text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2 rounded-[10px] hover:bg-gold1 hover:text-black`}>READ MORE</button>
@@ -75,14 +75,14 @@ const OtherServices = () => {
 
             <div onMouseEnter={() => setHove3(true)} onMouseLeave={() => {setHove3(false)}} className={`relative flex flex-col h-full bg-black p-[1vh] bg-opacity-70 w-[31%] rounded-[9px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
                 <div className={`flex w-full h-[55%]  overflow-hidden rounded-[9px]`}>
-                    <img className={` w-full h-full ${hov3 ? 'scale-110' : ''} ease-in-out duration-500`} src={blepharoplasty}></img>
+                    <img className={` w-full h-full ${hov3 ? 'scale-110' : ''} ease-in-out duration-500`} src={breast_reduction}></img>
                 </div>
                 <div className={`flex flex-col w-full `}>
-                    <h1 className={`text-gold1 text-[4vh] text-center`}>The Non-Surgical</h1>
-                    <h1 className={` text-gold1 text-[4vh] text-center`}>Blepharoplasty</h1>
+                    <h1 className={`text-gold1 text-[4vh] text-center`}>Breast</h1>
+                    <h1 className={` text-gold1 text-[4vh] text-center`}>Reduction</h1>
                 </div>
                 <div className={`flex flex-col w-full h-1/4 pt-2`}>
-                    <p className={`text-white text-[1.5vh] text-justify`}>Non-surgical blepharoplasty is an innovative cosmetic procedure that can provide significant benefits without the risks and downtime of traditional eyelid surgery. Using plasma fibroblast technology, can help reduce the appearance of fine lines, wrinkles, and sagging skin around the eyes.</p>
+                    <p className={`text-white text-[1.7vh] text-justify`}>Breast reduction surgery is a cosmetic surgical procedure called a mammoplasty. As the name suggests, the operation can reduce the size of the female breast and is particularly appropriate to reduce the physical strain and emotional toll of living with large, heavy breasts.</p>
                 </div>
 
                 <button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-black text-gold1 text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2 rounded-[10px] hover:bg-gold1 hover:text-black`}>READ MORE</button>
