@@ -62,6 +62,9 @@ import breast_enlargement from './breast_enlargement.jpg';
 import breast_reduction from './breast_reduction.jpeg';
 import breast_augmentation from './breast_augmentation.jpeg';
 import logoblack from './logoblack.png';
+import breastlift_treated1 from './breastlift_treated1.png';
+import breastlift_treated2 from './breastlift_treated2.jpeg';
+import breastlift_treated3 from './breastlift_treated3.jpeg';
 
 export {
     logo,
@@ -127,5 +130,8 @@ export {
     breast_augmentation,
     breast_enlargement,
     breast_reduction,
-    logoblack
+    logoblack,
+    breastlift_treated1,
+    breastlift_treated2,
+    breastlift_treated3,
 };

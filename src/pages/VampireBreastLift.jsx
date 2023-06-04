@@ -10,6 +10,11 @@ import VampireBasics from '../components/VampireBasics'
 import YoutubeTestimonials from '../components/YoutubeTestimonials'
 import BreastLiftBenefits from '../components/BreastLiftBenefits'
 import BreastLiftOpening from '../components/BreastLiftOpening'
+import BreastLiftDetails from '../components/BreastLiftDetails'
+import OtherServices from '../components/OtherServices'
+import BreastLiftVideo from '../components/BreastLiftVideo'
+import BreastLiftTreated from '../components/BreastLiftTreated'
+import ClinicReviews from '../components/ClinicReviews'
 
 
 const VampireBreastLift = () => {
@@ -30,7 +35,7 @@ const VampireBreastLift = () => {
                 <BreastLiftOpening/>
               </div>
               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
-                <VampireBasics/>
+                <BreastLiftDetails/>
               </div>
               <div className={`flex  w-full h-[90vh] items-center   `}>
                   <BreastLiftBenefits/>
@@ -47,6 +52,20 @@ const VampireBreastLift = () => {
               <div className={`flex  w-full h-[90vh] items-center   `}>
                   <TreatmentSummary/>
               </div>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <BreastLiftVideo/>
+              </div>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <BreastLiftTreated/>
+              </div>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <ClinicReviews/>
+              </div>
+              
+              <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <OtherServices/>
+              </div>
+              
               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                   <BookNow/>
               </div>
