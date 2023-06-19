@@ -51,7 +51,7 @@ const BookNow = () => {
                     utmTerm: 'Spring'
                     }} 
                     styles={{
-                        height: "69vh", width: "40vw",
+                        height: "80vh", width: "60vw",
                     }} 
                     pageSettings={{
                     backgroundColor: 'ffffff',

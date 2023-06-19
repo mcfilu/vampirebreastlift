@@ -7,6 +7,8 @@ import BookNow from '../components/BookNow'
 import Media from '../components/Media'
 import Awards from '../components/Awards'
 
+import WakilClinic from '../components/WakilClinic'
+
 const Contact = () => {
   return (
     <div className={`bg-primary w-full`}>
@@ -19,8 +21,11 @@ const Contact = () => {
         </div>
         <div className="flex flex-col book2-gradient pt-24 pb-24" >
             <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
-            <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
                   <ContactMap/>
+              </div>
+              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+                  <WakilClinic/>
               </div>
               <div className={`flex flex-col  h-[90vh] justify-center`}>
                     <div>

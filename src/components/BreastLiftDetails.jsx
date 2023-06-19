@@ -13,7 +13,7 @@ const BreastLiftDetails = () => {
         <div className={`w-[60%] h-[100%] bg-black bg-opacity-60 rounded-[9px] p-[1vh] flex flex-col items-left justify-between ml-[1.5vh]`}>
             <div className={`flex flex-col w-[100%]  bg-opacity-40 rounded-[9px] items-center justify-center my-auto`}>
 
-                <p className={`flex text-gold1 text-[4.5vh] text-center text-gold1`}>Treatment Techinque</p>
+                <p className={`flex text-gold1 text-[4.5vh] text-center text-gold1`}>Treatment Technique</p>
                 <p className={`flex text-white text-[1.9vh] mt-[2.5vh]`}>The non-surgical breast lift can be used to achieve a more pronounced cleavage or to improve lost volume in the top of the breasts by utilising regenerative growth factors found in your own blood.</p>
                 <p className={`flex text-white text-[1.9vh] mt-[1.5vh]`}>Vampire Treatments (also known as PRP or Platelet Rich Plasma Rejuvenation) have been one of the most talked about new rejuvenation treatments to emerge in recent years. Using the body’s own natural ability to heal and repair itself, this ground-breaking procedure can be used to combat facial ageing as well as to lift and enhance the breasts and has become a favourite among celebrities.</p>
                 <p className={`flex text-white text-[1.9vh] mt-[1.5vh]`}>As the only UK doctor, and the only doctor in Europe, to be certified by the inventor of the Vampire treatments and registered on the official Vampire Facelift™ website, Dr Wakil is a leader in this new pioneering technique.</p>

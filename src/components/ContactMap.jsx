@@ -13,9 +13,9 @@ const ContactMap = () => {
               <h1 className={`text-gold1 text-[6vh] font-poppins pb-[1vh]`}>Contact Us</h1>
               <div className={`flex flex-col `}>
                 <div className={`mt-[2vh]`}>
-                  <p className="text-white font-poppins text-[20px] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@vampirebreastlift.co.uk</a></p>
-                  <p className="mb-2 text-white font-poppins text-[20px] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 7467 5340</a></p>
-                  <p className="mb-2 text-white font-poppins text-[20px] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 3006 8459</a></p>
+                  <p className="text-white font-poppins text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@vampirebreastlift.co.uk</a></p>
+                  <p className="mb-[0.4vh] text-white font-poppins text-[2vh] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 7467 5340</a></p>
+                  <p className="mb-[0.4vh] text-white font-poppins text-[2vh] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 3006 8459</a></p>
                   
                 </div>
                 <div className={`flex flex-row mt-[2vh]`}>                
@@ -23,16 +23,16 @@ const ContactMap = () => {
                       <i className="fas fa-map-marker-alt text-gold1 text-[6vh] mr-6"></i>
                   </div>
                   <div>
-                      <p className="mb-2 text-white text-[20px] font-poppins">Dr SW Clinics  </p>
-                      <p className="mb-2 text-white text-[20px] font-poppins">77 Harley Street</p>
-                      <p className="mb-2 text-white text-[20px] font-poppins">W1G 8QN</p>
-                      <p className="mb-2 text-white text-[20px] font-poppins">London</p>
+                      <p className="mb-[0.3vh] text-white text-[3vh] font-poppins">Dr SW Clinics  </p>
+                      <p className="mb-[0.4vh] text-white text-[2vh] font-poppins">77 Harley Street</p>
+                      <p className="mb-[0.4vh] text-white text-[2vh] font-poppins">W1G 8QN</p>
+                      <p className="mb-[0.4vh] text-white text-[2vh] font-poppins">London</p>
                   </div>
                 </div>
                 
             </div>
             </div>
-            <p className="absolute -bottom-10 left-1/2  transform -translate-x-1/2  h-[80px] w-[250px] bg-gold1 flex items-center justify-center hover:text-gold1 hover:bg-white text-[25px]"><PopupButton
+            <p className="absolute -bottom-[3vh] left-1/2  transform -translate-x-1/2  h-[6vh] w-[18vh] bg-gold1 flex items-center justify-center hover:text-gold1 hover:bg-white text-[2vh]"><PopupButton
                 url="https://calendly.com/nikekarta2/30min"
 
 

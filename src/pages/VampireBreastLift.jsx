@@ -15,11 +15,23 @@ import OtherServices from '../components/OtherServices'
 import BreastLiftVideo from '../components/BreastLiftVideo'
 import BreastLiftTreated from '../components/BreastLiftTreated'
 import ClinicReviews from '../components/ClinicReviews'
+import { vampire_breastlift_new_intro } from '../assets'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 
 const VampireBreastLift = () => {
+  const [videoEnded, setVideoEnded] = useState(false);
+    // var Speed = 50;
+    const handleVideoEnd = () => {
+        setVideoEnded(true);
+    };
+    
   return (
     <div className={`bg-primary w-full`}>
+      <div className={` fixed z-20 `}>
+            <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
+        </div>
 
         <div className={`fixed z-10 `}>
             <Navbar/>
@@ -38,6 +50,9 @@ const VampireBreastLift = () => {
                 <BreastLiftDetails/>
               </div>
               <div className={`flex  w-full h-[90vh] items-center   `}>
+                  <TreatmentSummary/>
+              </div>
+              <div className={`flex  w-full h-[90vh] items-center   `}>
                   <BreastLiftBenefits/>
               </div>
               <div className={`flex  w-full h-auto min-h-[90vh] justify-center items-center py-[10vh] `}>
@@ -49,10 +64,8 @@ const VampireBreastLift = () => {
               <div className={`flex  w-full h-[90vh] justify-center items-center  `}>
                 <YoutubeTestimonials/>
               </div>
-              <div className={`flex  w-full h-[90vh] items-center   `}>
-                  <TreatmentSummary/>
-              </div>
-              <div className={`flex  w-full h-[90vh] items-center   `}>
+              
+              <div className={`flex  w-full h-[90vh] items-center  justify-center `}>
                   <BreastLiftVideo/>
               </div>
               <div className={`flex  w-full h-[90vh] items-center   `}>
