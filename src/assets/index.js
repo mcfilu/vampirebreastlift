@@ -65,6 +65,8 @@ import logoblack from './logoblack.png';
 import breastlift_treated1 from './breastlift_treated1.png';
 import breastlift_treated2 from './breastlift_treated2.jpeg';
 import breastlift_treated3 from './breastlift_treated3.jpeg';
+import breastlift_treated5 from './breastlift_treated5.jpeg';
+import breastlift_treated6 from './breastlift_treated6.jpeg';
 import augmentation from './augmentation.jpeg';
 import augmentation_vid from './augmentation_vid.mp4';
 import fat from './fat.jpeg';
@@ -74,6 +76,9 @@ import fat3 from './fat3.jpg';
 import augmentation2 from './augmentation2.jpg';
 import clinic2 from './clinic2.jpeg';
 import sherif2 from './sherif2.jpeg';
+import blood_cells from './blood_cells.mp4';
+import fat_cells from './fat_cells.mp4';
+import logo_no_border from './logo_no_border.svg';
 
 export {
     logo,
@@ -152,4 +157,9 @@ export {
     augmentation2,
     clinic2,
     sherif2,
+    blood_cells,
+    fat_cells,
+    logo_no_border,
+    breastlift_treated5,
+    breastlift_treated6,
 };

@@ -5,13 +5,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const BreastLiftOpening = () => {
   return (
-    <div className={`flex w-11/12 flex-row bg-black bg-opacity-50 ml-[4%] mr-[4%] h-[60vh] rounded-[9px] p-[2vh] hover:bg-opacity-60 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-        <div className={`w-[65%] h-[100%] bg-black bg-opacity-60 rounded-[9px] p-[1vh] flex flex-col items-left justify-between mr-[1.5vh]`}>
-            <div className={`flex flex-col w-[100%]  bg-opacity-40 rounded-[9px] items-center justify-center my-auto`}>
-            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
-                <p className={`flex text-gold1 text-[2.7vh] text-center text-gold1`}>The Vampire Breast Lift™ represents an exciting and groundbreaking innovation in the realm of non-surgical breast enhancements. This procedure, as intriguing as its name implies, utilizes your body's natural growth factors to subtly augment and rejuvenate the appearance of the breasts, improving their shape and volume without the need for traditional surgery or implants.</p>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[1.3vw]`}></i>
-                <p className={`flex text-gold text-[3vh] text-center text-gold1 mt-[6vh]`}>Dr. Sherif Wakil</p>
+    <div className={`flex w-full flex-row h-[60vh] rounded-[9px] p-[2vh] pr-[0px]`}>
+        <div className={`w-[50%] h-[100%]  rounded-[9px] p-[1vh] flex flex-col items-left justify-between mr-[1.5vh]`}>
+            <div className={`flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-black text-center text-[1.3vw]`}></i>
+                <p className={`flex text-white text-[2.7vh] text-center text-gold1`}>The Vampire Breast Lift™ represents an exciting and groundbreaking innovation in the realm of non-surgical breast enhancements. This procedure, as intriguing as its name implies, utilizes your body's natural growth factors to subtly augment and rejuvenate the appearance of the breasts, improving their shape and volume without the need for traditional surgery or implants.</p>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-black text-[1.3vw]`}></i>
+                <p className={`flex  text-[3vh] text-center text-white mt-[6vh]`}>Dr. Sherif Wakil</p>
             </div>
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
@@ -28,9 +28,9 @@ const BreastLiftOpening = () => {
                 color="#ffffff"
                 /></p> */}
         </div>
-        <div className={`w-2/5 h-[100%] flex items-center`}>
+        <div className={`w-[50%] h-[100%] flex items-center`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <img className={`w-full h-full object-cover rounded-[9px]`} src={sherif}></img>
+            <img className={`w-full h-full object-cover `} src={sherif}></img>
         </div>
        
         

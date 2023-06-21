@@ -26,11 +26,11 @@ const BookNow = () => {
 
   return (
     
-        <div className={`flex flex-row items-center justify-between bg-black bg-opacity-30 w-11/12 h-[70vh] rounded-[9px] p-[4vh] pb-[5vh] pt-[5vh] hover:bg-opacity-50 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`} >
+        <div className={`flex flex-row items-center justify-between  w-11/12 h-[70vh]  p-[4vh] pb-[5vh] pt-[5vh] `} >
             <div className={`flex justify-center items-center w-[25vw] h-[68vh]`}>
 
             
-                <div className={`  bg-black flex flex-col h-full justify-center items-left rounded-[8px] p-[1vh] bg-opacity-70`}>
+                <div className={`   flex flex-col h-full justify-center items-left  p-[1vh] `}>
                     <h1 className={`text-white font-poppins mt-8 text-[4vh] text-center`}>Book a Consultation</h1>
                     <h1 className={`text-white font-poppins mt-8 text-[2vh] text-center w-9/12 mx-auto`}>To request a consultation with Dr Sherif Wakil MD FACS please complete this form.</h1>
                 </div>
