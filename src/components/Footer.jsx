@@ -1,16 +1,16 @@
 import React from 'react';
-import { logo, footer1, footer2, footer3, footer4, twitter } from '../assets';
+import { logo, footer1, footer2, footer3, footer4, twitter, logo_no_border} from '../assets';
 import { PopupWidget, PopupButton } from 'react-calendly';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 pb-[1vh]">
+    <footer className="bg-black text-white py-8 pb-[1vh] border-gold1 border-t-4">
       <div className="w-full flex flex-row justify-between">
         {/* Logo */}
         <div className="flex flex-col ml-[3vh] items-center justify-center">
-          <img src={logo} alt="Logo" className={`h-[12vh] flex `} />
+          <img src={logo_no_border} alt="Logo" className={`h-[12vh] flex `} />
         </div>
         
         {/* Contact Information */}
@@ -66,7 +66,7 @@ const Footer = () => {
          
         </div>
       </div>
-      <hr className={`mt-[2vh]`}></hr>
+      {/* <hr className={`mt-[2vh]`}></hr> */}
       <h1 className={`text-center text-[1.5vh] mt-[1.5vh]`}>Treatment Provided By Dr SW Clinics | All Right Reserved ®</h1>
 
     </footer>

@@ -49,16 +49,21 @@ const VampireBreastLift = () => {
               <div className={`flex  w-full  justify-center mt-20`}>
                 <BreastLiftOpening/>
               </div>
-              <div className={`flex  w-full  justify-center  mt-14`}>
+              <div className={`flex  w-full  justify-center  mt-[5vh]`}>
                 <BreastLiftDetails/>
               </div>
-              <div className={`flex  w-full ] items-center mt-14`}>
-                  <TreatmentSummary/>
-              </div>
-              <div className={`flex  w-full  items-center mt-14`}>
+              <div className={`flex  w-full  items-center mt-[5vh]`}>
                   <BreastLiftBenefits/>
               </div>
-              <div className={`flex flex-row w-full h-auto    mt-14 `}>
+              <div className={`flex  w-full  items-center  justify-center mt-[5vh]`}>
+                  <BreastLiftVideo/>
+              </div>
+              
+              <div className={`flex  w-full bg-gold1 h-[90vh] items-center mt-[5vh]`}>
+                  <TreatmentSummary/>
+              </div>
+             
+              <div className={`flex flex-row w-full h-auto    mt-[5vh] `}>
                 <div className={`flex w-1/2 border-r-gold1 border-r-2`}>
                   <BreastliftFaqs/>
                 </div>
@@ -66,41 +71,41 @@ const VampireBreastLift = () => {
                     <BreastliftCompare/>
                 </div>
               </div>
-              {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-14 `}>
+              {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[5vh] `}>
                   
               </div> */}
-              <div className={`flex  w-full  justify-center items-center  mt-14`}>
+              <div className={`flex  w-full  justify-center items-center  mt-[5vh]`}>
                 <YoutubeTestimonials/>
               </div>
-              
-              <div className={`flex  w-full  items-center  justify-center mt-14`}>
-                  <BreastLiftVideo/>
+              <div className={`flex  w-full  justify-center items-center  my-14`}>
+                  <BookNow/>
               </div>
-              <div className={`flex  w-full  items-center mt-14 `}>
+              <div className={`flex  w-full  items-center mt-[5vh] `}>
                   <BreastLiftTreated/>
               </div>
-              {/* <div className={`flex  w-full  items-center mt-14`}>
+              
+              
+             
+              {/* <div className={`flex  w-full  items-center mt-[5vh]`}>
                   <ClinicReviews/>
               </div> */}
-              <div className={`flex flex-col w-11/12 mx-auto  mt-14`}>
+              <div className={`flex flex-col w-11/12 mx-auto  mt-[5vh]`}>
                   <TrustBox/>
               </div>
               
-              <div className={`flex  w-full  items-center mt-14`}>
+              <div className={`flex  w-full  items-center mt-[5vh]`}>
                   <OtherServices/>
               </div>
-              <div className={`flex flex-col  justify-center mt-14 `}>
+              <div className={`flex flex-col  justify-center  my-[5vh]`}>
                     <div>
                         <Media/>
                     </div>
                     
-                    <div className={`mt-[8vh]`}>
+                    <div className={`mt-[2vh]`}>
                         <Awards/>
                     </div>
                 </div>
-              <div className={`flex  w-full  justify-center items-center  my-14`}>
-                  <BookNow/>
-              </div>
+              
 
           </div>
         </div>

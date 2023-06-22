@@ -18,7 +18,7 @@ const BreastliftFaqs = () => {
         <section className={` w-full`}>
             <div className={` p-[2vh]   `}>
                 <h1 className={`text-gold1 font-poppins text-center text-[5vh] mb-[1vh]`}>Frequently Asked Questions</h1>
-                <hr className={`border-gold1 mt-[1vh] mb-[1.2vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1vh] mb-[1.2vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setFirst(!openFirst)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openFirst ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
@@ -30,7 +30,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
@@ -42,7 +42,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setThird(!openThird)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openThird ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
@@ -54,7 +54,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setFourth(!openFourth)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openFourth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
@@ -66,7 +66,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setFifth(!openFifth)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openFifth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
@@ -78,7 +78,7 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setSixth(!openSixth)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSixth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
@@ -101,7 +101,7 @@ const BreastliftFaqs = () => {
                         <p className={`text-white text-[2.1vh] font-poppins`}>Like other Vampire Procedures, the Vampire Breast Lift™ injections will last about 12-24 months, depending on individual patients.</p>
                     </div>
                 </div>
-                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
             </div>
         </section>
         )

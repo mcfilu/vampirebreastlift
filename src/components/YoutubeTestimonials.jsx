@@ -37,7 +37,7 @@ const YoutubeTestimonials = () => {
     //         <iframe width="560" height="315" src="https://www.youtube.com/embed/TEvhvhzyCsY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     //     </div>
     // </div>
-    <div className={`flex flex-col p-[2vh] h-[73vh] w-11/12 `}>
+    <div className={`flex flex-col p-[2vh] h-[73vh] w-full `}>
       
         <h1 className={`text-gold1 text-[5vh] font-poppins text-center`}>Clients Testimonials</h1>
         {/* <hr className={`mt-[2vh] mb-8`}></hr> */}
@@ -69,7 +69,7 @@ const YoutubeTestimonials = () => {
           Add as many slides as you want
         </Slider> */}
         <Slider {...settings}>
-          <div className={`h-[60vh] p-6`}>
+          <div className={`h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -77,16 +77,16 @@ const YoutubeTestimonials = () => {
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
-                <p className={`text-white text-justify text-[1.5vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
-                <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>MAYA</h1>
-                <h3 className={`text-white text-[1.5vh] text-center`}>42 Years Old, UK</h3>
+                <p className={`text-white text-center text-[1.9vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh]`}>MAYA</h1>
+                <h3 className={`text-white text-[1.9vh] text-center`}>42 Years Old, UK</h3>
               </div>
             </div>
           </div>
 
 
 
-          <div className={`h-[60vh] p-6`}>
+          <div className={`h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/TmsESS0zn74?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -94,14 +94,14 @@ const YoutubeTestimonials = () => {
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
-                <p className={`text-white text-justify text-[1.5vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
-                <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>CLAUDIA</h1>
-                <h3 className={`text-white text-[1.5vh] text-center`}>28 Years Old, BRISTOL</h3>
+                <p className={`text-white text-center text-[1.9vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh]`}>CLAUDIA</h1>
+                <h3 className={`text-white text-[1.9vh] text-center`}>28 Years Old, BRISTOL</h3>
               </div>
             </div>
           </div>
 
-          <div className={`h-[60vh] p-6`}>
+          <div className={`h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/M0GiG9xyxJo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -109,14 +109,14 @@ const YoutubeTestimonials = () => {
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
-                <p className={`text-white text-justify text-[1.5vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
-                <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>CHRISTINE</h1>
-                <h3 className={`text-white text-[1.5vh] text-center`}>60 Years Old, UK</h3>
+                <p className={`text-white text-center text-[1.9vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh]`}>CHRISTINE</h1>
+                <h3 className={`text-white text-[1.9vh] text-center`}>60 Years Old, UK</h3>
               </div>
             </div>
           </div>
 
-          <div className={`h-[60vh] p-6`}>
+          <div className={`h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/TEvhvhzyCsY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -124,9 +124,9 @@ const YoutubeTestimonials = () => {
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[1.3vw]`}></i>
-                <p className={`text-white text-justify text-[1.5vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
-                <h1 className={`text-gold1 text-[2.5vh] text-center mt-[2vh]`}>SHIRIN</h1>
-                <h3 className={`text-white text-[1.5vh] text-center`}>45 Years Old, UK</h3>
+                <p className={`text-white text-center text-[1.9vh]`}> I had a good intimacy and sex life with my husband  for almost 20 years and then I was petrified of having sex.  I heard about Dr Wakil and O Concept.  I wanted to be happy again sexually. 8 weeks  later, I could feel the difference. I'm able to feel sexy again and make love with my husband.   </p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh]`}>SHIRIN</h1>
+                <h3 className={`text-white text-[1.9vh] text-center`}>45 Years Old, UK</h3>
               </div>
             </div>
           </div>

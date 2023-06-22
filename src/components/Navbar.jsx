@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
 
             {/* <img src={tel_logo}></img> */}
-            <div className={`flex ${color ? 'w-[25.3vh]' : 'w-[28.3vh]'} items-center justify-end ease-in-out duration-500`}>
+            <div className={`flex ${color ? 'w-[25.3vh]' : 'w-[30.8vh]'} items-center justify-end ease-in-out duration-500`}>
             <button className={`text-white ${color ? 'text-[1.2vw]' : 'text-[1.4vw]'} bg-gold1  p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500`}>+44 (0)20 7467 5340</button>
             </div>
             

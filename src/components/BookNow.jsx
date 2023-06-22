@@ -26,14 +26,15 @@ const BookNow = () => {
 
   return (
     
-        <div className={`flex flex-row items-center justify-between  w-11/12 h-[70vh]  p-[4vh] pb-[5vh] pt-[5vh] `} >
-            <div className={`flex justify-center items-center w-[25vw] h-[68vh]`}>
+        <div className={`flex bg-gold1 flex-row items-center justify-between  w-full h-[40vh]  p-[4vh] pb-[5vh] pt-[5vh] `} >
+            <div className={`flex justify-center items-center w-full `}>
 
             
                 <div className={`   flex flex-col h-full justify-center items-left  p-[1vh] `}>
-                    <h1 className={`text-gold1 font-poppins mt-8 text-[4vh] text-center`}>Book a Consultation</h1>
+                    <h1 className={`text-white font-poppins mt-8 text-[4vh] text-center`}>Book a Consultation</h1>
                     <h1 className={`text-white font-poppins mt-8 text-[2vh] text-center w-9/12 mx-auto`}>To request a consultation with Dr Sherif Wakil MD FACS please complete this form.</h1>
                 </div>
+                <button className={`w-[30vw] text-[4vh] p-[1vh] bg-black text-gold1 hover:bg-white`}>Book Now</button>
             </div>
             {/* <div style={{position: "relative", minWidth: "1320px", minHeight: "750px"}} className={`flex`}>
             <iframe
@@ -42,7 +43,7 @@ const BookNow = () => {
                 height="100%"
                 frameborder="0"
             ></iframe> */}
-                <InlineWidget url="https://calendly.com/drswclinics/" 
+                {/* <InlineWidget url="https://calendly.com/drswclinics/" 
                     utm={{
                     utmCampaign: 'Spring Sale 2019',
                     utmContent: 'Shoe and Shirts',
@@ -60,7 +61,7 @@ const BookNow = () => {
                     primaryColor: '000000',
                     textColor: '000000'
                     }}
-                />
+                /> */}
                 {/* <div
                     className="calendly-inline-widget" 
                     data-url="https://calendly.com/nikekarta2/30min"
