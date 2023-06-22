@@ -20,7 +20,7 @@ const BreastliftCompare = () => {
   return (
     <div className={` py-[2vh] w-full `}>
         <div className={`w-full flex flex-col justify-center items-center `}>
-            <h1 className={`text-white font-poppins text-center text-[5vh] mb-[1vh]`}>Treatment Effects</h1>
+            <h1 className={`text-gold1 font-poppins text-center text-[5vh] mb-[1vh]`}>Treatment Effects</h1>
             <div className={`flex flex-row justify-between w-[50%] mx-auto`}>
                 <h1 className={`text-[3.5vh] text-white`}>Before</h1>
                 <h1 className={`text-[3.5vh] text-white`}>After</h1>
@@ -37,7 +37,7 @@ const BreastliftCompare = () => {
                 </div>
                 <div className={`flex w-full h-full justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
                     <img className={`mr-[3vh] `} src={boobs1Before}></img>
-                    <div className={`h-full w-[0.2vh] bg-black`}></div>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
                     <img className={`ml-[3vh] `} src={boobs1After}></img>
                 </div>
             </div>
@@ -53,7 +53,7 @@ const BreastliftCompare = () => {
                 </div>
                 <div className={`flex w-full h-full justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
                     <img className={`mr-[3vh] `} src={boobs2Before}></img>
-                    <div className={`h-full w-[0.2vh] bg-black`}></div>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
                     <img className={`ml-[3vh] `} src={boobs2After}></img>
                 </div>
             </div>

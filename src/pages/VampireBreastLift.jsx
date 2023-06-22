@@ -44,7 +44,7 @@ const VampireBreastLift = () => {
                 <BreastliftImage/>
 
         </div>
-        <div className="flex flex-col bg-gold1" >
+        <div className="flex flex-col bg-black" >
         <div className={`flex flex-col justify-center mx-auto w-full`}>
               <div className={`flex  w-full  justify-center mt-20`}>
                 <BreastLiftOpening/>
@@ -59,7 +59,7 @@ const VampireBreastLift = () => {
                   <BreastLiftBenefits/>
               </div>
               <div className={`flex flex-row w-full h-auto    mt-14 `}>
-                <div className={`flex w-1/2 border-r-black border-r-2`}>
+                <div className={`flex w-1/2 border-r-gold1 border-r-2`}>
                   <BreastliftFaqs/>
                 </div>
                 <div className={`flex w-1/2`}>

@@ -7,7 +7,7 @@ const BreastLiftTreated = () => {
 //         <p className={`text-white text-[4.5vh] text-center mb-[2vh]`}>Conditions Treated</p>
 
 //         <div className={`flex flex-row justify-between w-full h-[90%]`}>
-//             <div className={`relative flex flex-col w-[30%] h-full bg-black`}>
+//             <div className={`relative flex flex-col w-[30%] h-full bg-white`}>
 //             <img src={breastlift_treated1} className={`absolute w-full h-1/2 `} ></img>
 //             <div>
 
@@ -21,7 +21,7 @@ const BreastLiftTreated = () => {
             
             
 //             </div>
-//             <div className={`flex flex-col w-[30%] h-full p-[2vh] pt-[1vh] bg-black  `}>
+//             <div className={`flex flex-col w-[30%] h-full p-[2vh] pt-[1vh] bg-white  `}>
 
 //                     <p className={`text-gold1 text-center text-[3.5vh] mb-[1vh]`}>Breast Size</p>
 //                     <div className={`w-full h-[50%] bg-white `}><img src={breastlift_treated2} className={`w-full h-full `} ></img></div>
@@ -32,7 +32,7 @@ const BreastLiftTreated = () => {
             
             
 //             </div>
-//             <div className={`flex flex-col w-[30%] h-full p-[2vh] pt-[1vh] bg-black bg-opacity-40 `}>
+//             <div className={`flex flex-col w-[30%] h-full p-[2vh] pt-[1vh] bg-white bg-opacity-40 `}>
 
 //                     <p className={`text-gold1 text-center text-[3.5vh] mb-[1vh]`}>Skin Texture</p>
 //                     <div className={`w-full h-[50%] bg-white `}><img src={breastlift_treated3} className={`w-full h-full `} ></img></div>
@@ -49,13 +49,13 @@ const BreastLiftTreated = () => {
 //     </div>
 <div className={`flex flex-col  w-full pl-[4%] pr-[4%]`}>
 
-<p className={`text-[5vh] text-white text-center`}>Conditions Treated</p>
+<p className={`text-[5vh] text-gold1 text-center`}>Conditions Treated</p>
 
 <div className={`flex flex-row w-full h-[72vh] justify-between mt-[2vh]`}>
 
     
     
-    <div  className={`relative flex flex-col h-full bg-black   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col h-full bg-white   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
         
             <img className={` w-full h-[55%]  ease-in-out duration-500`} src={breastlift_treated1}></img>
         
@@ -64,13 +64,13 @@ const BreastLiftTreated = () => {
             <h1 className={` text-gold2 text-[6.5vh] text-left`}>Rippling</h1>
         </div>
         <div className={`flex flex-col w-full h-1/4 mt-[2vh]`}>
-            <p className={`text-white text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
+            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
         </div>
 
 
     </div>
 
-    <div  className={`relative flex flex-col h-full bg-black   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col h-full bg-white   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
     <img className={` w-full h-[55%] ease-in-out duration-500 object-cover`} src={breastlift_treated5}></img>
         
         <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -78,13 +78,13 @@ const BreastLiftTreated = () => {
             <h1 className={` text-gold2 text-[6.5vh] text-left`}>Size</h1>
         </div>
         <div className={`flex flex-col w-full h-1/4 mt-2`}>
-            <p className={`text-white text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
+            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
         </div>
 
 
     </div>
 
-    <div  className={`relative flex flex-col h-full bg-black   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col h-full bg-white   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
     <img className={` w-full h-[55%]  ease-in-out duration-500`} src={breastlift_treated6}></img>
         
         <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -92,7 +92,7 @@ const BreastLiftTreated = () => {
             <h1 className={` text-gold2 text-[6.5vh] text-left`}>Texture</h1>
         </div>
         <div className={`flex flex-col w-full h-1/4 mt-2`}>
-            <p className={`text-white text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
+            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
         </div>
 
 

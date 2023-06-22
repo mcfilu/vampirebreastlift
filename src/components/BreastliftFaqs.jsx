@@ -17,11 +17,11 @@ const BreastliftFaqs = () => {
     return (
         <section className={` w-full`}>
             <div className={` p-[2vh]   `}>
-                <h1 className={`text-white font-poppins text-center text-[5vh] mb-[1vh]`}>Frequently Asked Questions</h1>
-                <hr className={`border-black mt-[1vh] mb-[1.2vh] w-[75%] mx-auto`}></hr>
+                <h1 className={`text-gold1 font-poppins text-center text-[5vh] mb-[1vh]`}>Frequently Asked Questions</h1>
+                <hr className={`border-gold1 mt-[1vh] mb-[1.2vh] w-[75%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setFirst(!openFirst)}}>
                     <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openFirst ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-white text-[3vh] flex items-center`}></i>
+                        <i className={`fa-regular ${openFirst ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
                         <h1 className={`${openFirst ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>How does the Vampire BreastLift work?</h1>
                     </div>
                     <div className={`flex ${openFirst ? '' : 'hidden'} w-[35vw] my-[1vh] ml-[5%]`}>
@@ -30,10 +30,10 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-black mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-white text-[3vh] flex items-center`}></i>
+                        <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
                         <h1 className={`${openSecond ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>Am i suitable for this treatment?</h1>
                     </div>
                     <div className={`flex ${openSecond ? '' : 'hidden'} w-[35vw] my-[1vh] ml-[5%]`}>
@@ -42,10 +42,10 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-black mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setThird(!openThird)}}>
                     <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openThird ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-white text-[3vh] flex items-center`}></i>
+                        <i className={`fa-regular ${openThird ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
                         <h1 className={`${openThird ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>Does it hurt?</h1>
                     </div>
                     <div className={`flex ${openThird ? '' : 'hidden'} w-[35vw] my-[1vh] ml-[5%]`}>
@@ -54,10 +54,10 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-black mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setFourth(!openFourth)}}>
                     <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openFourth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-white text-[3vh] flex items-center`}></i>
+                        <i className={`fa-regular ${openFourth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
                         <h1 className={`${openFourth ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>How long does it take?</h1>
                     </div>
                     <div className={`flex ${openFourth ? '' : 'hidden'} w-[35vw] my-[1vh] ml-[5%]`}>
@@ -66,10 +66,10 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-black mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setFifth(!openFifth)}}>
                     <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openFifth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-white text-[3vh] flex items-center`}></i>
+                        <i className={`fa-regular ${openFifth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
                         <h1 className={`${openFifth ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>Is there any downtime/recovery time?</h1>
                     </div>
                     <div className={`flex ${openFifth ? '' : 'hidden'} w-[35vw] my-[1vh] ml-[5%]`}>
@@ -78,10 +78,10 @@ const BreastliftFaqs = () => {
                         </p>
                     </div>
                 </div>
-                <hr className={`border-black mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
                 <div className={`flex flex-col ml-[5%]`} onClick={() => {setSixth(!openSixth)}}>
                     <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openSixth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-white text-[3vh] flex items-center`}></i>
+                        <i className={`fa-regular ${openSixth ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
                         <h1 className={`${openSixth ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>What kind of results can I expect?</h1>
                     </div>
                     <div className={`flex ${openSixth ? '' : 'hidden'} flex-col w-[35vw] my-[1vh] ml-[5%]`}>
@@ -101,7 +101,7 @@ const BreastliftFaqs = () => {
                         <p className={`text-white text-[2.1vh] font-poppins`}>Like other Vampire Procedures, the Vampire Breast Lift™ injections will last about 12-24 months, depending on individual patients.</p>
                     </div>
                 </div>
-                <hr className={`border-black mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
+                <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[75%] mx-auto`}></hr>
             </div>
         </section>
         )

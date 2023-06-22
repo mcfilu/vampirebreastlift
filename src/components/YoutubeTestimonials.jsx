@@ -39,7 +39,7 @@ const YoutubeTestimonials = () => {
     // </div>
     <div className={`flex flex-col p-[2vh] h-[73vh] w-11/12 `}>
       
-        <h1 className={`text-white text-[5vh] font-poppins text-center`}>Clients Testimonials</h1>
+        <h1 className={`text-gold1 text-[5vh] font-poppins text-center`}>Clients Testimonials</h1>
         {/* <hr className={`mt-[2vh] mb-8`}></hr> */}
       
     {/* <div className={`flex flex-col sm:flex-row justify-center gap-x-4 sm:gap-x-16`}>

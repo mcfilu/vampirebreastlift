@@ -7,9 +7,9 @@ function TreatmentSummary() {
   return (
     
     
-        <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={`relative ml-[13vw] bg-black bg-opacity-100 p-[3vh] flex flex-col w-[60%] h-auto min-h-[68vh]  pr-[14vh] hover:bg-opacity-100 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+        <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={`relative ml-[13vw] bg-gold1 bg-opacity-100 p-[3vh] flex flex-col w-[60%] h-auto min-h-[68vh]  pr-[14vh] hover:bg-opacity-100 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
             <div className={` w-[100%] mx-auto h-[100%]`}>
-                <h1 className={`text-gold1 text-[5vh] font-poppins text-center`}>Treatment Summary at a glance</h1>
+                <h1 className={`text-white text-[5vh] font-poppins text-center`}>Treatment Summary at a glance</h1>
                 <div className={`flex flex-row justify-between px-[3vh] my-[5vh]`}>
                     <div className="inner-item flex flex-col items-center text-white">
                         <div className="icon mb-2">
@@ -44,13 +44,13 @@ function TreatmentSummary() {
                 <div>
                     <hr className={`mt-[1.5vh] mb-[1.5vh]`}></hr>
                     <div className={`flex flex-row`}>
-                        <span className="text-[2vh] font-medium text-gold1 w-[30%]">Side Effects:</span>
+                        <span className="text-[2vh] font-medium text-black w-[30%]">Side Effects:</span>
                         <p className="text-[2vh] font-light text-white">Minor bruising at injection sites.</p>
                     </div>
 
                     <hr className={`mt-[2vh] mb-4`}></hr>
                     <div className={`flex flex-row`}>
-                        <span className="text-[2vh] font-medium w-[30%] text-gold1">Results:</span>
+                        <span className="text-[2vh] font-medium w-[30%] text-black">Results:</span>
                         <p className="text-[2vh] font-light text-white w-[70%]">
                         Non-surgical breast lift, fuller-looking cleavage, improved skin.
                         </p>
@@ -58,21 +58,21 @@ function TreatmentSummary() {
 
                     <hr className={`mt-[2vh] mb-4`}></hr>
                     <div className={`flex flex-row`}>
-                        <span className="text-[2vh] font-medium w-[30%] text-gold1">Duration of results:</span>
+                        <span className="text-[2vh] font-medium w-[30%] text-black">Duration of results:</span>
                         <p className="text-[2vh] font-light text-white">
                         12-24 months, dependent on breast size.
                         </p>
                     </div>
                     <hr className={`mt-[2vh] mb-4`}></hr>
                     <div className={`flex flex-row`}>
-                        <span className="text-[2vh] font-medium w-[30%] text-gold1">Back to work:</span>
+                        <span className="text-[2vh] font-medium w-[30%] text-black">Back to work:</span>
                         <p className="text-[2vh] font-light text-white">
                             Immediately back to normal
                         </p>
                     </div>
                     <hr className={`mt-[2vh] mb-4`}></hr>
                     <div className={`flex flex-row`}>
-                        <span className="text-[2vh] font-medium w-[30%] text-gold1">Full Recovery:</span>
+                        <span className="text-[2vh] font-medium w-[30%] text-black">Full Recovery:</span>
                         <p className="text-[2vh] font-light text-white">
                         1-3 days for resolution of any bruising.
                         </p>
@@ -86,7 +86,7 @@ function TreatmentSummary() {
                     <p className={`font-poppins text-[1.7vh] mt-[2vh]`}>Price from:</p>
                     <h1 className={`font-poppins font-bold text-[5.5vh] `}>£ 1200</h1>
                     <p className={`text-[1.6vh]`}>* After consultation the doctor will confirm the cost.</p>
-                    <p className="mt-[4vh] h-[6vh] w-[10vw] bg-black text-white text-[2vh] bg-opacity-80  flex items-center justify-center hover:text-gold1 hover:bg-white"><PopupButton
+                    <p className="mt-[4vh] h-[6vh] w-[10vw] bg-black text-white text-[2vh] bg-opacity-80  flex items-center justify-center hover:text-black hover:bg-white"><PopupButton
         url="https://calendly.com/nikekarta2/30min"
 
 

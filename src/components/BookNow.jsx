@@ -31,7 +31,7 @@ const BookNow = () => {
 
             
                 <div className={`   flex flex-col h-full justify-center items-left  p-[1vh] `}>
-                    <h1 className={`text-white font-poppins mt-8 text-[4vh] text-center`}>Book a Consultation</h1>
+                    <h1 className={`text-gold1 font-poppins mt-8 text-[4vh] text-center`}>Book a Consultation</h1>
                     <h1 className={`text-white font-poppins mt-8 text-[2vh] text-center w-9/12 mx-auto`}>To request a consultation with Dr Sherif Wakil MD FACS please complete this form.</h1>
                 </div>
             </div>
