@@ -81,7 +81,7 @@ function TreatmentSummary() {
                 </div>
                 
             </div>
-            <div onMouseEnter={() => setHove(true)}  className={`absolute bg-white bg-opacity-100  ease-in-out duration-500 ${hov ? 'bg-opacity-100' : 'bg-opacity-100'} top-[22%] -right-[17.5vw] w-[24vw] h-[40vh]  p-[2vh] `}>
+            <div onMouseEnter={() => setHove(true)}  className={`absolute bg-gold1 bg-opacity-100  ease-in-out duration-500 ${hov ? 'bg-opacity-100' : 'bg-opacity-100'} top-[22%] -right-[17.5vw] w-[24vw] h-[40vh]  p-[2vh] `}>
                     <h1 className={`font-poppins text-[4vh] mt-[2vh] font-medium`}>Treatment Cost</h1>
                     <p className={`font-poppins text-[1.7vh] mt-[2vh]`}>Price from:</p>
                     <h1 className={`font-poppins font-bold text-[5.5vh] `}>£ 1200</h1>

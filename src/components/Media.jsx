@@ -18,8 +18,8 @@ const Media = () => {
   return (
     <div className="flex flex-row  w-[93%] ml-[4%] h-[28vh] rounded-[9px] p-[1.5vh] ">
       <div className="flex flex-col w-1/3 pr-[2vh] justify-center">
-        <h1 className="text-white text-[4vh] text-left font-poppins mt-[2vh]">You may have seen us in</h1>
-        <p className="text-white text-justify text-[2.1vh] font-poppins mt-[3vh]">Dr Sherif Wakil is regularly interviewed by the mainstream press as an expert in the subject of sexual health and well-being.</p>
+        <h1 className="text-gold1 text-[4vh] text-left font-poppins mt-[2vh]">You may have seen us in</h1>
+        <p className="text-black text-justify text-[2.1vh] font-poppins mt-[3vh]">Dr Sherif Wakil is regularly interviewed by the mainstream press as an expert in the subject of sexual health and well-being.</p>
       </div>
       <div className="w-2/3 flex items-center justify-center ">
         <AliceCarousel mouseTracking 

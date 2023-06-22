@@ -49,7 +49,7 @@ const BreastLiftTreated = () => {
 //     </div>
 <div className={`flex flex-col  w-full pl-[4%] pr-[4%]`}>
 
-<p className={`text-[5vh] text-white text-center`}>Conditions Treated</p>
+<p className={`text-[5vh] text-gold1 text-center`}>Conditions Treated</p>
 
 <div className={`flex flex-row w-full h-[72vh] justify-between mt-[2vh]`}>
 
