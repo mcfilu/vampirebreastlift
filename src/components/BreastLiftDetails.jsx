@@ -7,6 +7,10 @@ const BreastLiftDetails = () => {
   return (
     <div className={` flex w-full flex-row     `}>
          
+         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
+            <video src={blood_cells} autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+            {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
+        </div>
         <div className={`hidden md:flex w-[55%] h-[100%]   flex flex-col items-left justify-between md:p-[2vh] pt-[0px] `}>
             <div className={`flex flex-col w-[100%]   items-center justify-center my-auto p-[1vh]`}>
 
@@ -33,10 +37,7 @@ const BreastLiftDetails = () => {
                 color="#ffffff"
                 /></p> */}
         </div>
-        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src={blood_cells} autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
-            {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
-        </div>
+        
 
         <div className={`flex flex-col md:hidden`}>
             <p className={`flex text-gold1 text-[6vh] text-center`}>How does it work?</p>

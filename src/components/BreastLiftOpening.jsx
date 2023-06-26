@@ -5,11 +5,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const BreastLiftOpening = () => {
   return (
-    <div className={`flex w-full flex-row md:h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
-        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <img className={`w-full h-full object-cover `} src={sherif}></img>
-        </div>
+    <div className={`flex w-full flex-row md:h-[55vh]  md:p-[2vh] md:pr-[0px]`}>
+        
         <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
@@ -31,6 +28,10 @@ const BreastLiftOpening = () => {
                 textColor="#ffffff"
                 color="#ffffff"
                 /></p> */}
+        </div>
+        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
+            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
+            <img className={`w-full h-full object-cover `} src={sherif}></img>
         </div>
         
 
