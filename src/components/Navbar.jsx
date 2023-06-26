@@ -59,20 +59,29 @@ const Navbar = () => {
 
 
             <div  className="md:hidden flex flex-1 justify-end items-center">
-              <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
-              <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black absolute w-[100vh] w-[100vw]`}>
-                <ul className="list-none flex flex-col justify-end items-center flex-1">
-                  {navLinks.map((nav,index) => (
-                    <li
-                      key = {nav.id}
-                      className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}   
-                    >
+            <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
+              <div className={`${toggle ? 'flex' : 'hidden'} flex-col p-6 bg-black absolute top-0 left-0 h-[100vh] w-[100vw]`}>
+                <div className={`flex flex-row justify-between items-center`}>
+                  <NavLink to={`/`}><img src={logo_no_border} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></NavLink>
+                  <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
+                </div>
+                <div className={`flex flex-col justify-center flex-1`}>
+
+                
+                  <ul className="list-none flex flex-col justify-center items-center ">
+                    {navLinks.map((nav,index) => (
+                      <li
+                        key = {nav.id}
+                        className={`font-poppins font-normal cursor-pointer text-[3vh] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}   
+                      >
 
 
-                      <NavLink to={`/${nav.link}`}>{nav.title}</NavLink>
-                    </li>
-                  ))}
-                </ul>
+                        <NavLink to={`/${nav.link}`}>{nav.title}</NavLink>
+                      </li>
+                    ))}
+                  </ul>
+                  <button className={`text-gold1 ${color ? 'text-[3vh]' : 'text-[3vh]'}   p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500 mt-[10vh]`}>+44 (0)20 7467 5340</button>
+                </div>
               </div>
             </div>
             
