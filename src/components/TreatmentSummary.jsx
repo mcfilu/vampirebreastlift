@@ -86,7 +86,7 @@ function TreatmentSummary() {
                     <p className={`font-poppins text-[1.7vh] mt-[2vh]`}>Price from:</p>
                     <h1 className={`font-poppins font-bold text-[5.5vh] `}>£ 1500</h1>
                     <p className={`text-[1.6vh]`}>* After consultation the doctor will confirm the cost.</p>
-                    <button className={`bg-black text-gold1 text-[4vh] mt-[5vh] p-[1vh]`}>Book Now</button>
+                    <button className={`bg-black text-gold1 text-[4vh] md:text-[2.5vh] mt-[4vh] p-[1vh]`}>Book Now</button>
                 </div>
 
         </div>

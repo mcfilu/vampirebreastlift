@@ -32,7 +32,7 @@ const VampireBreastLift = () => {
     
   return (
     <div className={`bg- w-full`}>
-      <div className={` fixed z-20 `}>
+      <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div>
 
@@ -49,27 +49,27 @@ const VampireBreastLift = () => {
               <div className={`flex  w-full  justify-center mt-20`}>
                 <BreastLiftOpening/>
               </div>
-              <div className={`flex  w-full  justify-center  mt-[5vh]`}>
+              <div className={`flex  w-full  justify-center  mt-[7vh]`}>
                 <BreastLiftDetails/>
               </div>
-              <div className={`flex  w-full  items-center mt-[5vh]`}>
+              <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <BreastLiftBenefits/>
               </div>
-              <div className={`flex  w-full  items-center  justify-center mt-[5vh]`}>
+              <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <BreastLiftVideo/>
               </div>
               
-              <div className={`flex  w-full bg-gold1  items-center mt-[5vh]`}>
+              <div className={`flex  w-full bg-gold1  items-center mt-[7vh]`}>
                   <TreatmentSummary/>
               </div>
-              <div className={`flex  w-full md:hidden items-center mt-[5vh]`}>
+              <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
                   <BreastliftCompare/>
               </div>
-              <div className={`flex  w-full  md:hidden items-center mt-[5vh]`}>
+              <div className={`flex  w-full  md:hidden items-center mt-[7vh]`}>
                   <BreastliftFaqs/>
               </div>
              
-              <div className={`hidden md:flex flex-row w-full h-auto    mt-[5vh] `}>
+              <div className={`hidden md:flex flex-row w-full h-auto    mt-[7vh] `}>
                 <div className={`flex w-1/2 border-r-gold1 border-r-2`}>
                   <BreastliftFaqs/>
                 </div>
@@ -77,32 +77,32 @@ const VampireBreastLift = () => {
                     <BreastliftCompare/>
                 </div>
               </div>
-              {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[5vh] `}>
+              {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[7vh] `}>
                   
               </div> */}
-              <div className={`flex  w-full  justify-center items-center  mt-[5vh]`}>
+              <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
                 <YoutubeTestimonials/>
               </div>
               <div className={`flex  w-full  justify-center items-center  my-14`}>
                   <BookNow/>
               </div>
-              <div className={`flex  w-full  items-center mt-[5vh] `}>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
                   <BreastLiftTreated/>
               </div>
               
               
              
-              {/* <div className={`flex  w-full  items-center mt-[5vh]`}>
+              {/* <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <ClinicReviews/>
               </div> */}
-              <div className={`flex flex-col w-11/12 mx-auto  mt-[5vh]`}>
+              <div className={`flex flex-col w-11/12 mx-auto  mt-[7vh]`}>
                   <TrustBox/>
               </div>
               
-              <div className={`flex  w-full  items-center mt-[5vh]`}>
+              <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <OtherServices/>
               </div>
-              <div className={`flex flex-col  justify-center  my-[5vh]`}>
+              <div className={`flex flex-col  justify-center  my-[7vh]`}>
                     <div>
                         <Media/>
                     </div>

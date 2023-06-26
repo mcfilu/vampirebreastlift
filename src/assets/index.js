@@ -82,6 +82,7 @@ import logo_no_border from './logo_no_border.svg';
 import bcam from './bcam.png';
 import close from './close.svg';
 import menu from './menu.svg';
+import sherif_blood from './sherif_blood.mp4';
 
 export {
     logo,
@@ -168,4 +169,5 @@ export {
     bcam,
     close,
     menu,
+    sherif_blood,
 };
