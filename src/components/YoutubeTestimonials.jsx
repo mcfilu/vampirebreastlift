@@ -7,12 +7,22 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const YoutubeTestimonials = () => {
   
+    const changeSlider = () => {
+      if (window.screen.width > 1000){
+        return 3;
+      }
+      else{
+        return 1;
+      }
+    };
+      
+
     const settings = {
       className: "center ",
       dots: true,
       infinite: true,
       speed: 1500,
-      slidesToShow: 3,
+      slidesToShow: changeSlider(),
       slidesToScroll: 1,
       centerMode: true,
       centerPadding: "0px",
@@ -37,9 +47,9 @@ const YoutubeTestimonials = () => {
     //         <iframe width="560" height="315" src="https://www.youtube.com/embed/TEvhvhzyCsY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     //     </div>
     // </div>
-    <div className={`flex flex-col p-[2vh] h-[73vh] w-full `}>
+    <div className={`flex flex-col p-[2vh]  w-full `}>
       
-        <h1 className={`text-gold1 text-[5vh] font-poppins text-center`}>Clients Testimonials</h1>
+        <h1 className={`text-gold1 text-[5vh] font-poppins text-center`}>Patients Testimonials</h1>
         {/* <hr className={`mt-[2vh] mb-8`}></hr> */}
       
     {/* <div className={`flex flex-col sm:flex-row justify-center gap-x-4 sm:gap-x-16`}>
@@ -69,7 +79,7 @@ const YoutubeTestimonials = () => {
           Add as many slides as you want
         </Slider> */}
         <Slider {...settings}>
-          <div className={`h-[60vh] p-6 px-[2vw]`}>
+          <div className={`md:h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -86,7 +96,7 @@ const YoutubeTestimonials = () => {
 
 
 
-          <div className={`h-[60vh] p-6 px-[2vw]`}>
+          <div className={`md:h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/TmsESS0zn74?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -101,7 +111,7 @@ const YoutubeTestimonials = () => {
             </div>
           </div>
 
-          <div className={`h-[60vh] p-6 px-[2vw]`}>
+          <div className={`md:h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
                 <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/M0GiG9xyxJo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -116,10 +126,10 @@ const YoutubeTestimonials = () => {
             </div>
           </div>
 
-          <div className={`h-[60vh] p-6 px-[2vw]`}>
+          <div className={`md:h-[60vh] p-6 px-[2vw]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-                <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/TEvhvhzyCsY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe className="w-[100%] h-[100%]" src="https://www.youtube.com/embed/EbBj4Hitfyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>

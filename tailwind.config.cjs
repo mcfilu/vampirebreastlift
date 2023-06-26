@@ -10,8 +10,10 @@ module.exports = {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         // gold1: '#bf9b30',
-        gold1: "#D4AF37",
-        gold2: "#d9c61c",
+        // gold1: "#D4AF37",
+        gold1: "#c7a94c",
+        // gold2: "#d9c61c",
+        gold2: "#c7a94c",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

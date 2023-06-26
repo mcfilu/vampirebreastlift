@@ -35,10 +35,10 @@ const BreastliftCompare = () => {
                     </div>
                     
                 </div>
-                <div className={`flex w-full h-full justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`mr-[3vh] w-[43%]`} src={boobs1Before}></img>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs1Before}></img>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`ml-[3vh] w-[43%]`} src={boobs1After}></img>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs1After}></img>
                 </div>
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
@@ -51,10 +51,10 @@ const BreastliftCompare = () => {
                     </div>
                     
                 </div>
-                <div className={`flex w-full h-full justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`mr-[3vh] w-[43%]`} src={boobs2Before}></img>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs2Before}></img>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`ml-[3vh] w-[43%]`} src={boobs2After}></img>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs2After}></img>
                 </div>
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
@@ -67,10 +67,10 @@ const BreastliftCompare = () => {
                     </div>
                     
                 </div>
-                <div className={`flex w-full h-full justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`mr-[3vh] w-[43%]`} src={boobs3Before}></img>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs3Before}></img>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`ml-[3vh] w-[43%]`} src={boobs3After}></img>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs3After}></img>
                 </div>
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
@@ -83,10 +83,10 @@ const BreastliftCompare = () => {
                     </div>
                     
                 </div>
-                <div className={`flex w-full h-full justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`mr-[3vh] w-[43%]`} src={boobs4Before}></img>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs4Before}></img>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`ml-[3vh] w-[43%]`} src={boobs4After}></img>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs4After}></img>
                 </div>
             </div>
             <button onClick={() => handleImages()} className={`flex mx-auto px-[2vh] py-[1vh] bg-white text-gold1 text-[2vh]   mt-[1vh]`}>Load More</button>

@@ -59,11 +59,17 @@ const VampireBreastLift = () => {
                   <BreastLiftVideo/>
               </div>
               
-              <div className={`flex  w-full bg-gold1 h-[90vh] items-center mt-[5vh]`}>
+              <div className={`flex  w-full bg-gold1  items-center mt-[5vh]`}>
                   <TreatmentSummary/>
               </div>
+              <div className={`flex  w-full md:hidden items-center mt-[5vh]`}>
+                  <BreastliftCompare/>
+              </div>
+              <div className={`flex  w-full  md:hidden items-center mt-[5vh]`}>
+                  <BreastliftFaqs/>
+              </div>
              
-              <div className={`flex flex-row w-full h-auto    mt-[5vh] `}>
+              <div className={`hidden md:flex flex-row w-full h-auto    mt-[5vh] `}>
                 <div className={`flex w-1/2 border-r-gold1 border-r-2`}>
                   <BreastliftFaqs/>
                 </div>

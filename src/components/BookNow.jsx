@@ -26,15 +26,15 @@ const BookNow = () => {
 
   return (
     
-        <div className={`flex bg-gold1 flex-row items-center justify-between  w-full h-[40vh]  p-[4vh] pb-[5vh] pt-[5vh] `} >
-            <div className={`flex justify-center items-center w-full `}>
+        <div className={`flex bg-gold1 flex-row items-center justify-between  w-full md:h-[30vh]  p-[4vh] `} >
+            <div className={`flex flex-col md:flex-row justify-center items-center w-full `}>
 
             
                 <div className={`   flex flex-col h-full justify-center items-left  p-[1vh] `}>
                     <h1 className={`text-white font-poppins mt-8 text-[4vh] text-center`}>Book a Consultation</h1>
                     <h1 className={`text-white font-poppins mt-8 text-[2vh] text-center w-9/12 mx-auto`}>To request a consultation with Dr Sherif Wakil MD FACS please complete this form.</h1>
                 </div>
-                <button className={`w-[30vw] text-[4vh] p-[1vh] bg-black text-gold1 hover:bg-white`}>Book Now</button>
+                <button className={`md:w-[30vw] text-[4vh] p-[1vh] bg-white text-gold1 hover:bg-white mt-[5vh] md:mt-[0px]`}>Book Now</button>
             </div>
             {/* <div style={{position: "relative", minWidth: "1320px", minHeight: "750px"}} className={`flex`}>
             <iframe

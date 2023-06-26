@@ -79,6 +79,9 @@ import sherif2 from './sherif2.jpeg';
 import blood_cells from './blood_cells.mp4';
 import fat_cells from './fat_cells.mp4';
 import logo_no_border from './logo_no_border.svg';
+import bcam from './bcam.png';
+import close from './close.svg';
+import menu from './menu.svg';
 
 export {
     logo,
@@ -162,4 +165,7 @@ export {
     logo_no_border,
     breastlift_treated5,
     breastlift_treated6,
+    bcam,
+    close,
+    menu,
 };

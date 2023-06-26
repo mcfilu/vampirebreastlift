@@ -51,11 +51,11 @@ const BreastLiftTreated = () => {
 
 <p className={`text-[5vh] text-gold1 text-center`}>Conditions Treated</p>
 
-<div className={`flex flex-row w-full h-[72vh] justify-between mt-[2vh]`}>
+<div className={`flex flex-col md:flex-row w-full md:h-[72vh] justify-between mt-[2vh]`}>
 
     
     
-    <div  className={`relative flex flex-col h-full bg-gold1   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col h-full bg-gold1  w-[100%] md:w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
         
             <img className={` w-full h-[55%]  ease-in-out duration-500`} src={breastlift_treated1}></img>
         
@@ -64,13 +64,13 @@ const BreastLiftTreated = () => {
             <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1>
         </div>
         <div className={`flex flex-col w-full h-1/4 mt-[2vh]`}>
-            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
+            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Experience the transformative power of the Vampire Breast Lift in addressing implant rippling. This cutting-edge non-surgical procedure harnesses your body's own regenerative capabilities to improve skin quality and texture. By stimulating new tissue growth, the Vampire Breast Lift smooths and enhances the appearance of breasts, effectively reducing and eliminating the unsightly rippling caused by breast implants. Reveal smoother, more natural-looking results and regain your self-assurance with this innovative solution.</p>
         </div>
 
 
     </div>
 
-    <div  className={`relative flex flex-col h-full bg-gold1   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col h-full bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
     <img className={` w-full h-[55%] ease-in-out duration-500 object-cover`} src={breastlift_treated5}></img>
         
         <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -84,7 +84,7 @@ const BreastLiftTreated = () => {
 
     </div>
 
-    <div  className={`relative flex flex-col h-full bg-gold1   w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col h-full bg-gold1   w-[100%] md:w-[31%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
     <img className={` w-full h-[55%]  ease-in-out duration-500`} src={breastlift_treated6}></img>
         
         <div className={`absolute w-full top-[10vh] left-[2vw] `}>
