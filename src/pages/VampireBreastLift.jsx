@@ -21,6 +21,9 @@ import { useEffect } from 'react'
 import Media from '../components/Media'
 import Awards from '../components/Awards'
 import TrustBox from '../components/TrustBox'
+import TrustPilotSlider from '../components/TrustPilotSlider'
+import WakilSummary from '../components/WakilSummary'
+import FooterBook from '../components/FooterBook'
 
 
 const VampireBreastLift = () => {
@@ -39,6 +42,9 @@ const VampireBreastLift = () => {
         <div className={`fixed z-10 `}>
             <Navbar/>
         </div>
+        <div className={`fixed w-full bottom-0 left-0 z-20 `}>
+            <FooterBook/>
+        </div>
         <div className={`relative z-0 ` }>
 
                 <BreastliftImage/>
@@ -49,12 +55,16 @@ const VampireBreastLift = () => {
               <div className={`flex  w-full  justify-center mt-20`}>
                 <BreastLiftOpening/>
               </div>
+              <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
+                  <WakilSummary/>
+              </div>
               <div className={`flex  w-full  justify-center  mt-[7vh]`}>
                 <BreastLiftDetails/>
               </div>
               <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <BreastLiftBenefits/>
               </div>
+             
               <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <BreastLiftVideo/>
               </div>
@@ -92,11 +102,10 @@ const VampireBreastLift = () => {
               
               
              
-              {/* <div className={`flex  w-full  items-center mt-[7vh]`}>
-                  <ClinicReviews/>
-              </div> */}
-              <div className={`flex flex-col w-11/12 mx-auto  mt-[7vh]`}>
-                  <TrustBox/>
+              
+              
+              <div className={`flex flex-col w-full  mt-[7vh]`}>
+                  <TrustPilotSlider/>
               </div>
               
               <div className={`flex  w-full  items-center mt-[7vh]`}>
@@ -115,6 +124,7 @@ const VampireBreastLift = () => {
 
           </div>
         </div>
+        
         <div className={`relative z-0 ` }>
           <Footer/>
         </div>

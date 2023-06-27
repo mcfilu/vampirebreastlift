@@ -19,15 +19,18 @@ const Contact = () => {
         <div className={`relative z-0 ` }>
             {/* <Contact2/> */}
         </div>
-        <div className="flex flex-col book2-gradient pt-24 pb-24" >
-            <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+        <div className="flex flex-col bg-black pt-[12vh] md:pt-[20vh]" >
+            <div className={`flex flex-col justify-center `}>
+              <div className={`flex  w-full justify-center items-center`} >
                   <ContactMap/>
               </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
                   <WakilClinic/>
               </div>
-              <div className={`flex flex-col  h-[90vh] justify-center`}>
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <BookNow/>
+              </div>
+              <div className={`flex flex-col  justify-center mt-[8vh]`}>
                     <div>
                         <Media/>
                     </div>
@@ -36,9 +39,7 @@ const Contact = () => {
                         <Awards/>
                     </div>
                 </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
-                  <BookNow/>
-              </div>
+              
           </div>
         </div>
         <div className={`relative z-0 ` }>

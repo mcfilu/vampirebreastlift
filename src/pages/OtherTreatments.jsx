@@ -18,22 +18,21 @@ const OtherTreatments = () => {
         <div className={`relative z-0 ` }>
             {/* <Contact2/> */}
         </div>
-        <div className="flex flex-col book2-gradient py-[13vh]" >
-            <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
-              <div className={`flex flex-col w-full h-[85vh] justify-center items-center`} >
-                <div className={`flex items-center justify-center w-[92%] h-[6vh] bg-black bg-opacity-80 rounded-[9px] mb-[2vh]`}>
-                  <h1 className={`text-gold1 text-center text-[3vh]`}>Related Treatments:</h1>
-                </div>
-                
+        <div className="flex flex-col bg-black pt-[30vh] md:pt-[13vh] pb-[8vh]" >
+            <div className={`flex flex-col justify-center`}>
+              <div className={`flex flex-col w-full  justify-center items-center`} >                
                   <OtherServices/>
               </div>
-              <div className={`flex flex-col w-full h-[100vh] justify-center items-center`} >
-                <div className={`flex items-center justify-center w-[92%] h-[6vh] bg-black bg-opacity-80 rounded-[9px] mb-[2vh]`}>
-                  <h1 className={`text-gold1 text-center text-[3vh]`}>Find Out about other Treatments of Dr Sherif Wakil:</h1>
+              <div className={`flex flex-col w-full  justify-center items-center mt-[10vh]`} >
+                <div className={`flex items-center justify-center w-full mb-[2vh]`}>
+                  <h1 className={`text-gold1 text-center text-[4vh]`}>Find Out about other Treatments of Dr Sherif Wakil:</h1>
                 </div>
                   <OtherServices2/>
               </div>
-              <div className={`flex flex-col  h-[90vh] justify-center`}>
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <BookNow/>
+              </div>
+              <div className={`flex flex-col justify-center mt-[10vh]`}>
                     <div>
                         <Media/>
                     </div>
@@ -42,9 +41,7 @@ const OtherTreatments = () => {
                         <Awards/>
                     </div>
                 </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
-                  <BookNow/>
-              </div>
+              
           </div>
         </div>
         <div className={`relative z-0 ` }>

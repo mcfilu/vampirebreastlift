@@ -16,7 +16,7 @@ const items = [
 const Awards = () => {
     const [hov, setHove] = useState(false);
   return (
-    <div className={`flex flex-col md:flex-row  w-full  md:h-[28vh] mx-auto  p-[2vh] md:pr-[0px] `}>
+    <div className={`flex flex-col md:flex-row  w-full  mx-auto  p-[2vh] md:pr-[0px] `}>
         <div className={`md:w-1/3 flex flex-col justify-center md:pr-[2vh] `}>
             <h1 className={`text-gold1 text-[4vh] font-poppins text-left md:text-left`}>An award winning clinic</h1>
             <p className={`text-white text-[2.1vh] font-poppins mt-[3vh] text-left md:text-justify`}>This renowned clinic has gained a reputation for excellence, with numerous prestigious awards acknowledging its outstanding medical care and patient satisfaction.</p>
@@ -25,13 +25,9 @@ const Awards = () => {
             <AliceCarousel mouseTracking 
                 items={items} 
                 responsive={{
-                    0: {
-                        items: 3,
-                    },
-                    1024: {
-                        items: 5,
-                        itemsFit: 'contain',
-                    }
+                    0: { items: 3 },
+                    1200: { items: 4 },
+                    1500: {items: 5},
                 }} 
                 disableButtonsControls={true} 
                 disableDotsControls={true} 

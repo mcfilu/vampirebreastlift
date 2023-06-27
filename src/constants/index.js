@@ -19,7 +19,7 @@ export const navLinks = [
     },
     {
         id: 'dr-wakil',
-        title: 'Dr Wakil',
+        title: 'Dr. SW Clinics',
         link: "/dr-wakil",
     },
     {

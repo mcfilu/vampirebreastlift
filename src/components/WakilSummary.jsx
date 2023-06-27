@@ -7,32 +7,32 @@ function WakilSummary() {
   return (
     
     
-        <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={` bg-black bg-opacity-70 p-[3vh] flex flex-col w-[55%] h-auto min-h-[45vh]  rounded-[9px]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+        <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={` flex flex-col md:w-[55%] h-auto min-h-[35vh]  `}>
             <div className={`flex flex-col w-full h-full`}>
-                <h1 className={`text-gold1 text-[3.8vh] font-poppins text-center`}>Dr Wakils Impressive Experience</h1>
-                <div className={`flex flex-row justify-between px-[3vh] mt-[8vh]`}>
-                    <div className="inner-item flex flex-col items-center text-white">
+                <h1 className={`text-gold1 text-[5vh] font-poppins text-center`}>Dr. Sherif Wakils Impressive Experience</h1>
+                <div className={`flex flex-col md:flex-row justify-between px-[3vh] mt-[4vh] md:mt-[8vh]`}>
+                    <div className="inner-item flex flex-col items-center text-white ">
                         <i class="" className={`text-gold1 fa-solid fa-hourglass text-[6vh]`}></i>
                         <h4 className="text-[3vh] font-medium mt-[2vh]">25</h4>
-                        <p className="text-[2vh] font-light">Years of Experience</p>
+                        <p className="text-[2.5vh] font-light">Years of Experience</p>
                         {/* <span className="text-[1.7vh] font-light">Approx 40mins</span> */}
                         
                         
                     </div>
 
-                    <div className="inner-item flex flex-col items-center text-white">
+                    <div className="inner-item flex flex-col items-center text-white mt-[5vh] md:mt-0">
                         <i class="" className={`text-gold1 fa-solid fa-syringe text-[6vh]`}></i>
-                        <h4 className="text-[3vh] font-medium mt-[2vh]">17 000</h4>
-                        <p className="text-[2vh] font-light">Performed Procedures</p>
+                        <h4 className="text-[3vh] font-medium mt-[2vh]">25 000</h4>
+                        <p className="text-[2.5vh] font-light">Performed Procedures</p>
                         {/* <span className="text-[1.7vh] font-light">Approx 40mins</span> */}
                         
                         
                     </div>
 
-                    <div className="inner-item flex flex-col items-center text-white">
+                    <div className="inner-item flex flex-col items-center text-white mt-[5vh] md:mt-0">
                         <i class="" className={`text-gold1 fa-solid fa-graduation-cap text-[6vh]`}></i>
-                        <h4 className="text-[3vh] font-medium mt-[2vh]">800</h4>
-                        <p className="text-[2vh] font-light">Tought Students</p>
+                        <h4 className="text-[3vh] font-medium mt-[2vh]">2000</h4>
+                        <p className="text-[2.5vh] font-light">Tought Doctors</p>
                         {/* <span className="text-[1.7vh] font-light">Approx 40mins</span> */}
                         
                         

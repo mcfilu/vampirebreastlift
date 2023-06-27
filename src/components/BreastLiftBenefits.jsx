@@ -1,12 +1,12 @@
 import React from 'react'
-import { breastliftvideo, sherif, sherif_blood, boobs5} from '../assets'
+import { breastliftvideo, sherif, sherif_blood, boobs5, boobs6, boobs2, boobs7} from '../assets'
 
 const BreastLiftBenefits = () => {
   return (
-    <div className={`flex w-full flex-row  md:h-[55vh]   `}>
-        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center pr-[0px]`}>
+    <div className={`flex w-full flex-row  md:min-h-[55vh]   `}>
+        <div className={`hidden md:flex w-[45%]  flex  `}>
             {/* <video src={breastliftvideo} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
-            <img src={boobs5} className={` object-cover h-[100%] w-[100%]`}></img>
+            <img src={boobs7} className={`w-full h-full object-cover`}></img>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]   `}>
             <h1 className={`text-gold1 text-[5vh] text-center font-poppins`}>Vampire BreastLift Benefits</h1>

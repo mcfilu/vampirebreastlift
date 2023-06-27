@@ -44,7 +44,7 @@ const Navbar = () => {
             {navLinks.map((nav,index) => (
                 <li
                 key = {nav.id}
-                className={`hover-underline-animation flex font-poppins font-normal cursor-pointer ${color ? 'text-[1.2vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
+                className={`hover-underline-animation flex font-poppins font-normal cursor-pointer ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
                 >
                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
                 <NavLink className={`flex items-center`} to={`${nav.link}`}>{nav.title}</NavLink>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
             {/* <img src={tel_logo}></img> */}
             <div className={`flex ${color ? 'w-[25.3vh]' : 'w-[30.8vh]'} md:flex hidden items-center justify-end ease-in-out duration-500`}>
-            <button className={`text-gold1 ${color ? 'text-[1.2vw]' : 'text-[1.4vw]'}   p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500`}>+44 (0)20 7467 5340</button>
+            <button className={`text-gold1 ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'}   p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500`}>+44 (0)20 7467 5340</button>
             </div>
 
 

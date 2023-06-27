@@ -83,6 +83,47 @@ import bcam from './bcam.png';
 import close from './close.svg';
 import menu from './menu.svg';
 import sherif_blood from './sherif_blood.mp4';
+import boobs6 from './boobs6.jpg';
+import boobs7 from './boobs7.jpg';
+import fat_transfer from './fat_transfer.jpg';
+import breast_fat_try from './breast_fat_try.jpg';
+import breast_reduction_try from './breast_reduction_try.jpg';
+import breast_augmentation_try from './breast_augmentation_try.jpg';
+import breast_augmentation2 from './breast_augmentation2.jpeg';
+import breast_fat2 from './breast_fat2.jpeg';
+import breast_reduction2 from './breast_reduction2.jpg';
+import clinic3 from './clinic3.jpeg';
+import alberto from './alberto.jpeg';
+import davood from './davood.jpeg';
+import trustpilot_star from './5star.svg';
+import trustpilot_logo from './trustpilot_logo.png';
+import augmentation8_before from './augmentation8_before.jpg';
+import augmentation8_after from './augmentation8_after.jpg';
+import augmentation5_before from './augmentation5_before.jpg';
+import augmentation5_after from './augmentation5_after.jpg';
+import augmentation1_before from './augmentation1_before.jpg';
+import augmentation1_after from './augmentation1_after.jpg';
+import augmentation7_before from './augmentation7_before.jpg';
+import augmentation7_after from './augmentation7_after.jpg';
+import fat1_before from './fat1_before.jpg';
+import fat1_after from './fat1_after.jpg';
+import implant_fat1_before from './implant_fat1_before.jpg';
+import implant_fat1_after from './implant_fat1_after.jpg';
+import implant_fat3_before from './implant_fat3_before.jpg';
+import implant_fat3_after from './implant_fat3_after.jpg';
+import fat3_before from './fat3_before.jpg';
+import fat3_after from './fat3_after.jpg';
+import reduction1_before from './reduction1_before.jpg';
+import reduction1_after from './reduction1_after.jpg';
+import reduction2_before from './reduction2_before.jpg';
+import reduction2_after from './reduction2_after.jpg';
+import reduction3_before from './reduction3_before.jpg';
+import reduction3_after from './reduction3_after.jpg';
+import reduction4_before from './reduction4_before.jpg';
+import reduction4_after from './reduction4_after.jpg';
+
+
+
 
 export {
     logo,
@@ -170,4 +211,42 @@ export {
     close,
     menu,
     sherif_blood,
+    boobs6,
+    boobs7,
+    fat_transfer,
+    breast_fat_try,
+    breast_augmentation_try,
+    breast_reduction_try,
+    breast_reduction2,
+    breast_augmentation2,
+    breast_fat2,
+    clinic3,
+    alberto,
+    davood,
+    trustpilot_logo,
+    trustpilot_star,
+    augmentation1_after,
+    augmentation1_before,
+    augmentation5_after,
+    augmentation5_before,
+    augmentation8_after,
+    augmentation8_before,
+    augmentation7_after,
+    augmentation7_before,
+    fat1_before,
+    fat1_after,
+    implant_fat1_after,
+    implant_fat1_before,
+    fat3_after,
+    fat3_before,
+    implant_fat3_after,
+    implant_fat3_before,
+    reduction1_after,
+    reduction1_before,
+    reduction2_after,
+    reduction2_before,
+    reduction3_after,
+    reduction3_before,
+    reduction4_after,
+    reduction4_before,
 };

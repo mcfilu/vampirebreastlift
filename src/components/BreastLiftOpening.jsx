@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const BreastLiftOpening = () => {
   return (
-    <div className={`flex w-full flex-row md:h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
+    <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
             <img className={`w-full h-full object-cover `} src={sherif}></img>

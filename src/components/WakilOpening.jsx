@@ -3,12 +3,15 @@ import { sherif2 } from '../assets'
 
 const WakilOpening = () => {
   return (
-    <div className={`flex w-11/12 flex-row bg-black bg-opacity-50 ml-[4%] mr-[4%] h-[60vh] rounded-[9px] p-[2vh] hover:bg-opacity-60 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-        <div className={`w-[65%] h-[100%] bg-black bg-opacity-60 rounded-[9px] p-[1vh] flex flex-col items-left justify-between mr-[1.5vh]`}>
-            <div className={`flex flex-col w-[100%]  bg-opacity-40 rounded-[9px] items-center justify-center my-auto`}>
-
-                <p className={`flex text-gold1 text-[2.6vh] text-center text-gold1`}>Having degrees in both medicine and the arts, Dr Wakil applies a philosophy to his practice that creating beauty is art. With his keen personal interest in art and sculpting, he can deliver more natural-looking results, so individuals do not look overdone and fake. This is the reason why patients travel from around to world to see him. He believes in only offering treatments which are safe, effective and minimally invasive to achieve the desired natural, yet enhanced, look. He also understands that each patient is an individual and carefully tailors his treatments accordingly.</p>
-                
+    <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
+        
+        <div className={`hidden md:flex w-[60%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
+            <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
+                <p className={`flex text-white text-[2.5vh] text-center text-gold1 mt-[2vh]`}>With my combined expertise in medicine and the arts, I embrace the belief that creating beauty is an art form in itself. Drawing upon my personal passion for art and sculpting, I strive to deliver results that are exquisitely natural, avoiding an overdone or artificial appearance. It is this commitment to authenticity that attracts patients from all corners of the world to seek my care.</p>
+                <p className={`flex text-white text-[2.5vh] text-center text-gold1 mt-[2vh]`}>I firmly believe in offering treatments that prioritize safety, effectiveness, and minimal invasiveness, ensuring that each patient achieves their desired outcome with a natural, yet enhanced, look. Recognizing the unique qualities of every individual, I take great care to tailor my treatments specifically to their needs, ensuring a personalized approach that celebrates their unique beauty.</p>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[5vh] md:text-[1.3vw] mt-[2vh]`}></i>
+                <p className={`flex  text-[4.5vh] text-center text-gold1 mt-[5vh]`}>Dr. Sherif Wakil</p>
             </div>
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
@@ -25,9 +28,24 @@ const WakilOpening = () => {
                 color="#ffffff"
                 /></p> */}
         </div>
-        <div className={`w-2/5 h-[100%] flex items-center`}>
+        <div className={`hidden md:flex w-[40%]  flex items-center`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <img className={`w-full h-full object-cover rounded-[9px]`} src={sherif2}></img>
+            <img className={`w-full h-full object-cover `} src={sherif2}></img>
+        </div>
+        
+
+
+        <div className={`md:hidden flex flex-col w-full items-center`}>
+        <p className={`flex text-[4.5vh] text-gold1 mt-[2vh]`}>Dr. Sherif Wakil</p>
+            <img className={`w-full h-full object-cover `} src={sherif2}></img>
+            
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
+            <p className={`flex text-white text-[2.5vh] text-center text-gold1 mt-[2vh]`}>With my combined expertise in medicine and the arts, I embrace the belief that creating beauty is an art form in itself. Drawing upon my personal passion for art and sculpting, I strive to deliver results that are exquisitely natural, avoiding an overdone or artificial appearance. It is this commitment to authenticity that attracts patients from all corners of the world to seek my care.</p>
+                <p className={`flex text-white text-[2.5vh] text-center text-gold1 mt-[2vh]`}>I firmly believe in offering treatments that prioritize safety, effectiveness, and minimal invasiveness, ensuring that each patient achieves their desired outcome with a natural, yet enhanced, look. Recognizing the unique qualities of every individual, I take great care to tailor my treatments specifically to their needs, ensuring a personalized approach that celebrates their unique beauty.</p>
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
+            
+            
+
         </div>
        
         

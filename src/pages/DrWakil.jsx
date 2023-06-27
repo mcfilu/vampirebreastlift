@@ -12,6 +12,8 @@ import WakilOpening from '../components/WakilOpening'
 import WakilSummary from '../components/WakilSummary'
 import WakilClinic from '../components/WakilClinic'
 import WakilImage from '../components/WakilImage'
+import Alberto from '../components/Alberto'
+import Davood from '../components/Davood'
 
 const DrWakil = () => {
   return (
@@ -23,23 +25,32 @@ const DrWakil = () => {
         <div className={`relative z-0 ` }>
             <WakilImage></WakilImage>
         </div>
-        <div className="flex flex-col book2-gradient pt-24 pb-24" >
-            <div className={`flex flex-col justify-center mx-auto max-w-[80vw]`}>
-            <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+        <div className="flex flex-col bg-black " >
+            <div className={`flex flex-col justify-center`}>
+            <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <WakilOpening/>
               </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
-                  <WakilSummary/>
-              </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+              
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <WakilDetails/>
               </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <WakilSummary/>
+              </div>
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <Alberto/>
+              </div>
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <Davood/>
+              </div>
+              <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <WakilClinic/>
               </div>
               
-              
-              <div className={`flex flex-col  h-[90vh] justify-center`}>
+              <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
+                  <BookNow/>
+              </div>
+              <div className={`flex flex-col  justify-center my-[8vh]`}>
                     <div>
                         <Media/>
                     </div>
@@ -48,9 +59,7 @@ const DrWakil = () => {
                         <Awards/>
                     </div>
                 </div>
-              <div className={`flex  w-full h-[90vh] justify-center items-center`} >
-                  <BookNow/>
-              </div>
+              
           </div>
         </div>
         <div className={`relative z-0 ` }>

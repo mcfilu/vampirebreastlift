@@ -16,7 +16,7 @@ const items = [
 const Media = () => {
   const [hov, setHove] = useState(false);
   return (
-    <div className="flex flex-col md:flex-row  w-full md:h-[28vh]  p-[2vh] md:pr-[0px] ">
+    <div className="flex flex-col md:flex-row  w-full   p-[2vh] md:pr-[0px] ">
       <div className="flex flex-col md:w-1/3 justify-center md:pr-[2vh]">
         <h1 className="text-gold1 text-[4vh] text-start md:text-left font-poppins mt-[2vh]">You may have seen us in</h1>
         <p className="text-white text-start md:text-justify text-[2.1vh] font-poppins mt-[3vh]">Dr Sherif Wakil is regularly interviewed by the mainstream press as an expert in the subject of sexual health and well-being.</p>
@@ -26,7 +26,8 @@ const Media = () => {
           items={items} 
           responsive={{
             0: { items: 3 },
-            1000: { items: 4 }
+            1200: { items: 4 },
+            1500: {items: 5},
           }}
           disableButtonsControls={true} 
           disableDotsControls={true} 

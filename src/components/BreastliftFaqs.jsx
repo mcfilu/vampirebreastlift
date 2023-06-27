@@ -3,8 +3,8 @@ import { Transition } from "@headlessui/react";
 import { PlusIcon, MinusIcon } from "@heroicons/react/solid";
 
 const BreastliftFaqs = () => {
-    const [openFirst, setFirst] = useState(true);
-    const [openSecond, setSecond] = useState(false);
+
+    const [openSecond, setSecond] = useState(true);
     const [openThird, setThird] = useState(false);
     const [openFourth, setFourth] = useState(false);
     const [openFifth, setFifth] = useState(false);
@@ -18,18 +18,8 @@ const BreastliftFaqs = () => {
         <section className={` w-full`}>
             <div className={` p-[2vh]   `}>
                 <h1 className={`text-gold1 font-poppins text-center text-[5vh] mb-[1vh]`}>Frequently Asked Questions</h1>
-                <hr className={`border-gold1 mt-[1vh] mb-[1.2vh] w-[90%] mx-auto`}></hr>
-                <div className={`flex flex-col md:ml-[5%]`} onClick={() => {setFirst(!openFirst)}}>
-                    <div className={`flex flex-row justify-left`}>
-                        <i className={`fa-regular ${openFirst ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
-                        <h1 className={`${openFirst ? 'text-white' : 'text-white'} font-poppins text-[2.8vh]`}>How does the Vampire BreastLift work?</h1>
-                    </div>
-                    <div className={`flex ${openFirst ? '' : 'hidden'} md:w-[35vw] my-[1vh] ml-[5%]`}>
-                        <p className={`text-white text-[2.1vh] text-justify font-poppins`}>
-                        The Vampire Breast Lift™ harnesses your body’s own natural powers of rejuvenation. A small amount of blood is taken from you and then centrifuged in order to harvest the growth factor-rich platelets found in the plasma. A small needle is then used to inject the PRP (Platelet Rich Plasma) into specific areas of the breast in order to stimulate change.
-                        </p>
-                    </div>
-                </div>
+
+                
                 <hr className={`border-gold1 mt-[1.4vh] mb-[1.4vh] w-[90%] mx-auto`}></hr>
                 <div className={`flex flex-col md:ml-[5%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>

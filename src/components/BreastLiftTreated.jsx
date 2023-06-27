@@ -51,48 +51,51 @@ const BreastLiftTreated = () => {
 
 <p className={`text-[5vh] text-gold1 text-center`}>Conditions Treated</p>
 
-<div className={`flex flex-col md:flex-row w-full md:h-[72vh] justify-between mt-[2vh]`}>
+<div className={`flex flex-col md:flex-row w-full justify-between mt-[2vh] md:min-h-[70vh] `}>
 
     
     
-    <div  className={`relative flex flex-col h-full bg-gold1  w-[100%] md:w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-        
-            <img className={` w-full h-[55%]  ease-in-out duration-500`} src={breastlift_treated1}></img>
-        
-        <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-            <h1 className={`text-gold2 text-[5.5vh] text-left`}>Implant</h1>
-            <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1>
+    <div  className={`flex flex-col  bg-gold1  w-[100%] md:w-[30%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+        <div className={`relative flex w-full h-[40vh]`}>
+            <img className={`flex w-full h-full  ease-in-out duration-500 `} src={breastlift_treated1}></img>
+            <div className={`absolute w-full top-[10vh] left-[2vw] `}>
+                <h1 className={`text-gold2 text-[5.5vh] text-left`}>Implant</h1>
+                <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1>
+            </div>
         </div>
-        <div className={`flex flex-col w-full h-1/4 mt-[2vh]`}>
-            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Experience the transformative power of the Vampire Breast Lift in addressing implant rippling. This cutting-edge non-surgical procedure harnesses your body's own regenerative capabilities to improve skin quality and texture. By stimulating new tissue growth, the Vampire Breast Lift smooths and enhances the appearance of breasts, effectively reducing and eliminating the unsightly rippling caused by breast implants. Reveal smoother, more natural-looking results and regain your self-assurance with this innovative solution.</p>
+        
+        <div className={`flex flex-col w-full h-[45%] py-[2vh] px-[1vh] md:px-[2vh]`}>
+            <p className={`flex text-black text-[2.1vh] text-justify `}>For those experiencing implant rippling, the Vampire Breast Lift offers a groundbreaking solution that eliminates the visible ripple effect and restores a smoother and more natural appearance. By harnessing the healing properties of platelet-rich plasma, this innovative procedure promotes tissue regeneration and collagen production, effectively addressing the underlying causes of implant rippling, and providing a long-lasting solution.</p>
         </div>
 
 
     </div>
 
-    <div  className={`relative flex flex-col h-full bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[31%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-    <img className={` w-full h-[55%] ease-in-out duration-500 object-cover`} src={breastlift_treated5}></img>
-        
-        <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-            <h1 className={`text-gold2 text-[5.5vh] text-left`}>Breast</h1>
-            <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1>
+    <div  className={`relative flex flex-col  bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[30%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div className={`relative flex w-full h-[40vh]`}>
+            <img className={`flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated5}></img>
+            <div className={`absolute w-full top-[10vh] left-[2vw] `}>
+                <h1 className={`text-gold2 text-[5.5vh] text-left`}>Breast</h1>
+                <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1>
+            </div>
         </div>
-        <div className={`flex flex-col w-full h-1/4 mt-[2vh]`}>
-            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
+        <div className={`flex flex-col w-full h-[45%] py-[2vh] px-[1vh] md:px-[2vh]`}>
+            <p className={`flex text-black text-[2.1vh] text-justify`}>The Vampire Breast Lift is a transformative procedure that addresses small breast size by utilizing the power of regenerative medicine. By injecting platelet-rich plasma derived from your own blood, this non-surgical technique stimulates natural tissue growth, resulting in enhanced breast volume and shape, ultimately boosting your confidence and self-image.</p>
         </div>
 
 
     </div>
 
-    <div  className={`relative flex flex-col h-full bg-gold1   w-[100%] md:w-[31%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-    <img className={` w-full h-[55%]  ease-in-out duration-500`} src={breastlift_treated6}></img>
-        
-        <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-            <h1 className={`text-gold2 text-[5.5vh] text-left`}>Skin</h1>
-            <h1 className={` text-gold2 text-[5.5vh] text-left`}>Texture</h1>
+    <div  className={`relative flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    <div className={`relative flex w-full h-[40vh]`}>
+            <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img>
+            <div className={`absolute w-full top-[10vh] left-[2vw] `}>
+                <h1 className={`text-gold2 text-[5.5vh] text-left`}>Skin</h1>
+                <h1 className={` text-gold2 text-[5.5vh] text-left`}>Texture</h1>
+            </div>
         </div>
-        <div className={`flex flex-col w-full h-1/4 mt-[2vh]`}>
-            <p className={`text-black text-[2.1vh] text-justify mx-[2vh]`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies luctus aliquam. Fusce justo lorem, semper at ex vitae, rhoncus bibendum ex. Phasellus vel ligula ac turpis congue aliquet. Suspendisse porta tortor quam, vulputate vulputate magna pulvinar suscipit. Nunc ullamcorper cursus ipsum, nec ultricies nisi eleifend et.</p>
+        <div className={`flex flex-col w-full h-[45%] py-[2vh] px-[1vh] md:px-[2vh]`}>
+            <p className={`flex text-black text-[2.1vh] text-justify`}>Skin texture concerns are effectively treated with the Vampire Breast Lift, a revolutionary procedure that improves the overall quality and texture of the breast skin. By harnessing the rejuvenating properties of your own platelet-rich plasma, this non-surgical technique stimulates collagen production and enhances skin elasticity, resulting in firmer, smoother, and more youthful-looking breasts.</p>
         </div>
 
 
