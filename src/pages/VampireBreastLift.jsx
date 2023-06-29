@@ -34,8 +34,8 @@ const VampireBreastLift = () => {
     };
     
   return (
-    <div className={`bg- w-full`}>
-      <div className={`hidden md:fixed fixed z-20 `}>
+    <div className={`w-full`}>
+      <div className={`fixed z-20 `}>
             <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div>
 
@@ -61,8 +61,12 @@ const VampireBreastLift = () => {
               <div className={`flex  w-full  justify-center  mt-[7vh]`}>
                 <BreastLiftDetails/>
               </div>
+              
               <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <BreastLiftBenefits/>
+              </div>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
+                  <BreastLiftTreated/>
               </div>
              
               <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
@@ -91,9 +95,7 @@ const VampireBreastLift = () => {
                 </div>
               </div>
 
-              <div className={`flex  w-full  items-center mt-[7vh] `}>
-                  <BreastLiftTreated/>
-              </div>
+              
               <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
                 <YoutubeTestimonials/>
               </div>

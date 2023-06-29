@@ -49,7 +49,7 @@ const BreastLiftTreated = () => {
 //     </div>
 <div className={`flex flex-col  w-full pl-[4%] pr-[4%]`}>
 
-<p className={`text-[5vh] text-gold1 text-center`}>Conditions Treated</p>
+<p className={`text-[5vh] text-gold1 text-center mb-[2vh]`}>Conditions Treated</p>
 
 <div className={`flex flex-col md:flex-row w-full justify-between mt-[2vh]  `}>
 
@@ -94,11 +94,11 @@ const BreastLiftTreated = () => {
             </div> */}
         {/* </div> */}
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex w-[40%] `}>
+            <div className={`flex w-[30%] `}>
                 <img src={augmentation_icon2} className={`w-full h-full object-cover`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[5.5vh] text-left`}>Breast Size</h1>
+            <h1 className={`text-gold1 text-[4vh] text-left`}>Breast Size</h1>
             {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1> */}
         </div>
         {/* <div className={`flex flex-col w-full  py-[2vh] px-[1vh] md:px-[2vh]`}>
@@ -117,11 +117,11 @@ const BreastLiftTreated = () => {
             </div> */}
         {/* </div> */}
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex w-[40%] `}>
+            <div className={`flex w-[30%] `}>
                 <img src={skin_icon} className={`w-full h-full object-cover`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[5.5vh] text-left`}>Skin Texture</h1>
+            <h1 className={`text-gold1 text-[4vh] text-left`}>Skin Texture</h1>
             {/* <h1 className={` text-white text-[5.5vh] text-left`}>Texture</h1> */}
         </div>
         {/* <div className={`flex flex-col w-full  py-[2vh] px-[1vh] md:px-[2vh]`}>
@@ -141,11 +141,11 @@ const BreastLiftTreated = () => {
             </div> */}
         {/* </div> */}
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex w-[40%] `}>
+            <div className={`flex w-[30%] `}>
                 <img src={breast_icon} className={`w-full h-full object-cover`}></img>
             </div>
             
-            <h1 className={`text-gold1 text-[5.5vh] text-left`}>Implant Rippling</h1>
+            <h1 className={`text-gold1 text-[4vh] text-left`}>Implant Rippling</h1>
             {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1> */}
         </div>
         {/* <div className={`flex flex-col w-full  py-[2vh] px-[1vh] md:px-[2vh]`}>
