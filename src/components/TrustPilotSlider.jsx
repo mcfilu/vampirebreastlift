@@ -71,7 +71,7 @@ const TrustPilotSlider = () => {
         </div>
 
         <div className={`flex flex-col w-full items-start mt-[3vh]`}>
-            <p className={`text-white text-[2vh] font-bold text-left`}>Dermamelan peel review</p>
+            <p className={`text-white text-[2vh] font-bold text-left`}>Excellent doctor</p>
             <p className={`text-white text-[1.8vh] text-left mt-[2vh]`}>For many years I had problems with erection after my diabetes and it was getting worse. It caused me a lot of embarrassment wit my wife. I have heard about Dr Wakil and read about the O Concept protocol. I watched so many of his testimonials and patients success stories. I went and had my treatment and I am so glad I did. My life has completely changed thanks to Dr Wakil.</p>
             <p className={`text-gray-400 text-[2vh] font-bold text-left mt-[2vh]`}>Simon</p>
         </div>

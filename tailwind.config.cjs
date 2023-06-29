@@ -17,6 +17,10 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        header: ["Playfair Display", "sans-serif"],
+        // header: ["PT Serif", "sans-serif"],
+        // main: ["Roboto", "sans-serif"],
+        main: ["Helvetica Neue Regular", "sans-serif"],
       },
     },
     screens: {

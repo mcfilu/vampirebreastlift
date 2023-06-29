@@ -49,9 +49,9 @@ const BreastLiftTreated = () => {
 //     </div>
 <div className={`flex flex-col  w-full pl-[4%] pr-[4%]`}>
 
-<p className={`text-[5vh] text-gold1 text-center mb-[2vh]`}>Conditions Treated</p>
+<p className={`text-[5vh] text-gold1 text-center mb-[5vh] font-header`}>Conditions Treated</p>
 
-<div className={`flex flex-col md:flex-row w-full justify-between mt-[2vh]  `}>
+<div className={`flex flex-col md:flex-row w-full items-center justify-center mt-[2vh]  `}>
 
     
     
@@ -85,7 +85,7 @@ const BreastLiftTreated = () => {
 
 
     </div> */}
-    <div  className={`relative flex flex-col     w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col       mt-[10vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500`}>
     {/* <div className={`relative flex w-full h-[40vh]`}> */}
             {/* <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img> */}
             {/* <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -94,7 +94,7 @@ const BreastLiftTreated = () => {
             </div> */}
         {/* </div> */}
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex w-[30%] `}>
+            <div className={`flex h-[15vh] `}>
                 <img src={augmentation_icon2} className={`w-full h-full object-cover`}></img>
             </div>
             
@@ -108,7 +108,7 @@ const BreastLiftTreated = () => {
 
     </div>
 
-    <div  className={`relative flex flex-col     w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 ] hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col      mt-[10vh] md:mt-[0px] hover:bg-opacity-80 ] hover:ease-in-out duration-500 mx-[10vw]`}>
     {/* <div className={`relative flex w-full h-[40vh]`}> */}
             {/* <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img> */}
             {/* <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -117,7 +117,7 @@ const BreastLiftTreated = () => {
             </div> */}
         {/* </div> */}
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex w-[30%] `}>
+            <div className={`flex h-[15vh] `}>
                 <img src={skin_icon} className={`w-full h-full object-cover`}></img>
             </div>
             
@@ -132,7 +132,7 @@ const BreastLiftTreated = () => {
     </div>
     
 
-    <div  className={`relative flex flex-col    w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500`}>
+    <div  className={`relative flex flex-col     mt-[10vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500`}>
     {/* <div className={`relative flex w-full h-[40vh]`}> */}
             {/* <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img> */}
             {/* <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -141,7 +141,7 @@ const BreastLiftTreated = () => {
             </div> */}
         {/* </div> */}
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex w-[30%] `}>
+            <div className={`flex h-[15vh] `}>
                 <img src={breast_icon} className={`w-full h-full object-cover`}></img>
             </div>
             

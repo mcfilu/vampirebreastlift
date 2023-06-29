@@ -12,6 +12,7 @@ import Fat from './pages/Fat'
 import Reduction from './pages/Reduction'
 import Contact from './pages/Contact'
 import DrWakil from './pages/DrWakil'
+import Book from './pages/Book'
 
 
 
@@ -35,6 +36,7 @@ const App = () => {
         
         <Route path="/dr-wakil" element={<DrWakil />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/book-now" element={<Book/>}/>
       </Routes>
     </>
     
