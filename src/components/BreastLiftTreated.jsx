@@ -1,5 +1,5 @@
 import React from 'react'
-import { breastlift_treated1, breastlift_treated2, breastlift_treated3, breastlift_treated5, breastlift_treated6 } from '../assets'
+import { breastlift_treated1, breastlift_treated2, breastlift_treated3, breastlift_treated5, breastlift_treated6, skin_icon, breast_icon, augmentation_icon, augmentation_icon2} from '../assets'
 
 const BreastLiftTreated = () => {
   return (
@@ -51,11 +51,11 @@ const BreastLiftTreated = () => {
 
 <p className={`text-[5vh] text-gold1 text-center`}>Conditions Treated</p>
 
-<div className={`flex flex-col md:flex-row w-full justify-between mt-[2vh] md:min-h-[70vh] `}>
+<div className={`flex flex-col md:flex-row w-full justify-between mt-[2vh]  `}>
 
     
     
-    <div  className={`flex flex-col  bg-gold1  w-[100%] md:w-[30%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+    {/* <div  className={`flex flex-col  bg-gold1  w-[100%] md:w-[30%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
         <div className={`relative flex w-full h-[40vh]`}>
             <img className={`flex w-full h-full  ease-in-out duration-500 `} src={breastlift_treated1}></img>
             <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -84,19 +84,73 @@ const BreastLiftTreated = () => {
         </div>
 
 
-    </div>
-
-    <div  className={`relative flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-    <div className={`relative flex w-full h-[40vh]`}>
-            <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img>
-            <div className={`absolute w-full top-[10vh] left-[2vw] `}>
+    </div> */}
+    <div  className={`relative flex flex-col     w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500`}>
+    {/* <div className={`relative flex w-full h-[40vh]`}> */}
+            {/* <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img> */}
+            {/* <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                 <h1 className={`text-gold2 text-[5.5vh] text-left`}>Skin</h1>
                 <h1 className={` text-gold2 text-[5.5vh] text-left`}>Texture</h1>
+            </div> */}
+        {/* </div> */}
+        <div className={`flex flex-col bg-black justify-center items-center`}>
+            <div className={`flex w-[40%] `}>
+                <img src={augmentation_icon2} className={`w-full h-full object-cover`}></img>
             </div>
+            
+            <h1 className={`text-gold1 text-[5.5vh] text-left`}>Breast Size</h1>
+            {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1> */}
         </div>
-        <div className={`flex flex-col w-full h-[45%] py-[2vh] px-[1vh] md:px-[2vh]`}>
+        {/* <div className={`flex flex-col w-full  py-[2vh] px-[1vh] md:px-[2vh]`}>
             <p className={`flex text-black text-[2.1vh] text-justify`}>Skin texture concerns are effectively treated with the Vampire Breast Lift, a revolutionary procedure that improves the overall quality and texture of the breast skin. By harnessing the rejuvenating properties of your own platelet-rich plasma, this non-surgical technique stimulates collagen production and enhances skin elasticity, resulting in firmer, smoother, and more youthful-looking breasts.</p>
+        </div> */}
+
+
+    </div>
+
+    <div  className={`relative flex flex-col     w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 ] hover:ease-in-out duration-500`}>
+    {/* <div className={`relative flex w-full h-[40vh]`}> */}
+            {/* <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img> */}
+            {/* <div className={`absolute w-full top-[10vh] left-[2vw] `}>
+                <h1 className={`text-gold2 text-[5.5vh] text-left`}>Skin</h1>
+                <h1 className={` text-gold2 text-[5.5vh] text-left`}>Texture</h1>
+            </div> */}
+        {/* </div> */}
+        <div className={`flex flex-col bg-black justify-center items-center`}>
+            <div className={`flex w-[40%] `}>
+                <img src={skin_icon} className={`w-full h-full object-cover`}></img>
+            </div>
+            
+            <h1 className={`text-gold1 text-[5.5vh] text-left`}>Skin Texture</h1>
+            {/* <h1 className={` text-white text-[5.5vh] text-left`}>Texture</h1> */}
         </div>
+        {/* <div className={`flex flex-col w-full  py-[2vh] px-[1vh] md:px-[2vh]`}>
+            <p className={`flex text-black text-[2.1vh] text-justify`}>Skin texture concerns are effectively treated with the Vampire Breast Lift, a revolutionary procedure that improves the overall quality and texture of the breast skin. By harnessing the rejuvenating properties of your own platelet-rich plasma, this non-surgical technique stimulates collagen production and enhances skin elasticity, resulting in firmer, smoother, and more youthful-looking breasts.</p>
+        </div> */}
+
+
+    </div>
+    
+
+    <div  className={`relative flex flex-col    w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500`}>
+    {/* <div className={`relative flex w-full h-[40vh]`}> */}
+            {/* <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={breastlift_treated6}></img> */}
+            {/* <div className={`absolute w-full top-[10vh] left-[2vw] `}>
+                <h1 className={`text-gold2 text-[5.5vh] text-left`}>Skin</h1>
+                <h1 className={` text-gold2 text-[5.5vh] text-left`}>Texture</h1>
+            </div> */}
+        {/* </div> */}
+        <div className={`flex flex-col bg-black justify-center items-center`}>
+            <div className={`flex w-[40%] `}>
+                <img src={breast_icon} className={`w-full h-full object-cover`}></img>
+            </div>
+            
+            <h1 className={`text-gold1 text-[5.5vh] text-left`}>Implant Rippling</h1>
+            {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1> */}
+        </div>
+        {/* <div className={`flex flex-col w-full  py-[2vh] px-[1vh] md:px-[2vh]`}>
+            <p className={`flex text-black text-[2.1vh] text-justify`}>Skin texture concerns are effectively treated with the Vampire Breast Lift, a revolutionary procedure that improves the overall quality and texture of the breast skin. By harnessing the rejuvenating properties of your own platelet-rich plasma, this non-surgical technique stimulates collagen production and enhances skin elasticity, resulting in firmer, smoother, and more youthful-looking breasts.</p>
+        </div> */}
 
 
     </div>

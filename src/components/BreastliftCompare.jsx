@@ -89,7 +89,7 @@ const BreastliftCompare = () => {
                     <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs4After}></img>
                 </div>
             </div>
-            <button onClick={() => handleImages()} className={`flex mx-auto px-[2vh] py-[1vh] bg-white text-gold1 text-[2vh]   mt-[1vh]`}>Load More</button>
+            <button onClick={() => handleImages()} className={`flex mx-auto px-[2vh] py-[1vh] bg-black border-gold1 border-2 text-gold1 text-[2vh]   mt-[1vh]`}>Load More</button>
         </div>
     </div>
     

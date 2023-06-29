@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 pb-[1vh] border-gold1 border-t-4">
+    <footer className="bg-black text-white py-8 pb-[1vh] border-gold1 border-t-4 pb-[6vh]">
       <div className="w-full flex flex-col md:flex-row justify-between ">
         {/* Logo */}
         <div className="flex flex-col ml-[3vh] items-center justify-center">

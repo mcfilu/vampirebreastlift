@@ -79,14 +79,14 @@ const BreastliftFaqs = () => {
                         The Vampire Breast Lift™ aims to lift the breasts and give a fuller looking cleavage as well as enhancing the skin on the chest area to achieve a more youthful appearance. Patients report:
                         </p>
                         <ul className={`text-white text-[2.1vh] font-poppins my-[1vh] mb-6`}>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Firmer, more shapely breasts</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>A lifted and rounder cleavage</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Restore sensitivity lost through breastfeeding or previous implants</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Perkier nipples</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Increased nipple sensitivity</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Smoother skin</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Fill implant “rippling”</li>
-                            <li className={`flex items-center`}><i class="" className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Lift inverted nipples</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Firmer, more shapely breasts</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>A lifted and rounder cleavage</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Restore sensitivity lost through breastfeeding or previous implants</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Perkier nipples</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Increased nipple sensitivity</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Smoother skin</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Fill implant “rippling”</li>
+                            <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px]`}></i>Lift inverted nipples</li>
                         </ul>
                         <p className={`text-white text-[2.1vh] font-poppins`}>Like other Vampire Procedures, the Vampire Breast Lift™ injections will last about 12-24 months, depending on individual patients.</p>
                     </div>

@@ -83,7 +83,8 @@ const OtherServices2 = () => {
 
             
             
-            <div  className={`relative flex flex-col  bg-gold1  w-[100%] md:w-[30%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+            <div  className={`relative flex flex-col  bg-gold1  w-[100%] md:w-[30%]  shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+            <a href="https://www.oshot.uk">
                 <div className={`relative flex w-full h-[40vh]`}>
                     <img className={`flex w-full h-full  ease-in-out duration-500 object-cover`} src={oshot}></img>
                     <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -96,12 +97,13 @@ const OtherServices2 = () => {
                     <p className={`flex text-black text-[2.1vh] text-justify `}>The O-Shot ®  is a new procedure developed to solve your sexual problems, increase your pleasure, and rejuvenate your vagina. It is a nonsurgical technique that uses the growth factors each woman has in her own body to stimulate vaginal and clitoral rejuvenation to activate the Female Orgasm System.</p>
                     
                 </div>
-                <NavLink to={`/breast-augmentation`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink>
+                {/* <NavLink to={`/breast-augmentation`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
 
-
+                </a>
             </div>
 
-            <div  className={`relative flex flex-col  bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[30%]  hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+            <div  className={`relative flex flex-col  bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[30%]  shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+            <a href="https://www.pshot.co.uk">
             <div className={`relative flex w-full h-[40vh]`}>
                     <img className={`flex w-full h-full  ease-in-out duration-500 object-cover`} src={pshot}></img>
                     <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -114,11 +116,12 @@ const OtherServices2 = () => {
 penis to stimulate a regenerative process.</p>
                     
                 </div>
-                <NavLink to={`/breast-fat-enlargement`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink>
-
+                {/* <NavLink to={`/breast-fat-enlargement`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
+                </a>
             </div>
 
-            <div  className={`relative flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+            <div  className={`relative flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
+            <a href="https://www.drswclinics.com">
             <div className={`relative flex w-full h-[40vh] bg-gray-500`}>
                     <img className={` flex w-full h-full  ease-in-out duration-500 object-cover`} src={clinic2}></img>
                     <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -130,9 +133,9 @@ penis to stimulate a regenerative process.</p>
                     <p className={`flex text-black text-[2.1vh] text-justify`}>Explore the innovative and expertly tailored treatments offered at Dr. SW's Clinics, where we specialize in aesthetic enhancements and sexual rejuvenation therapies. We invite you to visit our website to learn about the myriad of transformative possibilities we provide.</p>
                     
                 </div>
-                <NavLink to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink>
+                {/* <NavLink to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
                 
-
+                </a>
             </div>
             
 

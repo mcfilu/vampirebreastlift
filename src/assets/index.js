@@ -89,7 +89,7 @@ import fat_transfer from './fat_transfer.jpg';
 import breast_fat_try from './breast_fat_try.jpg';
 import breast_reduction_try from './breast_reduction_try.jpg';
 import breast_augmentation_try from './breast_augmentation_try.jpg';
-import breast_augmentation2 from './breast_augmentation2.jpeg';
+import breast_augmentation2 from './breast_augmentation2.png';
 import breast_fat2 from './breast_fat2.jpeg';
 import breast_reduction2 from './breast_reduction2.jpg';
 import clinic3 from './clinic3.jpeg';
@@ -121,6 +121,14 @@ import reduction3_before from './reduction3_before.jpg';
 import reduction3_after from './reduction3_after.jpg';
 import reduction4_before from './reduction4_before.jpg';
 import reduction4_after from './reduction4_after.jpg';
+import boobs8 from './boobs8.jpeg';
+import boobs9 from './boobs9.jpg';
+import boobs10 from './boobs10.png';
+import boobs11 from './boobs11.jpeg';
+import skin_icon from './skin.png';
+import augmentation_icon from './augmentation.png';
+import breast_icon from './breast.png';
+import augmentation_icon2 from './augmentation2.png';
 
 
 
@@ -249,4 +257,13 @@ export {
     reduction3_before,
     reduction4_after,
     reduction4_before,
+    boobs8,
+    boobs9,
+    boobs10,
+    boobs11,
+    skin_icon,
+    breast_icon,
+    augmentation_icon,
+    augmentation_icon2,
+
 };
