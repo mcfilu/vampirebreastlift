@@ -20,7 +20,7 @@ import FatServices from '../components/FatServices'
 import FatSummary from '../components/FatSummary'
 import FatTreated from '../components/FatTreated'
 import FatVideo from '../components/FatVideo'
-
+import FooterBook from '../components/FooterBook'
 
 const Fat = () => {
   return (
@@ -31,6 +31,9 @@ const Fat = () => {
 
         <div className={`fixed z-10 `}>
             <Navbar/>
+        </div>
+        <div className={`fixed w-full bottom-0 left-0 z-20 `}>
+            <FooterBook/>
         </div>
         <div className={`relative z-0 ` }>
 
@@ -51,12 +54,15 @@ const Fat = () => {
               <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <FatBenefits/>
               </div>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
+                  <FatTreated/>
+              </div>
               
               {/* <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <FatVideo/>
               </div> */}
               
-              <div className={`flex  w-full bg-gold1  items-center mt-[7vh]`}>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
                   <FatSummary/>
               </div>
               <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
@@ -80,12 +86,10 @@ const Fat = () => {
               <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
                 <YoutubeTestimonials/>
               </div>
-              <div className={`flex  w-full  justify-center items-center  my-14`}>
+              <div className={`flex  w-full  justify-center items-center `}>
                   <BookNow/>
               </div>
-              <div className={`flex  w-full  items-center mt-[7vh] `}>
-                  <FatTreated/>
-              </div>
+              
               
               
              

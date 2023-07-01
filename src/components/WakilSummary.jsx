@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import { icon1, icon2, icon3 } from "../assets";
-import { PopupButton } from "react-calendly";
+// import { icon1, icon2, icon3 } from "../assets";
+// import { PopupButton } from "react-calendly";
 
 function WakilSummary() {
     const [hov, setHove] = useState(false);
@@ -9,7 +9,7 @@ function WakilSummary() {
     
         <div onMouseEnter={() => setHove(true)} onMouseLeave={() => {setHove(false)}} className={` flex flex-col md:w-[60%] h-auto min-h-[35vh]  `}>
             <div className={`flex flex-col w-full h-full`}>
-                <h1 className={`text-gold1 text-[6vh] font-header text-center`}>Dr. Sherif Wakils Impressive Experience</h1>
+                <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Dr. Sherif Wakils Impressive Experience</h1>
                 <div className={`flex flex-col md:flex-row justify-between px-[3vh] mt-[4vh] md:mt-[8vh]`}>
                     <div className="inner-item flex flex-col items-center text-white ">
                         <i  className={`text-gold1 fa-solid fa-hourglass text-[6vh]`}></i>

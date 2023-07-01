@@ -20,6 +20,7 @@ import AugmentationServices from '../components/AugmentationServices'
 import AugmentationSummary from '../components/AugmentationSummary'
 import AugmentationTreated from '../components/AugmentationTreated'
 import AugmentationVideo from '../components/AugmentationVideo'
+import FooterBook from '../components/FooterBook'
 
 
 
@@ -32,6 +33,9 @@ const Augmentation = () => {
 
         <div className={`fixed z-10 `}>
             <Navbar/>
+        </div>
+        <div className={`fixed w-full bottom-0 left-0 z-20 `}>
+            <FooterBook/>
         </div>
         <div className={`relative z-0 ` }>
 
@@ -55,8 +59,10 @@ const Augmentation = () => {
               <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <AugmentationVideo/>
               </div> */}
-              
-              <div className={`flex  w-full bg-gold1  items-center mt-[7vh]`}>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
+                  <AugmentationTreated/>
+              </div>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
                   <AugmentationSummary/>
               </div>
               <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
@@ -80,12 +86,10 @@ const Augmentation = () => {
               <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
                 <YoutubeTestimonials/>
               </div>
-              <div className={`flex  w-full  justify-center items-center  my-14`}>
+              <div className={`flex  w-full  justify-center items-center`}>
                   <BookNow/>
               </div>
-              <div className={`flex  w-full  items-center mt-[7vh] `}>
-                  <AugmentationTreated/>
-              </div>
+              
               
               
              

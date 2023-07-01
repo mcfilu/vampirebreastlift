@@ -129,6 +129,10 @@ import skin_icon from './skin.png';
 import augmentation_icon from './augmentation.png';
 import breast_icon from './breast.png';
 import augmentation_icon2 from './augmentation2.png';
+import reduction_icon from './reduction_icon.png';
+import weight_icon from './weight_icon.png';
+import difference_icon from './difference_icon.png';
+import aesthetic_icon from './aesthetic_icon.png';
 
 
 
@@ -265,5 +269,8 @@ export {
     breast_icon,
     augmentation_icon,
     augmentation_icon2,
-
+    reduction_icon,
+    weight_icon,
+    difference_icon,
+    aesthetic_icon,
 };

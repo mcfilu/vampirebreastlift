@@ -20,6 +20,7 @@ import ReductionServices from '../components/ReductionServices'
 import ReductionSummary from '../components/ReductionSummary'
 import ReductionTreated from '../components/ReductionTreated'
 import ReductionVideo from '../components/ReductionVideo'
+import FooterBook from '../components/FooterBook'
 
 
 
@@ -32,6 +33,9 @@ const Reduction = () => {
 
         <div className={`fixed z-10 `}>
             <Navbar/>
+        </div>
+        <div className={`fixed w-full bottom-0 left-0 z-20 `}>
+            <FooterBook/>
         </div>
         <div className={`relative z-0 ` }>
 
@@ -49,6 +53,9 @@ const Reduction = () => {
               <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <ReductionBenefits/>
               </div>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
+                  <ReductionTreated/>
+              </div>
               {/* <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
                   <WakilSummary/>
               </div>
@@ -56,7 +63,7 @@ const Reduction = () => {
                   <ReductionVideo/>
               </div> */}
               
-              <div className={`flex  w-full bg-gold1  items-center mt-[7vh]`}>
+              <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <ReductionSummary/>
               </div>
               <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
@@ -80,12 +87,10 @@ const Reduction = () => {
               <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
                 <YoutubeTestimonials/>
               </div>
-              <div className={`flex  w-full  justify-center items-center  my-14`}>
+              <div className={`flex  w-full  justify-center items-center `}>
                   <BookNow/>
               </div>
-              <div className={`flex  w-full  items-center mt-[7vh] `}>
-                  <ReductionTreated/>
-              </div>
+              
               
               
              

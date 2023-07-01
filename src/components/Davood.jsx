@@ -1,5 +1,5 @@
 import React from 'react'
-import { sherif, clinic2, clinic3, davood } from '../assets'
+import {  davood } from '../assets'
 
 const Davood = () => {
   return (
@@ -13,10 +13,10 @@ const Davood = () => {
         <div className={`hidden md:flex w-[60%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto`}>
             
-                <p className={`flex text-gold text-[6vh] text-center text-gold1 `}>Dr Davood Fallahdar</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[6vh]`}>Dr. Davood Fallahdar is an accomplished medical professional with a distinguished background. Graduating with honors in Medicine and Surgery from Milan's Medical School in 1992, he embarked on a specialized journey in Plastic and Reconstructive Surgery, as well as Microsurgery, at the University of Milan. With a passion for continuous learning, he further expanded his expertise at renowned institutions worldwide, including Paris, New York University, San Francisco, Gothenburg, and Barcelona.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}> With over 15 years of consistent experience at the Specialist/Consultant level in Plastic and Aesthetic Surgery, Dr. Fallahdar has solidified his reputation as a skilled practitioner. He is registered as a specialist in Plastic Surgery by both the UK GMC and the Italian GMC, with a special recognition for Excellence in Microsurgery awarded by Milan's National Cancer Institute.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}>Throughout his career, Dr. Fallahdar has held esteemed consultant appointments at renowned institutions such as Addenbrooke's Hospital NHS Foundation Trust in Cambridge and the National Cancer Institute in Milan. Notably, he served as a Locum Consultant Plastic Surgeon at The Royal Marsden NHS Foundation Trust, where he worked within a highly skilled multidisciplinary team focused on achieving optimal function and aesthetics.</p>
+                <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Dr Davood Fallahdar</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[6vh] font-main`}>Dr. Davood Fallahdar is an accomplished medical professional with a distinguished background. Graduating with honors in Medicine and Surgery from Milan's Medical School in 1992, he embarked on a specialized journey in Plastic and Reconstructive Surgery, as well as Microsurgery, at the University of Milan. With a passion for continuous learning, he further expanded his expertise at renowned institutions worldwide, including Paris, New York University, San Francisco, Gothenburg, and Barcelona.</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}> With over 15 years of consistent experience at the Specialist/Consultant level in Plastic and Aesthetic Surgery, Dr. Fallahdar has solidified his reputation as a skilled practitioner. He is registered as a specialist in Plastic Surgery by both the UK GMC and the Italian GMC, with a special recognition for Excellence in Microsurgery awarded by Milan's National Cancer Institute.</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}>Throughout his career, Dr. Fallahdar has held esteemed consultant appointments at renowned institutions such as Addenbrooke's Hospital NHS Foundation Trust in Cambridge and the National Cancer Institute in Milan. Notably, he served as a Locum Consultant Plastic Surgeon at The Royal Marsden NHS Foundation Trust, where he worked within a highly skilled multidisciplinary team focused on achieving optimal function and aesthetics.</p>
             </div>
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
@@ -36,14 +36,14 @@ const Davood = () => {
         
 
         <div className={`md:hidden flex flex-col items-center `}>
-            <p className={`flex text-gold text-[6vh] text-center text-gold1 `}>Dr Davood Fallahdar</p>
+            <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Dr Davood Fallahdar</p>
             <img className={`w-full h-full object-cover `} src={davood}></img>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 
-            <p className={`text-white text-center text-[2.1vh] mt-[6vh]`}>Dr. Davood Fallahdar is an accomplished medical professional with a distinguished background. Graduating with honors in Medicine and Surgery from Milan's Medical School in 1992, he embarked on a specialized journey in Plastic and Reconstructive Surgery, as well as Microsurgery, at the University of Milan. With a passion for continuous learning, he further expanded his expertise at renowned institutions worldwide, including Paris, New York University, San Francisco, Gothenburg, and Barcelona.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}> With over 15 years of consistent experience at the Specialist/Consultant level in Plastic and Aesthetic Surgery, Dr. Fallahdar has solidified his reputation as a skilled practitioner. He is registered as a specialist in Plastic Surgery by both the UK GMC and the Italian GMC, with a special recognition for Excellence in Microsurgery awarded by Milan's National Cancer Institute.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}>Throughout his career, Dr. Fallahdar has held esteemed consultant appointments at renowned institutions such as Addenbrooke's Hospital NHS Foundation Trust in Cambridge and the National Cancer Institute in Milan. Notably, he served as a Locum Consultant Plastic Surgeon at The Royal Marsden NHS Foundation Trust, where he worked within a highly skilled multidisciplinary team focused on achieving optimal function and aesthetics.</p>
+            <p className={`text-white text-center text-[2.1vh] mt-[6vh] font-main`}>Dr. Davood Fallahdar is an accomplished medical professional with a distinguished background. Graduating with honors in Medicine and Surgery from Milan's Medical School in 1992, he embarked on a specialized journey in Plastic and Reconstructive Surgery, as well as Microsurgery, at the University of Milan. With a passion for continuous learning, he further expanded his expertise at renowned institutions worldwide, including Paris, New York University, San Francisco, Gothenburg, and Barcelona.</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}> With over 15 years of consistent experience at the Specialist/Consultant level in Plastic and Aesthetic Surgery, Dr. Fallahdar has solidified his reputation as a skilled practitioner. He is registered as a specialist in Plastic Surgery by both the UK GMC and the Italian GMC, with a special recognition for Excellence in Microsurgery awarded by Milan's National Cancer Institute.</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}>Throughout his career, Dr. Fallahdar has held esteemed consultant appointments at renowned institutions such as Addenbrooke's Hospital NHS Foundation Trust in Cambridge and the National Cancer Institute in Milan. Notably, he served as a Locum Consultant Plastic Surgeon at The Royal Marsden NHS Foundation Trust, where he worked within a highly skilled multidisciplinary team focused on achieving optimal function and aesthetics.</p>
             </div>
         </div>
         

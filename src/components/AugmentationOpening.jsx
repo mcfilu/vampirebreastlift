@@ -1,6 +1,6 @@
 import React from 'react'
-import { PopupButton } from "react-calendly";
-import { BloodCells, sherif } from '../assets';
+// import { PopupButton } from "react-calendly";
+// import { BloodCells, sherif } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const AugmentationOpening = () => {

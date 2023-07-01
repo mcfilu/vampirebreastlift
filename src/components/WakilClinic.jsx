@@ -1,5 +1,5 @@
 import React from 'react'
-import { sherif, clinic2, clinic3 } from '../assets'
+import { clinic2} from '../assets'
 
 const WakilClinic = () => {
   return (
@@ -8,10 +8,10 @@ const WakilClinic = () => {
         <div className={`hidden md:flex w-1/2 h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto`}>
             
-                <p className={`flex text-gold text-[6vh] text-center text-gold1 `}>Dr SW Clinics</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[6vh]`}>The prestigious Dr SW Clinic, located in London, Dubai and Egypt, was founded through the vision of celebrity doctor, Aesthetic Awards and MyFaceMyBody Awards finalist Dr Sherif Wakil.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}> Dr Wakil’s professionalism and expertise in the world of medical aesthetics, regenerative medicine, pain management, life optimisation and sexual aesthetic gynaecology puts him amongst the leaders in his field.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}>Dr. Sherif Wakil's innovative leadership empowers our dedicated team to prioritize our clients' aesthetic needs. We specialize in combatting signs of ageing for face and body, including treatments for intimate areas, and stay at the forefront of new approaches for pain management and regenerative techniques. Our clinic is also a trailblazer in bio-hacking methodologies to enhance health and optimize lifestyle.</p>
+                <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header `}>Dr SW Clinics</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[6vh] font-main`}>Welcome to the esteemed Dr SW Clinic, a renowned establishment with locations in London, Dubai, and Egypt. This exceptional clinic was brought to life by the visionary celebrity doctor, Dr. Sherif Wakil, who has been recognized as a finalist in prestigious awards such as the Aesthetic Awards and MyFaceMyBody Awards.</p>
+                {/* <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}> Dr. Wakil's unwavering professionalism and expertise in the realm of medical aesthetics, regenerative medicine, pain management, life optimization, and sexual aesthetic gynecology place him among the leading experts in his field..</p> */}
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}>Under the innovative leadership of Dr. Sherif Wakil, our dedicated team is empowered to prioritize our clients' aesthetic needs. We specialize in combating signs of aging for both the face and body, including treatments for intimate areas, and consistently remain at the forefront of new advancements in pain management and regenerative techniques. Moreover, our clinic is at the forefront of bio-hacking methodologies that aim to enhance health and optimize lifestyle, making us trailblazers in the field.</p>
             </div>
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
@@ -34,14 +34,14 @@ const WakilClinic = () => {
         </div>
 
         <div className={`md:hidden flex flex-col items-center `}>
-            <p className={`flex text-gold text-[6vh] text-center text-gold1 `}>Dr SW Clinics</p>
+            <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Dr SW Clinics</p>
             <img className={`w-full h-full object-cover `} src={clinic2}></img>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}>The prestigious Dr SW Clinic, located in London, Dubai and Egypt, was founded through the vision of celebrity doctor, Aesthetic Awards and MyFaceMyBody Awards finalist Dr Sherif Wakil.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}> Dr Wakil’s professionalism and expertise in the world of medical aesthetics, regenerative medicine, pain management, life optimisation and sexual aesthetic gynaecology puts him amongst the leaders in his field.</p>
-                <p className={`text-white text-center text-[2.1vh] mt-[3vh]`}>Dr. Sherif Wakil's innovative leadership empowers our dedicated team to prioritize our clients' aesthetic needs. We specialize in combatting signs of ageing for face and body, including treatments for intimate areas, and stay at the forefront of new approaches for pain management and regenerative techniques. Our clinic is also a trailblazer in bio-hacking methodologies to enhance health and optimize lifestyle.</p>
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}>Welcome to the esteemed Dr SW Clinic, a renowned establishment with locations in London, Dubai, and Egypt. This exceptional clinic was brought to life by the visionary celebrity doctor, Dr. Sherif Wakil, who has been recognized as a finalist in prestigious awards such as the Aesthetic Awards and MyFaceMyBody Awards.</p>
+                {/* <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}> Dr Wakil’s professionalism and expertise in the world of medical aesthetics, regenerative medicine, pain management, life optimisation and sexual aesthetic gynaecology puts him amongst the leaders in his field.</p> */}
+                <p className={`text-white text-center text-[2.1vh] mt-[3vh] font-main`}>Under the innovative leadership of Dr. Sherif Wakil, our dedicated team is empowered to prioritize our clients' aesthetic needs. We specialize in combating signs of aging for both the face and body, including treatments for intimate areas, and consistently remain at the forefront of new advancements in pain management and regenerative techniques. Moreover, our clinic is at the forefront of bio-hacking methodologies that aim to enhance health and optimize lifestyle, making us trailblazers in the field.</p>
             </div>
         </div>
         

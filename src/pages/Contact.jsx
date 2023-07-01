@@ -8,6 +8,7 @@ import Media from '../components/Media'
 import Awards from '../components/Awards'
 
 import WakilClinic from '../components/WakilClinic'
+import FooterBook from '../components/FooterBook'
 
 const Contact = () => {
   return (
@@ -15,6 +16,9 @@ const Contact = () => {
 
         <div className={`fixed z-10 `}>
             <Navbar/>
+        </div>
+        <div className={`fixed w-full bottom-0 left-0 z-20 `}>
+            <FooterBook/>
         </div>
         <div className={`relative z-0 ` }>
             {/* <Contact2/> */}
