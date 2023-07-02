@@ -144,7 +144,7 @@ function FatSummary() {
                     <div className={`flex flex-row`}>
                         <span className="text-[2vh] font-medium w-[30%] text-gold1 font-main">Results:</span>
                         <p className="text-[2vh] font-light text-white w-[70%] font-main">
-                        Increase in size and shape of the breast.
+                        Enhancement in the size and contour of the breasts, along with the correction of  asymmetry.
                         </p>
                     </div>
 
