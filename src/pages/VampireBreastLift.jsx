@@ -35,8 +35,8 @@ const VampireBreastLift = () => {
     
   return (
     <div className={`w-full`}>
-      <div className={`hidden md:block fixed z-20 `}>
-            <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
+      <div className={`hidden md:block fixed z-20`}>
+            <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen h-screen object-cover`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div>
 
         <div className={`fixed z-10 `}>

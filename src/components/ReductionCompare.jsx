@@ -9,12 +9,14 @@ const ReductionCompare = () => {
     const [hov4, setHov4] = useState(false);
     const [vis3, set3] = useState(false);
     const [vis4, set4] = useState(false);
+    const [buttonVis, setButton] = useState(true);
     const handleImages = () => {
         if (vis3 == false & vis4 == false){
             set3(true);
         }
         else if (vis4 == false){
             set4(true);
+            setButton(false);
         }
     }
   return (
@@ -163,7 +165,7 @@ const ReductionCompare = () => {
                     <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction4_after}></img>
                 </div>
             </div>
-            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-2 border-gold1 text-gold1 text-[2.5vh]   mt-[1vh]`}>Load More</button>
+            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-2 border-gold1 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh]`}>Load More</button>
         </div>
     </div>
     

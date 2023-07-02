@@ -23,7 +23,7 @@ const OtherServices = () => {
     
         
         
-        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={`relative flex flex-col  bg-gold1 items-center w-[100%] md:w-[30%]  shadow-[0px_0px_50px_5px_#744210] hover:ease-in-out duration-500`}>
+        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[30%]  shadow-[0px_0px_50px_5px_#744210]`}>
         <NavLink to={`/breast-augmentation`}>
             <div  className={`relative flex w-full h-[40vh] overflow-hidden`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={breast_augmentation2}></img>
@@ -43,7 +43,7 @@ const OtherServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={`relative flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[30%] shadow-[0px_0px_50px_5px_#744210] hover:ease-in-out duration-500`}>
+        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[30%] shadow-[0px_0px_50px_5px_#744210] `}>
         <NavLink to={`/breast-fat-enlargement`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden `}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={breast_fat2}></img>
@@ -63,7 +63,7 @@ const OtherServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={`relative flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px]  shadow-[0px_0px_50px_5px_#744210] hover:ease-in-out duration-500`}>
+        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_50px_5px_#744210] `}>
         <NavLink to={`/breast-reduction`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={breast_reduction2}></img>

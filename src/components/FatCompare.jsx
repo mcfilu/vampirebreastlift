@@ -1,20 +1,38 @@
 import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-import { fat1_after, fat1_before, fat3_after, fat3_before, implant_fat1_after, implant_fat1_before, implant_fat3_after,implant_fat3_before } from '../assets';
+import { fat1_after, fat1_before, fat3_after, fat3_before, implant_fat1_after, implant_fat1_before, implant_fat3_after,implant_fat3_before, fat_before10, fat_after10, fat_before11, fat_after11, fat_before12, fat_after12 } from '../assets';
 
 const FatCompare = () => {
     const [hov1, setHov1] = useState(false);
     const [hov2, setHov2] = useState(false);
     const [hov3, setHov3] = useState(false);
     const [hov4, setHov4] = useState(false);
+    const [hov5, setHov5] = useState(false);
+    const [hov6, setHov6] = useState(false);
+    const [hov7, setHov7] = useState(false);
     const [vis3, set3] = useState(false);
     const [vis4, set4] = useState(false);
+    const [vis5, set5] = useState(false);
+    const [vis6, set6] = useState(false);
+    const [vis7, set7] = useState(false);
+
+    const [buttonVis, setButton] = useState(true);
     const handleImages = () => {
-        if (vis3 == false & vis4 == false){
+        if (vis3 == false ){
             set3(true);
         }
         else if (vis4 == false){
             set4(true);
+        }
+        else if (vis5 == false){
+            set5(true);
+        }
+        else if (vis6 == false){
+            set6(true);
+        }
+        else if (vis7 == false){
+            set7(true);
+            setButton(false);
         }
     }
   return (
@@ -89,7 +107,56 @@ const FatCompare = () => {
                     <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={implant_fat3_after}></img>
                 </div>
             </div>
-            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-2 border-gold1 text-gold1 text-[2.5vh]   mt-[1vh]`}>Load More</button>
+
+            <div onMouseEnter={() => setHov5(true)} onMouseLeave={() => {setHov5(false)}} className={`${vis5 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov5 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat_before10} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={fat_after10} srcSet={fat_after10} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov5 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={fat_before10}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={fat_after10}></img>
+                </div>
+            </div>
+            <div onMouseEnter={() => setHov6(true)} onMouseLeave={() => {setHov6(false)}} className={`${vis6 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov6 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat_before11} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={fat_after11} srcSet={fat_after11} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov6 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={fat_before11}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={fat_after11}></img>
+                </div>
+            </div>
+            <div onMouseEnter={() => setHov7(true)} onMouseLeave={() => {setHov7(false)}} className={`${vis7 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov7 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat_before12} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={fat_after12} srcSet={fat_after12} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov7 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={fat_before12}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={fat_after12}></img>
+                </div>
+            </div>
+            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-2 border-gold1 text-gold1 text-[2.5vh] ${buttonVis ? "":"hidden"}  mt-[1vh]`}>Load More</button>
         </div>
     </div>
     

@@ -1,21 +1,57 @@
 import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-import { boobs1Before, boobs1After, boobs2Before, boobs2After, boobs3Before, boobs3After, boobs4Before, boobs4After, } from '../assets';
+import { boobs1Before, boobs1After, boobs2Before, boobs2After, boobs3Before, boobs3After, boobs4Before, boobs4After, breastlift_before9, breastlift_after9, breastlift_before10, breastlift_after10, breastlift_before12, breastlift_after12, breastlift_before13, breastlift_after13, breastlift_before15, breastlift_after15, breastlift_before22, breastlift_after22 } from '../assets';
 
 const BreastliftCompare = () => {
     const [hov1, setHov1] = useState(false);
     const [hov2, setHov2] = useState(false);
     const [hov3, setHov3] = useState(false);
     const [hov4, setHov4] = useState(false);
+    const [hov5, setHov5] = useState(false);
+    const [hov6, setHov6] = useState(false);
+    const [hov7, setHov7] = useState(false);
+    const [hov8, setHov8] = useState(false);
+    const [hov9, setHov9] = useState(false);
+    const [hov10, setHov10] = useState(false);
+    
     const [vis3, set3] = useState(false);
     const [vis4, set4] = useState(false);
+    const [vis5, set5] = useState(false);
+    const [vis6, set6] = useState(false);
+    const [vis7, set7] = useState(false);
+    const [vis8, set8] = useState(false);
+    const [vis9, set9] = useState(false);
+    const [vis10, set10] = useState(false);
+    const [buttonVis, setButton] = useState(true);
+    
     const handleImages = () => {
-        if (vis3 == false & vis4 == false){
+        if (vis3 == false ){
             set3(true);
         }
         else if (vis4 == false){
             set4(true);
         }
+        else if (vis5 == false){
+            set5(true);
+        }
+        else if (vis6 == false){
+            set6(true);
+        }
+        else if (vis7 == false){
+            set7(true);
+        }
+        else if (vis8 == false){
+            set8(true);
+        }
+        else if (vis9 == false){
+            set9(true);
+        }
+        else if (vis10 == false){
+            set10(true);
+            setButton(false);
+        }
+         
+    
     }
   return (
     <div className={` py-[2vh] w-full `}>
@@ -89,7 +125,109 @@ const BreastliftCompare = () => {
                     <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={boobs4After}></img>
                 </div>
             </div>
-            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]   mt-[1vh] font-main`}>Load More</button>
+
+            <div onMouseEnter={() => setHov5(true)} onMouseLeave={() => {setHov5(false)}} className={`${vis5 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov5 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={breastlift_before9} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={breastlift_after9} srcSet={breastlift_after9} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov5 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_before9}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_after9}></img>
+                </div>
+            </div>
+
+            <div onMouseEnter={() => setHov6(true)} onMouseLeave={() => {setHov6(false)}} className={`${vis6 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov6 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={breastlift_before10} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={breastlift_after10} srcSet={breastlift_after10} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov6 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_before10}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_after10}></img>
+                </div>
+            </div>
+
+            <div onMouseEnter={() => setHov7(true)} onMouseLeave={() => {setHov7(false)}} className={`${vis7 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov7 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={breastlift_before12} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={breastlift_after12} srcSet={breastlift_after12} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov7 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_before12}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_after12}></img>
+                </div>
+            </div>
+
+            <div onMouseEnter={() => setHov8(true)} onMouseLeave={() => {setHov8(false)}} className={`${vis8 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov8 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={breastlift_before13} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={breastlift_after13} srcSet={breastlift_after13} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov8 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_before13}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_after13}></img>
+                </div>
+            </div>
+
+            <div onMouseEnter={() => setHov9(true)} onMouseLeave={() => {setHov9(false)}} className={`${vis9 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov9 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={breastlift_before15} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={breastlift_after15} srcSet={breastlift_after15} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov9 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_before15}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_after15}></img>
+                </div>
+            </div>
+
+            <div onMouseEnter={() => setHov10(true)} onMouseLeave={() => {setHov10(false)}} className={`${vis10 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
+                <div className={`flex w-full h-full justify-between ${hov10 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full h-full justify-center`}>
+                        <ReactCompareSlider
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={breastlift_before22} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={breastlift_after22} srcSet={breastlift_after22} alt="Image two" />}
+                        />
+                    </div>
+                    
+                </div>
+                <div className={`flex w-full h-full justify-between md:justify-center ${hov10 ? 'hidden' : ''} ease-in-out duration-500`}>
+                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_before22}></img>
+                    <div className={`h-full w-[0.2vh] bg-gold1`}></div>
+                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={breastlift_after22}></img>
+                </div>
+            </div>
+            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh] font-main`}>Load More</button>
         </div>
     </div>
     

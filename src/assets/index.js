@@ -133,6 +133,25 @@ import reduction_icon from './reduction_icon.png';
 import weight_icon from './weight_icon.png';
 import difference_icon from './difference_icon.png';
 import aesthetic_icon from './aesthetic_icon.png';
+import breastlift_before9 from './breastlift_before9.jpg';
+import breastlift_after9 from './breastlift_after9.jpg';
+import breastlift_before10 from './breastlift_before10.jpg';
+import breastlift_after10 from './breastlift_after10.jpg';
+import breastlift_before12 from './breastlift_before12.jpg';
+import breastlift_after12 from './breastlift_after12.jpg';
+import breastlift_before13 from './breastlift_before13.jpg';
+import breastlift_after13 from './breastlift_after13.jpg';
+import breastlift_before15 from './breastlift_before15.jpg';
+import breastlift_after15 from './breastlift_after15.jpg';
+import breastlift_before22 from './breastlift_before22.jpg';
+import breastlift_after22 from './breastlift_after22.jpg';
+import fat_before10 from './fat_before10.jpeg';
+import fat_after10 from './fat_after10.jpg';
+import fat_before11 from './fat_before11.jpg';
+import fat_after11 from './fat_after11.jpg';
+import fat_before12 from './fat_before12.jpeg';
+import fat_after12 from './fat_after12.jpg';
+
 
 
 
@@ -273,4 +292,22 @@ export {
     weight_icon,
     difference_icon,
     aesthetic_icon,
+    breastlift_after10, 
+    breastlift_after12, 
+    breastlift_after13, 
+    breastlift_after15, 
+    breastlift_after22,
+    breastlift_after9, 
+    breastlift_before10, 
+    breastlift_before12, 
+    breastlift_before13, 
+    breastlift_before15, 
+    breastlift_before22, 
+    breastlift_before9,
+    fat_after10, 
+    fat_before10, 
+    fat_after11, 
+    fat_before11, 
+    fat_after12, 
+    fat_before12,
 };
