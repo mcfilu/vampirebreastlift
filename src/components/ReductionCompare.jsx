@@ -103,7 +103,7 @@ const ReductionCompare = () => {
             </div>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction1_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={reduction1_after} srcSet={reduction1_after} alt="Image two" />}
@@ -119,7 +119,7 @@ const ReductionCompare = () => {
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction2_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={reduction2_after} srcSet={reduction2_after} alt="Image two" />}
@@ -135,7 +135,7 @@ const ReductionCompare = () => {
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction3_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={reduction3_after} srcSet={reduction3_after} alt="Image two" />}
@@ -151,7 +151,7 @@ const ReductionCompare = () => {
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction4_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={reduction4_after} srcSet={reduction4_after} alt="Image two" />}

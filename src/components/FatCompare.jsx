@@ -45,7 +45,7 @@ const FatCompare = () => {
             </div>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat1_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={fat1_after} srcSet={fat1_after} alt="Image two" />}
@@ -61,7 +61,7 @@ const FatCompare = () => {
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={implant_fat1_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={implant_fat1_after} srcSet={implant_fat1_after} alt="Image two" />}
@@ -77,7 +77,7 @@ const FatCompare = () => {
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat3_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={fat3_after} srcSet={fat3_after} alt="Image two" />}
@@ -93,7 +93,7 @@ const FatCompare = () => {
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={implant_fat3_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={implant_fat3_after} srcSet={implant_fat3_after} alt="Image two" />}
@@ -110,7 +110,7 @@ const FatCompare = () => {
 
             <div onMouseEnter={() => setHov5(true)} onMouseLeave={() => {setHov5(false)}} className={`${vis5 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov5 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat_before10} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={fat_after10} srcSet={fat_after10} alt="Image two" />}
@@ -126,7 +126,7 @@ const FatCompare = () => {
             </div>
             <div onMouseEnter={() => setHov6(true)} onMouseLeave={() => {setHov6(false)}} className={`${vis6 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov6 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat_before11} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={fat_after11} srcSet={fat_after11} alt="Image two" />}
@@ -142,7 +142,7 @@ const FatCompare = () => {
             </div>
             <div onMouseEnter={() => setHov7(true)} onMouseLeave={() => {setHov7(false)}} className={`${vis7 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov7 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={fat_before12} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={fat_after12} srcSet={fat_after12} alt="Image two" />}

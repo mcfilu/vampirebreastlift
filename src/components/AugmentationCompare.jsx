@@ -29,7 +29,7 @@ const AugmentationCompare = () => {
             </div>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation8_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={augmentation8_after} srcSet={augmentation8_after} alt="Image two" />}
@@ -45,7 +45,7 @@ const AugmentationCompare = () => {
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation1_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={augmentation1_after} srcSet={augmentation1_after} alt="Image two" />}
@@ -61,7 +61,7 @@ const AugmentationCompare = () => {
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation5_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={augmentation5_after} srcSet={augmentation5_after} alt="Image two" />}
@@ -77,7 +77,7 @@ const AugmentationCompare = () => {
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
-                    <div className={`flex w-full h-full justify-center`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation7_before} alt="Image one"/>}
                             itemTwo={<ReactCompareSliderImage src={augmentation7_after} srcSet={augmentation7_after} alt="Image two" />}
