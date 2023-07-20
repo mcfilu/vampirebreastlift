@@ -1,15 +1,12 @@
+
+
 import React, { useState } from 'react'
-import AliceCarousel from 'react-alice-carousel'
-import 'react-alice-carousel/lib/alice-carousel.css';
 import { NavLink } from 'react-router-dom';
-import { breast_augmentation2, breast_fat2, breast_reduction2} from '../assets';
+import { breast_reduction2, breast_fat2, breast_augmentation2} from '../assets';
 
 
 
-const handleDragStart = (e) => e.preventDefault();
-
-
-const OtherServices = () => {
+const PshotServices = () => {
     const [hov1, setHove1] = useState(false);
     const [hov2, setHove2] = useState(false);
     const [hov3, setHove3] = useState(false);
@@ -23,9 +20,9 @@ const OtherServices = () => {
     
         
         
-        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[30%]  shadow-[0px_0px_50px_5px_#744210]`}>
+        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <NavLink to={`/breast-augmentation`}>
-            <div  className={`relative flex w-full h-[40vh] overflow-hidden`}>
+            <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={breast_augmentation2}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>Breast</h1>
@@ -43,9 +40,9 @@ const OtherServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[30%] shadow-[0px_0px_50px_5px_#744210] `}>
+        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <NavLink to={`/breast-fat-enlargement`}>
-        <div className={`relative flex w-full h-[40vh] overflow-hidden `}>
+        <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={breast_fat2}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast Fat</h1>
@@ -63,9 +60,9 @@ const OtherServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[30%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_50px_5px_#744210] `}>
+        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <NavLink to={`/breast-reduction`}>
-        <div className={`relative flex w-full h-[40vh] overflow-hidden`}>
+        <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={breast_reduction2}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast</h1>
@@ -93,4 +90,4 @@ const OtherServices = () => {
   )
 }
 
-export default OtherServices
+export default PshotServices

@@ -9,7 +9,7 @@ const BreastLiftBenefits = () => {
             {/* <video src={breastliftvideo} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
             <img src={boobs10} className={`w-full h-full object-cover`}></img>
         </div>
-        <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center `}>
+        <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center`}>
             <h1 className={`text-gold1 text-[5vh] text-center font-header`}>Vampire BreastLift Benefits</h1>
             <p className={`text-white font-poppins text-[2.1vh] text-justify mt-[3vh] mb-[2vh] font-main`}>The aim of the Vampire Breast Lift is to lift the breasts; provide a fuller, more pronounced cleavage and provide a more youthful look by enhancing the chest area’s skin. According to client reports, benefits of the treatment include:</p>
             <ul className={`text-white text-[2.1vh] font-poppins w-full items-left`}>

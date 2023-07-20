@@ -20,7 +20,7 @@ const BreastLiftVideo = () => {
               <div className={`flex items-center justify-end w-[45%]   overflow-hidden`}> 
                   
                   {/* <iframe width="90%" height="100%" src="https://www.youtube.com/embed/EbBj4Hitfyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-                  <iframe className={`w-[100%] h-[45vh]`} src="https://www.youtube.com/embed/WsHXew0UZUQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                  <iframe className={`w-[100%] h-full`} src="https://www.youtube.com/embed/WsHXew0UZUQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
 
               

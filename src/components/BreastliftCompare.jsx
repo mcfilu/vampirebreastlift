@@ -23,7 +23,7 @@ const BreastliftCompare = () => {
     const [vis9, set9] = useState(false);
     const [vis10, set10] = useState(false);
     const [buttonVis, setButton] = useState(true);
-    
+    3
     const handleImages = () => {
         if (vis3 == false ){
             set3(true);
