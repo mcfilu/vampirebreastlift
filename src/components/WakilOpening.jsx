@@ -40,8 +40,8 @@ const WakilOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif2}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 mt-[2vh] font-main`}>With my extensive knowledge in both medicine and the arts, I hold the firm belief that the creation of beauty is an art in itself. I strongly believe in providing treatments that prioritize safety, effectiveness, and minimal invasiveness, ensuring that each patient attains their desired outcome while maintaining a naturally enhanced look.</p>
-                <p className={`flex text-white text-[2.5vh] text-center text-gold1 mt-[2vh] font-main`}>Recognizing the distinctive qualities of every individual, I take great care in tailoring my treatments to meet their specific needs, ensuring a personalized approach that celebrates their unique beauty.  It is this unwavering commitment to authenticity that attracts patients from all around the globe, seeking my expertise and care.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 mt-[2vh] font-main`}>With my extensive knowledge in both medicine and the arts, I hold the firm belief that the creation of beauty is an art in itself. I strongly believe in providing treatments that prioritize safety, effectiveness, and minimal invasiveness, ensuring that each patient attains their desired outcome while maintaining a naturally enhanced look.</p>
+                <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 mt-[2vh] font-main`}>Recognizing the distinctive qualities of every individual, I take great care in tailoring my treatments to meet their specific needs, ensuring a personalized approach that celebrates their unique beauty.  It is this unwavering commitment to authenticity that attracts patients from all around the globe, seeking my expertise and care.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

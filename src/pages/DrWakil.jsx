@@ -27,7 +27,7 @@ const DrWakil = () => {
         </div>
         <div className="flex flex-col bg-black " >
             <div className={`flex flex-col justify-center`}>
-            <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+            <div id="wakil_opening" className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <WakilOpening/>
               </div>
               

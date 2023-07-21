@@ -1,17 +1,21 @@
 import React from 'react'
-import { PopupButton } from "react-calendly";
-import { BloodCells, sherif } from '../assets';
+// import { PopupButton } from "react-calendly";
+import {  sherif } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const ReductionOpening = () => {
   return (
-    <div className={`flex w-11/12 flex-row bg-black bg-opacity-50 ml-[4%] mr-[4%] h-[60vh] rounded-[9px] p-[2vh] hover:bg-opacity-60 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500`}>
-        <div className={`w-[65%] h-[100%] bg-black bg-opacity-60 rounded-[9px] p-[1vh] flex flex-col items-left justify-between mr-[1.5vh]`}>
-            <div className={`flex flex-col w-[100%]  bg-opacity-40 rounded-[9px] items-center justify-center my-auto`}>
+    <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
+        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
+            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
+            <img className={`w-full h-full object-cover `} src={sherif}></img>
+        </div>
+        <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
+            <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
-                <p className={`flex text-gold1 text-[2.7vh] text-center text-gold1`}>Breast reduction surgery is a cosmetic surgical procedure called a mammoplasty. As the name suggests, the operation can reduce the size of the female breast and is particularly appropriate to reduce the physical strain and emotional toll of living with large, heavy breasts.</p>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[1.3vw]`}></i>
-                <p className={`flex text-gold text-[3vh] text-center text-gold1 mt-[6vh]`}>Dr. Sherif Wakil</p>
+                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Breast reduction surgery is a cosmetic surgical procedure called a mammoplasty. As the name suggests, the operation can reduce the size of the female breast and is particularly appropriate to reduce the physical strain and emotional toll of living with large, heavy breasts.</p>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[5vh] md:text-[1.3vw] mt-[2vh]`}></i>
+                <p className={`flex  text-[4.5vh] text-center font-header text-gold1 mt-[5vh]`}>Dr. Sherif Wakil</p>
             </div>
             {/* <div className={`flex flex-col w-[100%]  bg-opacity-70 rounded-[9px] my-[1vh]`}>
 
@@ -28,9 +32,19 @@ const ReductionOpening = () => {
                 color="#ffffff"
                 /></p> */}
         </div>
-        <div className={`w-2/5 h-[100%] flex items-center`}>
-            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <img className={`w-full h-full object-cover rounded-[9px]`} src={sherif}></img>
+        
+
+
+        <div className={`md:hidden flex flex-col w-full items-center`}>
+        <p className={`flex text-[4.5vh] font-header text-gold1 mt-[2vh]`}>Dr. Sherif Wakil</p>
+            <img className={`w-full h-full object-cover `} src={sherif}></img>
+            
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>Breast reduction surgery is a cosmetic surgical procedure called a mammoplasty. As the name suggests, the operation can reduce the size of the female breast and is particularly appropriate to reduce the physical strain and emotional toll of living with large, heavy breasts.</p>
+            <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
+            
+            
+
         </div>
        
         

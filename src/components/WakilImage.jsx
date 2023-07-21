@@ -24,8 +24,8 @@ const WakilImage = () => {
     {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
     <p className={`text-white text-[3vh] font-main md:mt-[10vh]`}>World-Renown Specialist</p>
                 <h1 className={`text-gold1 text-[8vh] font-header md:mb-[3vh]  text-left`}>Dr Sherif Wakil</h1>
-                    <h1 className={`text-white text-[2.5vh] font-main mb-[3vh] text-justify  md:w-[75%] w-full`}>Dr. Wakil is passionately dedicated to making a profound impact on people's lives, driven by the joy of seeing patients happy and regaining their self-esteem. This immense satisfaction fuels his unwavering commitment to continually refine, improve, and expedite his protocols.</h1>
-                    <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                    <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[3vh] text-justify  md:w-[75%] w-full`}>Dr. Wakil is passionately dedicated to making a profound impact on people's lives, driven by the joy of seeing patients happy and regaining their self-esteem. This immense satisfaction fuels his unwavering commitment to continually refine, improve, and expedite his protocols.</h1>
+                    <a href="wakil_image" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                    
                 {/* </div> */}
     </div>

@@ -37,7 +37,7 @@ const Augmentation = () => {
         <div className={`fixed w-full bottom-0 left-0 z-20 `}>
             <FooterBook/>
         </div>
-        <div className={`relative z-0 ` }>
+        <div id="augmentation_opening" className={`relative z-0 ` }>
 
                 <AugmentationImage/>
 

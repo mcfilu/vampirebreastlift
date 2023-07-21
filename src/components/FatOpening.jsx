@@ -72,8 +72,8 @@ const FatOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 font-main `}>Breast Fat Enlargement is an advanced cosmetic procedure that surpasses conventional methods of breast enlargement. This cutting-edge technique harnesses the potential of your body's own fat cells, obtained from areas like the abdomen, hips, thighs, or buttocks.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 font-main `}>Through this innovative approach, it is possible to achieve a natural augmentation of the breasts. During the procedure, the carefully extracted fat is strategically transferred to the breast area, seamlessly integrating to enhance both the size and shape of your existing breasts.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 font-main `}>Breast Fat Enlargement is an advanced cosmetic procedure that surpasses conventional methods of breast enlargement. This cutting-edge technique harnesses the potential of your body's own fat cells, obtained from areas like the abdomen, hips, thighs, or buttocks.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 font-main `}>Through this innovative approach, it is possible to achieve a natural augmentation of the breasts. During the procedure, the carefully extracted fat is strategically transferred to the breast area, seamlessly integrating to enhance both the size and shape of your existing breasts.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

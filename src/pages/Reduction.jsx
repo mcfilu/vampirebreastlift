@@ -37,7 +37,7 @@ const Reduction = () => {
         <div className={`fixed w-full bottom-0 left-0 z-20 `}>
             <FooterBook/>
         </div>
-        <div className={`relative z-0 ` }>
+        <div id="reduction_opening" className={`relative z-0 ` }>
 
                 <ReductionImage/>
 

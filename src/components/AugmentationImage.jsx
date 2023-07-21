@@ -36,8 +36,8 @@ const AugmentationImage = () => {
     {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
                 <h1 className={`text-gold1 text-[7vh] md:text-[8vh] font-header  mt-[3vh] text-left`}>Breast  </h1>
                 <h1 className={`text-gold1 text-[7vh] md:text-[8vh] font-header md:mb-[3vh] text-left`}> Augmentation </h1>
-                    <h1 className={`text-white text-[2.5vh] font-main mb-[3vh] text-left  md:w-[75%]`}>Enhance your natural beauty and embrace your desired silhouette with Breast Augmentation - the transformative procedure that helps you achieve the breast shape, size, and firmness you've always desired. Experience the artistry of breast augmentation and rediscover a more confident you.</h1>
-                    <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                    <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[3vh] text-left  md:w-[75%]`}>Enhance your natural beauty and embrace your desired silhouette with Breast Augmentation - the transformative procedure that helps you achieve the breast shape, size, and firmness you've always desired. Experience the artistry of breast augmentation and rediscover a more confident you.</h1>
+                    <a href="#augmentation_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                    
                 {/* </div> */}
     </div>
