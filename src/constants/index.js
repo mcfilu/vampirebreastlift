@@ -28,3 +28,22 @@ export const navLinks = [
         link: "/contact-us",
     },
 ]
+
+export const otherLinks = [
+
+    {
+        id: 'breast-augmentation',
+        title: 'Breast Augmentation',
+        link: '/breast-augmentation-in-london',
+    },
+    {
+        id: 'breast-fat-enlargement',
+        title: 'Breast Fat Enlargement',
+        link: '/breast-fat-enlargement-in-london',
+    },
+    {
+        id: 'breast-reduction',
+        title: 'Breast Reduction',
+        link: '/breast-reduction-in-london',
+    },
+]
