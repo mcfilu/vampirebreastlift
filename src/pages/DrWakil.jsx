@@ -14,10 +14,15 @@ import WakilClinic from '../components/WakilClinic'
 import WakilImage from '../components/WakilImage'
 import Alberto from '../components/Alberto'
 import Davood from '../components/Davood'
+import { Helmet } from 'react-helmet-async'
 
 const DrWakil = () => {
   return (
     <div className={`bg-primary w-full`}>
+        <Helmet>
+            <title>Dr Sherif Wakil | Vampire Breast Lift</title>
+            {/* <meta name='description' content="Get a non-surgical breast lift in London at Vampire Breast Lift by Dr. Sherif Wakil. Rejuvenate and uplift your breasts. Call +44 (0)20 3006 8459." /> */}
+        </Helmet>
 
         <div className={`fixed z-10 `}>
             <Navbar/>

@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Contact Information */}
         <div className="text-[0.9vw] flex flex-col items-center ">
             <h1 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Contact Us</h1>
-          <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Info@vampirebreastlift.co.uk</a></p>
+          <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Info@drswclinics.co.uk</a></p>
           <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459"><i className="fas fa-phone mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>+44 (0)20 3006 8459 </a></p>
           <NavLink to={`/book-now`}><button className={`bg-black border-gold1 border-2 hover:bg-white text-gold1 text-[3vh] md:text-[1.2vw] md:w-[8vw] font-main`}>Book Now</button></NavLink>
         </div>

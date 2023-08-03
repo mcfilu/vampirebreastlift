@@ -9,10 +9,15 @@ import Awards from '../components/Awards'
 
 import WakilClinic from '../components/WakilClinic'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
   return (
     <div className={`bg-primary w-full`}>
+        <Helmet>
+            <title>Contact Vampire Breast Lift | Non Surgical Breast Lift in London</title>
+            <meta name='description' content="Get a non-surgical breast lift in London at Vampire Breast Lift by Dr. Sherif Wakil. Rejuvenate and uplift your breasts. Call +44 (0)20 3006 8459." />
+        </Helmet>
 
         <div className={`fixed z-10 `}>
             <Navbar/>

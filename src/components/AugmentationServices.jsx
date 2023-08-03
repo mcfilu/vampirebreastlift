@@ -38,14 +38,14 @@ const AugmentationServices = () => {
                 <p className={`flex text-black text-[2.1vh] text-justify font-main`}>The Vampire Breast Lift is a non-surgical procedure designed to subtly enhance and rejuvenate the natural appearance and shape of the breasts. It harnesses the healing power of your own blood to stimulate new tissue growth and improve the tone and texture of your skin.</p>
                 
             </div>
-            {/* <NavLink to={`/breast-augmentation`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
+            {/* <NavLink to={`/breast-augmentation-in-london`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
             {/* <button className={`absolute -bottom-[6vh] text-[3vh] px-[1vh]  bg-black border-gold1 border-2 text-gold1 hover:bg-white  md:mt-[0px]`}>Read More</button> */}
         </NavLink>
         </div>
         
     
         <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/breast-fat-enlargement`}>
+        <NavLink to={`/breast-fat-enlargement-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={breast_fat2}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -58,14 +58,14 @@ const AugmentationServices = () => {
                 
                 
             </div>
-            {/* <NavLink to={`/breast-fat-enlargement`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
+            {/* <NavLink to={`/breast-fat-enlargement-in-london`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
             {/* <button className={`absolute -bottom-[6vh] text-[3vh] px-[1vh]  bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh] md:mt-[0px]`}>Read More</button> */}
         </NavLink>
         </div>
         
     
         <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/breast-reduction`}>
+        <NavLink to={`/breast-reduction-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={breast_reduction2}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -77,7 +77,7 @@ const AugmentationServices = () => {
                 <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Breast reduction, or mammoplasty, is a surgical procedure that reduces the size of the female breast. It provides relief for individuals with physical discomfort and emotional challenges caused by large and heavy breasts, improving their overall well-being of those seeking relief.</p>
                 
             </div>
-            {/* <NavLink to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
+            {/* <NavLink to={`/breast-reduction-in-london`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></NavLink> */}
             
         </NavLink>
         </div>

@@ -24,6 +24,10 @@ import TrustBox from '../components/TrustBox'
 import TrustPilotSlider from '../components/TrustPilotSlider'
 import WakilSummary from '../components/WakilSummary'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async';
+
+
+import YouTube from 'react-youtube'
 
 
 const VampireBreastLift = () => {
@@ -32,11 +36,28 @@ const VampireBreastLift = () => {
     const handleVideoEnd = () => {
         setVideoEnded(true);
     };
+    const videoId = 'tbb0Gl7-QhQ'; // Replace this with your YouTube video ID
+  const opts = {
+    playerVars: {
+      autoplay: 1, // Auto play the video
+      controls: 0, // Hide YouTube controls (optional)
+      modestbranding: 1,
+    },
+  };
+
+  const onReady = (event) => {
+    event.target.mute(); // Mute the video on load (optional)
+  };
     
   return (
     <div className={`w-full`}>
+      <Helmet>
+        <title>Non Surgical Breast Lift in London | Vampire Breast Lift</title>
+        <meta name='description' content="Get the best non-surgical breast lift in London at Vampire Breast Lift by Dr. Sherif Wakil. Call us at +44 (0)20 3006 8459 for a lift you'll love." />
+      </Helmet>
       <div className={`hidden md:block fixed z-20`}>
             <video src={vampire_breastlift_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen h-screen object-cover`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
+            {/* <YouTube videoId={videoId} opts={opts} onReady={onReady}/> */}
         </div>
 
         <div className={`fixed z-10 `}>

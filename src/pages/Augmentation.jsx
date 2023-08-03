@@ -21,12 +21,16 @@ import AugmentationSummary from '../components/AugmentationSummary'
 import AugmentationTreated from '../components/AugmentationTreated'
 import AugmentationVideo from '../components/AugmentationVideo'
 import FooterBook from '../components/FooterBook'
-
+import { Helmet } from 'react-helmet-async'
 
 
 const Augmentation = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+        <title>Breast Augmentation in London | Vampire Breast Lift</title>
+        <meta name='description' content="Enhance your beauty with the best breast augmentation in London at Vampire Breast Lift. Contact us today at +44 (0)20 3006 8459 for a free consultation." />
+      </Helmet>
       {/* <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_Augmentation_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

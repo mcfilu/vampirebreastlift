@@ -9,7 +9,7 @@ export const navLinks = [
     {
         id: 'vampire-breastlift',
         title: 'Vampire Breastlift',
-        link: "/vampire-breastlift",
+        link: "/",
     },
    
     {
@@ -19,12 +19,12 @@ export const navLinks = [
     },
     {
         id: 'dr-wakil',
-        title: 'Dr. SW Clinics',
+        title: 'Dr Sherif Wakil',
         link: "/dr-wakil",
     },
     {
         id: 'contact',
-        title: 'Contact',
-        link: "/contact",
+        title: 'Contact Us',
+        link: "/contact-us",
     },
 ]

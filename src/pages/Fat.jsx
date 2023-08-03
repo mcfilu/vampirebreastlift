@@ -21,10 +21,15 @@ import FatSummary from '../components/FatSummary'
 import FatTreated from '../components/FatTreated'
 import FatVideo from '../components/FatVideo'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async'
 
 const Fat = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+        <title>Breast Fat Enlargement in London | Vampire Breast Lift</title>
+        <meta name='description' content="Get the best breast fat enlargement in London at Vampire Breast Lift with Dr. Sherif Wakil. Call us at +44 (0)20 3006 8459 for a free consultation." />
+      </Helmet>
       {/* <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_Fat_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

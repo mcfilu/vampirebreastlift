@@ -21,12 +21,17 @@ import ReductionSummary from '../components/ReductionSummary'
 import ReductionTreated from '../components/ReductionTreated'
 import ReductionVideo from '../components/ReductionVideo'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async'
 
 
 
 const Reduction = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+        <title>Breast Reduction in London | Vampire Breast Lift</title>
+        <meta name='description' content="Get the best breast reduction in London at Vampire Breast Lift with Dr. Sherif Wakil. Call us now at +44 (0)20 3006 8459 for a free consultation." />
+      </Helmet>
       {/* <div className={`hidden md:fixed fixed z-20 `}>
             <video src={vampire_Reduction_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

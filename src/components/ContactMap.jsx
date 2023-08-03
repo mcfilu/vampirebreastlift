@@ -17,7 +17,7 @@ const ContactMap = () => {
               <h1 className={`text-gold1 text-[7vh] font-header pb-[1vh]`}>Contact Us</h1>
               <div className={`flex flex-col `}>
                 <div className={`mt-[2vh] font-main`}>
-                  <p className="text-white font-main text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@vampirebreastlift.co.uk</a></p>
+                  <p className="text-white font-main text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@drswclinics.co.uk</a></p>
                   <p className="mb-[0.4vh] text-white font-main text-[2vh] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 3006 8459</a></p>
                   {/* <p className="mb-[0.4vh] text-white font-main text-[2vh] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 3006 8459</a></p> */}
                   
@@ -45,7 +45,7 @@ const ContactMap = () => {
                 <h1 className={`text-gold1 text-[6vh] font-header pb-[1vh]`}>Contact Us</h1>
                 <div className={`flex flex-col `}>
                   <div className={`mt-[2vh]`}>
-                    <p className="text-white font-main text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@vampirebreastlift.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@vampirebreastlift.co.uk</a></p>
+                    <p className="text-white font-main text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@drswclinics.co.uk</a></p>
                     <p className="mb-[0.4vh] text-white font-main text-[2vh] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>++44 (0)20 3006 8459</a></p>
                     {/* <p className="mb-[0.4vh] text-white font-main text-[2vh] mt-[2vh]"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 7467 5340"><i className="fas fa-phone mr-4 text-gold1 text-[30px]"></i>+44 (0)20 3006 8459</a></p> */}
                     
